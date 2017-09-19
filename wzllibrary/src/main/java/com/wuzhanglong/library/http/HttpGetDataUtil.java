@@ -54,7 +54,6 @@ public class HttpGetDataUtil {
         Log.i("get_url", allUrl + params.toString());
 
         new Novate.Builder(activity)
-                .baseUrl(BaseConstant.DOMAIN_NAME)
                 .build()
                 .rxGet(url, params, new RxStringCallback() {
                     @Override
