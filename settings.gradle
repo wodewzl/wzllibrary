@@ -1,0 +1,10 @@
+include ':wzllibrary', ':BSShop', ':XiaoJingShop', ':RxTools-library', ':EasyCar', ':ShiShiCai', ':LuZhongBao', ':SendMessage'
+//
+//include ':bSBaseSDK'
+
+//include ':bSLibraryUmengShare'
+//include ':bSSYNews:BSSYNewsLibrary:bSBaseSDK'
+
+include ':BSIMS:library:bSLibraryPhotoView'
+include ':BSIMS:library:bSLibrarySwipeListView'
+include ':BSIMS'

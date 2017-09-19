@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C1"
+    android:orientation="vertical" >
+
+    <com.bs.bsims.view.RippleView
+        android:id="@+id/item_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rv_color="@color/C6"
+        app:rv_type="simpleRipple" >
+
+        <LinearLayout
+            android:id="@+id/item_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/item_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <RelativeLayout
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="1dp" >
+
+                    <com.bs.bsims.view.BSCircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto "
+                        android:id="@+id/item_icon"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/head_icon"
+                        android:transitionName="head_icon" />
+
+                    <com.bs.bsims.view.BSCircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto "
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toRightOf="@+id/item_icon"
+                        android:background="@drawable/head_icon"
+                        android:transitionName="head_icon" />
+
+                    <com.bs.bsims.view.BSCircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto "
+                        android:id="@+id/item_icon1"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/item_icon"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/head_icon"
+                        android:transitionName="head_icon" />
+
+                    <com.bs.bsims.view.BSCircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto "
+                        android:id="@+id/item_icon2"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/item_icon"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/item_icon1"
+                        android:background="@drawable/head_icon"
+                        android:transitionName="head_icon" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/item_title"
+                        style="@style/F3C4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="1志评论111111111111111111111111111111111111" />
+
+                    <TextView
+                        android:id="@+id/item_depict"
+                        style="@style/F4C6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:singleLine="true"
+                        android:text="日志评论111111111111111111111111111111111111" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/item_tv"
+                        style="@style/F4C6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="日志评论" />
+
+                    <TextView
+                        android:id="@+id/item_water_drop"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/unread_count_bg"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/C3" />
+        </LinearLayout>
+    </com.bs.bsims.view.RippleView>
+
+</LinearLayout>

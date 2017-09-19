@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA7C20</color>
+    <color name="colorPrimaryDark">#FA7C20</color>
+    <color name="colorAccent">#FA7C20</color>
+    <!--白天主题-->
+    <color name="day_backgroup_color">#FFFFFFFF</color>
+    <color name="day_one_text_color">#FF000000</color>
+    <color name="day_two_text_color">#c9000000</color>
+    <color name="day_three_text_color">#8A9599</color>
+    <!--夜间主题-->
+    <color name="night_backgroup_color">#3F3F3F</color>
+    <color name="night_one_text_color">#FFbbbbbb</color>
+    <color name="night_two_text_color">#8A9599</color>
+    <color name="night_there_text_color">#8A9599</color>
+
+    <color name="C1">#ffffff</color>
+    <!-- 灰色背景 -->
+    <color name="C2">#efefef</color>
+    <!--<color name="C2">#efefef</color>-->
+    <color name="C3_1">#cfcfcf</color>
+    <color name="C3_2">#dcdcdc</color>
+    <color name="C3">#eeeeee</color>
+    <color name="C4">#000000</color>
+    <color name="C5">#666666</color>
+    <color name="C6">#aaaaaa</color>
+    <!-- 蓝色 -->
+    <color name="C7">#00a9fe</color>
+    <!-- 蓝色—深 -->
+    <color name="C7_h">#4492C2</color>
+    <color name="C8">#f8f8f8f8</color>
+    <color name="C9">#ff0000</color>
+    <color name="C16">#81bbe0</color>
+    <color name="C17">#d1d1d1</color>
+
+    <!-- 黄色 -->
+    <color name="C10">#FFBA00</color>
+    <color name="C11">#8fd8f2</color>
+    <!-- 绿色 -->
+    <color name="C12">#019A3F</color>
+
+    <!-- 棕色 -->
+    <color name="C13">#F66E58</color>
+    <color name="C14">#999999</color>
+    <!-- 透明 -->
+    <color name="C15">#00000000</color>
+
+    <!-- 半透明 -->
+    <color name="C18">#e0000000</color>
+    <!-- 黑色半透明 -->
+    <color name="C19">#30000000</color>
+    <!-- 白色半透明 -->
+    <color name="C20">#40ffffff</color>
+    <color name="grey_dark">#B5B5B5</color>
+    <color name="blue_pressed">#3094cf</color>
+    <color name="grey">#CFCFCF</color>
+    <color name="blug_bg">#00A9FE</color>
+
+    <!-- 十堰新闻title颜色 -->
+    <color name="sy_title_color">#B10304</color>
+    <color name="text_hint_color">#888888</color>
+    <color name="devider_bg">#dddddd</color>
+
+    <color name="home_tab_bg">#F8F8F8</color>
+    <color name="content_bg">#F8F8F8</color>
+
+
+
+    <color name="alpha_05_white">#0DFFFFFF</color>
+    <color name="alpha_10_white">#1AFFFFFF</color>
+    <color name="alpha_15_white">#26FFFFFF</color>
+    <color name="alpha_20_white">#33FFFFFF</color>
+    <color name="alpha_25_white">#40FFFFFF</color>
+    <color name="alpha_30_white">#4DFFFFFF</color>
+    <color name="alpha_35_white">#59FFFFFF</color>
+    <color name="alpha_40_white">#66FFFFFF</color>
+    <color name="alpha_45_white">#73FFFFFF</color>
+    <color name="alpha_50_white">#80FFFFFF</color>
+    <color name="alpha_55_white">#8CFFFFFF</color>
+    <color name="alpha_60_white">#99FFFFFF</color>
+    <color name="alpha_65_white">#A6FFFFFF</color>
+    <color name="alpha_70_white">#B3FFFFFF</color>
+    <color name="alpha_75_white">#BFFFFFFF</color>
+    <color name="alpha_80_white">#CCFFFFFF</color>
+    <color name="alpha_85_white">#D9FFFFFF</color>
+    <color name="alpha_90_white">#E6FFFFFF</color>
+    <color name="alpha_95_white">#F2FFFFFF</color>
+
+    <color name="alpha_05_black">#0D000000</color>
+    <color name="alpha_10_black">#1A000000</color>
+    <color name="alpha_15_black">#26000000</color>
+    <color name="alpha_20_black">#33000000</color>
+    <color name="alpha_25_black">#40000000</color>
+    <color name="alpha_30_black">#4D000000</color>
+    <color name="alpha_35_black">#59000000</color>
+    <color name="alpha_40_black">#66000000</color>
+    <color name="alpha_45_black">#73000000</color>
+    <color name="alpha_50_black">#80000000</color>
+    <color name="alpha_55_black">#8C000000</color>
+    <color name="alpha_60_black">#99000000</color>
+    <color name="alpha_65_black">#A6000000</color>
+    <color name="alpha_70_black">#B3000000</color>
+    <color name="alpha_75_black">#BF000000</color>
+    <color name="alpha_80_black">#CC000000</color>
+    <color name="alpha_85_black">#D9000000</color>
+    <color name="alpha_90_black">#E6000000</color>
+    <color name="alpha_95_black">#F2000000</color>
+</resources>

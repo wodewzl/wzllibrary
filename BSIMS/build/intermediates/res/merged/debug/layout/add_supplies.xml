@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_01"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:orientation="horizontal" 
+        android:paddingLeft="10dp">
+
+        <TextView
+            style="@style/style03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="物品名称：" 
+            />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/style02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <TextView
+            style="@style/style03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单        价：" />
+
+        <EditText
+            android:id="@+id/money"
+            style="@style/style02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+         android:paddingLeft="10dp">
+
+        <TextView
+            style="@style/style03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数        量：" />
+
+        <EditText
+            android:id="@+id/number_tv"
+            style="@style/style02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <TextView
+            style="@style/style03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单        位：" />
+
+        <EditText
+            android:id="@+id/unit_tv"
+            style="@style/style02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

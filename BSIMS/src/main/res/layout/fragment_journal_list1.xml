@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_01"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_main_message_04" >
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/linearystork" >
+
+            <TextView
+                android:id="@+id/all_tv"
+                style="@style/F3C1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/corners_tab_left_select1"
+                android:gravity="center"
+                android:padding="1dp"
+                android:singleLine="true"
+                android:text="全部"
+                android:textColor="@color/C7" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="30dp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/attention_tv"
+                style="@style/F3C1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners_tab_middle_normal"
+                android:gravity="center"
+                android:padding="1dp"
+                android:singleLine="true"
+                android:text="关注" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="30dp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/aite_tv"
+                style="@style/F3C1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners_tab_right_normal1"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="相关"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ok_tv"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="center"
+            android:text="发布"
+            android:textColor="@color/C1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/serach_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_deep_layout"
+        android:visibility="gone" >
+
+        <com.bs.bsims.view.BSIndexEditText
+            android:id="@+id/edit_single_search"
+            style="@style/style02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/corners_white"
+            android:drawableLeft="@drawable/ic_contacts_search_image"
+            android:drawablePadding="4dp"
+            android:hint="请输入关键字"
+            android:imeOptions="actionSearch"
+            android:padding="5dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

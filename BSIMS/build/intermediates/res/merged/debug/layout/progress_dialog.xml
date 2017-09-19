@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="150dp"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/waitingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:indeterminateDrawable="@drawable/ic_circle_progress" />
+
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/blug_bg"
+        android:text="loading..."
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

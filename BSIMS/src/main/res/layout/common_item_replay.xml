@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_item_popdate_log"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/ten" >
+
+    <com.bs.bsims.view.BSCircleImageView
+        android:id="@+id/common_img_item_protrait"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_default_portrait_s" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/common_txt_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/ten"
+                    android:text="name"
+                    android:textColor="@color/comm_txt_listview_black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/img_itme_replay_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/common_txt_item_name" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/common_txt_item_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="content"
+                android:textColor="@color/comm_txt_content_gray" />
+
+            <TextView
+                android:id="@+id/common_txt_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="time"
+                android:textColor="@color/comm_txt_content_gray" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/common_image_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="5dip"
+            android:src="@drawable/ic_date_log"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

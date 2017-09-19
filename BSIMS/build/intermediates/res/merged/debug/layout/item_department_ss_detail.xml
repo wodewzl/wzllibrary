@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <com.bs.bsims.view.BSCircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto "
+            android:id="@+id/item_department_ss_detail_icon"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:background="@drawable/nsm_attendance_punch" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/item_department_ss_detail_icon"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:id="@+id/item_department_ss_detail_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:text="本月考工"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/item_department_ss_detail_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:drawableRight="@drawable/common_ic_arrow_right"
+                android:text="2015-4-26 18:53"
+                android:textColor="@color/yellow" />
+            <!-- android:layout_gravity="center_vertical "    android:layout_centerVertical="true" -->
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

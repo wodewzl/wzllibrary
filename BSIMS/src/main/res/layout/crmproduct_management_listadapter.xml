@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/crm_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="北企星营销系统"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginTop="-10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray_bg_01" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/crm_product_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:maxLength="20"
+                android:text="单价：$6080/套11111111111111111111111111111"
+                android:textColor="@color/gray_bg" />
+
+            <TextView
+                android:singleLine="true"
+                  android:textSize="14sp"
+                android:id="@+id/crm_product_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:maxLength="20"
+                android:text="单价：$6081110/套"
+                android:textColor="@color/gray_bg" />
+        </LinearLayout>
+
+        <TextView
+              android:textSize="14sp"
+            android:id="@+id/crm_product_allmoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="备注：为企业大招管理111111111111111111闭环"
+            android:textColor="@color/gray_bg" />
+    </LinearLayout>
+
+</LinearLayout>

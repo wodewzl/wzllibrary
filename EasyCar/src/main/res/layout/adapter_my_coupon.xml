@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/C3"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:orientation="horizontal">
+
+        <yyydjk.com.library.CouponView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/couponView"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/C1"
+            android:orientation="vertical"
+            app:cv_dash_line_color="@android:color/white"
+            app:cv_dash_line_gap="5dp"
+            app:cv_dash_line_height="0.8dp"
+            app:cv_dash_line_length="10dp"
+            app:cv_dash_line_margin_bottom="5dp"
+            app:cv_dash_line_margin_left="5dp"
+            app:cv_dash_line_margin_right="5dp"
+            app:cv_dash_line_margin_top="8dp"
+            app:cv_is_dash_line_bottom="false"
+            app:cv_is_dash_line_left="false"
+            app:cv_is_dash_line_right="false"
+            app:cv_is_dash_line_top="false"
+            app:cv_is_semicircle_bottom="true"
+            app:cv_is_semicircle_left="false"
+            app:cv_is_semicircle_right="false"
+            app:cv_is_semicircle_top="true"
+            app:cv_semicircle_color="@color/C3"
+            app:cv_semicircle_gap="4dp"
+            app:cv_semicircle_radius="4dp"
+
+            >
+
+
+            <LinearLayout
+                style="@style/margin_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/frame_kongxin_white_gray"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/status_img01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/my_coupon_01"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sddsassssss"/>
+
+                    <TextView
+                        android:id="@+id/time_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sddsassssss"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/status_img02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/my_coupon_back"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/my_coupon_04"/>
+        </yyydjk.com.library.CouponView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/C3"
+              android:orientation="vertical">
+
+    <!--<com.lzy.widget.HeaderViewPager-->
+    <!--android:id="@+id/scrollableLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+    <com.cpoopc.scrollablelayoutlib.ScrollableLayout
+        android:id="@+id/scrollableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/head_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp">
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/lotterying_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/one_order_01"
+                    android:gravity="center"
+                    android:text="揭晓中"/>
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/lotteryed_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/one_order_02"
+                    android:gravity="center"
+                    android:text="已揭晓"/>
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/show_order_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/one_order_03"
+                    android:gravity="center"
+                    android:text="往期晒单"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text_layout"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/one_order_04"
+                    />
+
+                <com.vondear.rxtools.view.RxTextviewVertical
+                    android:id="@+id/rx_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/img_layout"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/C3"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/img_layout_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="invisible"
+                    android:background="@color/C1"
+                    android:layout_marginRight="1dp">
+
+                    <ImageView
+                        android:id="@+id/img_01"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@color/C1"
+                        android:src="@drawable/home_01"/>
+
+                    <com.daidingkang.SnapUpCountDownTimerView
+                        android:id="@+id/timer_01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:viewSize="12"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/img_layout_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="invisible"
+                    android:background="@color/C1"
+                    android:layout_marginRight="1dp">
+
+                    <ImageView
+                        android:id="@+id/img_02"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@color/C1"
+                        android:src="@drawable/home_01"/>
+
+                    <com.daidingkang.SnapUpCountDownTimerView
+                        android:id="@+id/timer_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:viewSize="12"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/img_layout_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="invisible"
+                    android:background="@color/C1">
+
+                    <ImageView
+                        android:id="@+id/img_03"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@color/C1"
+                        android:src="@drawable/home_01"/>
+
+                    <com.daidingkang.SnapUpCountDownTimerView
+                        android:id="@+id/timer_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:viewSize="12"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <net.lucode.hackware.magicindicator.MagicIndicator
+                android:id="@+id/magic_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <!--</com.lzy.widget.HeaderViewPager>-->
+    </com.cpoopc.scrollablelayoutlib.ScrollableLayout>
+
+</LinearLayout>

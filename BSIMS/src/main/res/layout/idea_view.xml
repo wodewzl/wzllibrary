@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:hint="请输入内容"/>
+    
+        <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF3F3F3"
+        android:orientation="horizontal"
+        android:padding="10dp" 
+       >
+
+        <Button
+            android:id="@+id/approval_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_yellow"
+            android:text="提  交"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/unapproval_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_blue"
+            android:text="放  弃"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

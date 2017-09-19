@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/C1"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/type_01_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/home_01"
+                android:gravity="center"
+                android:text="附近商家"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/type_02_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/home_02"
+                android:gravity="center"
+                android:text="鲸喜购"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/type_03_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/home_03"
+                android:gravity="center"
+                android:text="活动"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/type_04_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/home_04"
+                android:gravity="center"
+                android:text="游戏"
+                android:textColor="@color/C5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/type_05_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/home_05"
+                android:gravity="center"
+                android:text="商城"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/type_06_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/home_06"
+                android:gravity="center"
+                android:text="鲸币"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/type_07_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/home_07"
+                android:gravity="center"
+                android:text="签到"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/type_08_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/home_08"
+                android:gravity="center"
+                android:text="足迹"
+                android:textColor="@color/C5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

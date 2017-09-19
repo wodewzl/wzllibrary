@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.beisheng.easycar.activity.LockCarActivity">
+
+    <com.wuzhanglong.library.view.ReboundScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/C3"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            style="@style/margin_15_13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/padding_15_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/C1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@drawable/lock_car_01"
+                        android:gravity="center"
+                        android:text="一键锁门"
+                        android:textColor="@color/C5"/>
+
+                    <TextView
+                        style="@style/padding_15_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/C1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@drawable/lock_car_02"
+                        android:gravity="center"
+                        android:text="一键锁门"
+                        android:textColor="@color/C5"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/padding_15_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/C1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@drawable/lock_car_03"
+                        android:gravity="center"
+                        android:text="一键锁门"
+                        android:textColor="@color/C5"/>
+
+                    <TextView
+                        style="@style/padding_15_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/C1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@drawable/lock_car_04"
+                        android:gravity="center"
+                        android:text="一键锁门"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:orientation="vertical">
+
+                <cn.bingoogolapple.photopicker.widget.BGASortableNinePhotoLayout
+                    android:id="@+id/snpl_moment_add_photos"
+                    style="@style/MatchMatch"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    app:bga_snpl_deleteDrawable="@mipmap/bga_pp_ic_delete"
+                    app:bga_snpl_deleteDrawableOverlapQuarter="false"
+                    app:bga_snpl_editable="true"
+                    app:bga_snpl_itemCornerRadius="0dp"
+                    app:bga_snpl_itemSpanCount="3"
+                    app:bga_snpl_itemWhiteSpacing="15dp"
+                    app:bga_snpl_itemWidth="0dp"
+                    app:bga_snpl_maxItemCount="3"
+                    app:bga_snpl_otherWhiteSpacing="0dp"
+                    app:bga_snpl_placeholderDrawable="@mipmap/bga_pp_ic_holder_dark"
+                    app:bga_snpl_plusDrawable="@mipmap/bga_pp_ic_plus"
+                    app:bga_snpl_plusEnable="true"
+                    app:bga_snpl_sortable="true"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/C3"/>
+
+                <EditText
+                    android:id="@+id/comment_et"
+                    style="@style/padding_15_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/C1"
+                    android:gravity="top"
+                    android:hint="请描述停车场位置"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="主动帮助车辆充电，赠送红包哦"
+                android:drawableLeft="@drawable/lock_car_05"
+                android:drawablePadding="5dp"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="请确认是否完成以上步骤"
+                android:textColor="@color/C5"
+                />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/add_bt"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:layout_marginTop="20dp"
+                android:background="@color/C7"
+                android:text="新增收货地址"
+                android:textColor="@color/C1"
+                android:textSize="16sp"
+                app:rd_enable="true"/>
+        </LinearLayout>
+    </com.wuzhanglong.library.view.ReboundScrollView>
+</android.support.constraint.ConstraintLayout>

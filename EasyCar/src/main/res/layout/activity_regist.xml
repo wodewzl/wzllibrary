@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/padding_15_10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C1"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/C9"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/C1"
+        android:text="你的手机号码"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/C1"
+        android:hint="输入手机号"
+        android:inputType="number"
+        android:textColor="@color/C5"
+        android:textColorHint="@color/C6"
+        android:textSize="12sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/C2"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/C1"
+        android:text="接收到的短信验证码"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/regist_code_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/C1"
+            android:hint="输入验证码"
+            android:textColor="@color/C5"
+            android:textSize="12sp"
+            android:inputType="number"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@color/C2"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/regist_code_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:textColor="@color/C5"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/C2"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/C1"
+        android:text="输入密码"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/C1"
+        android:drawableRight="@drawable/ic_launcher"
+        android:hint="数字字母或下划线6-8位"
+        android:textSize="12sp"
+        android:textColor="@color/C5"
+        android:inputType="textPassword"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/C2"/>
+
+    <EditText
+        android:id="@+id/sure_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/C1"
+        android:hint="再次输入密码"
+        android:textSize="12sp"
+        android:textColor="@color/C5"
+        android:inputType="textPassword"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/C2"/>
+
+    <EditText
+        android:id="@+id/invitat_code_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/C1"
+        android:hint="输入邀请码不必填"
+        android:textSize="12sp"
+        android:textColor="@color/C5"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/C2"/>
+
+    <com.rey.material.widget.Button
+        android:id="@+id/login_bt"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="20dp"
+        android:background="@color/Car2"
+        android:text="注 册"
+        android:textColor="@color/C1"
+        android:textSize="14sp"
+        app:rd_enable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="点击注册代表同学《玛儿特用户服务协议》"
+        android:textColor="@color/C5"
+        android:textSize="12sp"/>
+</LinearLayout>

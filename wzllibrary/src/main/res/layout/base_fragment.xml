@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/C3" >
+
+        <LinearLayout
+            android:id="@+id/base_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/C3"
+            android:orientation="vertical"
+            android:visibility="gone">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/no_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/base_no_content"
+            android:text="暂无相关数据"
+            android:textColor="@color/C5"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/no_net_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"     
+            android:layout_gravity="center"
+            android:drawablePadding="5dp"
+            android:text="重新加载"
+            android:textColor="@color/C5"
+            android:drawableTop="@drawable/no_net"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

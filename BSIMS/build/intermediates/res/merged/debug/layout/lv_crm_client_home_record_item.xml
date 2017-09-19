@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clientfather"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <include
+        android:id="@+id/no_content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/no_content_layout"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/C1"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/title_layout"
+            layout="@layout/person_title" />
+
+        <TextView
+            android:id="@+id/content_tv"
+            style="@style/F3C5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你" />
+
+        <include
+            android:id="@+id/picture_layout"
+            layout="@layout/crm_visitor_putictures"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/C2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/mode_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frame_kongxin_gray"
+                android:drawableLeft="@drawable/crm_client_phone"
+                android:drawablePadding="3dp"
+                android:padding="5dp"
+                android:text="电话拜访" />
+
+            <TextView
+                android:id="@+id/objective_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/frame_kongxin_gray"
+                android:padding="5dp"
+                android:text="业务洽谈" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/link_bname_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/frame_kongxin_gray"
+            android:drawableLeft="@drawable/crm_client_money"
+            android:drawablePadding="3dp"
+            android:padding="5dp"
+            android:text="我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/link_cname_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/frame_kongxin_gray"
+            android:drawableLeft="@drawable/crm_link_client"
+            android:drawablePadding="3dp"
+            android:padding="5dp"
+            android:text="我爱你我爱你我爱你我爱你我111爱你我爱你我爱你我爱你"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/link_address_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/crm_client_address"
+            android:drawablePadding="3dp"
+            android:padding="10dp"
+            android:text="我爱你我爱你我爱你我爱你我爱你我111爱你我爱你我爱你" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/C2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/replay_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/replay_tv"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/message"
+                    android:drawablePadding="10dp"
+                    android:text="回复" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/C2" />
+
+            <LinearLayout
+                android:id="@+id/aggree_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/img_agree"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/agree" />
+
+                <TextView
+                    android:id="@+id/praise_tv"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赞" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/C2" />
+
+            <LinearLayout
+                android:id="@+id/oppose_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/img_oppose"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/oppose" />
+
+                <TextView
+                    android:id="@+id/decline_tv"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="踩" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

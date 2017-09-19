@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scroll_task_details_new_scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sixty"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                layout="@layout/part_taskeventdetails_head"
+                android:visibility="gone" />
+
+            <!-- android:drawableLeft="@drawable/ic_common_green" -->
+
+            <TextView
+                android:id="@+id/txt_taskevent_tasksDetails_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/comm_txt_listview_black"
+                android:text="桃花运" />
+
+            <TextView
+                android:id="@+id/txt_taskevent_tasksdetails_fullname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:text="发布者姓名"
+                android:textColor="@color/comm_txt_content_gray"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/line"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_taskevent_tasksDetails_StartTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:text="开始时间："
+                android:textColor="@color/comm_txt_content_gray"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/line"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/txt_taskevent_tasksDetails_endTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten"
+                    android:layout_marginLeft="5dp"
+                    android:text="到期时间："
+                    android:textColor="@color/comm_txt_content_gray"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt_taskeventDetails_postpone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/txt_taskevent_tasksDetails_endTime"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/txt_taskevent_tasksDetails_endTime"
+                    android:background="#e3a821"
+                    android:padding="10dp"
+                    android:text="已延期"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/line" />
+
+            <TextView
+                android:id="@+id/txt_taskevent_tasksDetails_details"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/txt_SpacingExtra"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:visibility="gone" 
+                android:text="吴"/>
+
+            <LinearLayout
+                android:id="@+id/ly_taskevent_tasksDetails_details"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <View
+                android:id="@+id/line_noFujian"
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/linear_task_details_fileContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <!-- android:drawableLeft="@drawable/ic_taskeventdetails_progresstag" -->
+
+            <TextView
+                android:id="@+id/txt_taskevent_details_percent_title"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hint_bg_color"
+                android:drawablePadding="3dp"
+                android:text="任务事件进度"
+                android:textColor="@color/comm_txt_item_title_black" />
+            <!-- 进度条 -->
+
+            <LinearLayout
+                android:id="@+id/relative_taskevent_details_percent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                style="@style/layout_padding_style">
+
+                <TextView
+                    android:id="@+id/txt_taskevent_taskDetails_percentColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textColor="@color/comm_txt_content_gray" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_taskevent_taskDetails_progress"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/twenty"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/bg_taskevent_progress" >
+
+                        <TextView
+                            android:id="@+id/txt_taskevent_taskDetails_fillColor"
+                            android:layout_width="10dp"
+                            android:layout_height="fill_parent"
+                            android:background="#ff5292fb" />
+                        <!-- android:background="#13c070" /> -->
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_taskevent_taskDetails_percentPoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_taskeventdetails_point" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/five"
+                    android:paddingLeft="@dimen/five"
+                    android:paddingRight="@dimen/five" >
+
+                    <TextView
+                        android:id="@+id/txt_taskevent_taskDetails_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="0%"
+                        android:textColor="@color/comm_txt_content_gray" />
+
+                    <TextView
+                        android:id="@+id/txt_taskevent_taskDetails_100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="100%"
+                        android:textColor="@color/comm_txt_content_gray" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line_taskevent_details_percentTop"
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/linear_taskevent_taskDetails_detailsDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:orientation="vertical" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hint_bg_color"
+                android:text="跟进人/责任人"
+                android:textColor="@color/comm_txt_item_title_black"
+                style="@style/layout_padding_style" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                   style="@style/layout_padding_style">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_portrait_gen"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" >
+
+                        <com.bs.bsims.view.BSCircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto "
+                            android:id="@+id/img_taskevent_taskDetails_protait_gen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_default_portrait_s" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_taskevent_gen" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/txt_taskevent_taskDetails_protait_gen"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_portrait_gen"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/ten"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="跟进人"
+                        android:textColor="@color/comm_txt_listview_black"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten" >
+
+                    <RelativeLayout
+                        android:id="@+id/relative_portrait_zhe"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true" >
+
+                        <com.bs.bsims.view.BSCircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto "
+                            android:id="@+id/img_taskevent_taskDetails_protait_zhe"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_default_portrait_s" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_taskevent_zhe" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/txt_taskevent_taskDetails_protait_zhe"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_portrait_zhe"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/ten"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="责任人"
+                        android:textColor="@color/comm_txt_listview_black"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_taskevent_details_pepole_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hint_bg_color"
+                android:text="相关人"
+                android:textColor="@color/comm_txt_item_title_black"
+                style="@style/layout_padding_style" />
+
+            <include layout="@layout/common_full_person_more" />
+
+            <TextView
+                android:id="@+id/txt_taskevent_taskDetails_pinglunNum"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hint_bg_color"
+                android:padding="@dimen/five"
+                android:text="评论(0)"
+                android:textColor="@color/comm_txt_item_title_black" />
+
+            <com.bs.bsims.view.BSListView
+                android:id="@+id/bslistView_taskevent_taskDetails_pinglun"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:scrollbars="none" />
+
+            <com.bs.bsims.view.ListViewForScrollView
+                android:id="@+id/listView_taskevent_taskDetails_pinglun"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/task_details_fromaction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hint_bg_color"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/bottom_taskdetails__bottom_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/bottom_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/hint_bg_color" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bottom_taskdetails__btn_preliminary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/corners_blue"
+            android:text="初 审"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/bottom_taskdetails__preliminary_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/bottom_taskdetails__btn_preliminary_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/corners_blue"
+                android:text="初 审"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edit_taskdetails_content"
+                style="@style/style02"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:background="@drawable/edit_bg"
+                android:hint="请入输入内容"
+                android:paddingLeft="10.0dp"
+                android:text="项目一切进行顺利！"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

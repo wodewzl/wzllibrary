@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/ten"
+    android:paddingTop="@dimen/ten" >
+
+    <LinearLayout
+        android:layout_width="@dimen/forty"
+        android:layout_height="@dimen/forty"
+        android:background="@drawable/bg_taskevent_percent"
+        android:gravity="center" >
+
+<!--         android:background="@drawable/calendar_date_focused" -->
+        <!-- android:background="@drawable/bg_taskevent_percent" -->
+
+        <TextView
+            android:id="@+id/txt_taskevent_taskDetails_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10%"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/ten" >
+
+            <TextView
+                android:id="@+id/txt_taskevent_taskDetails_descrption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="进度描述进度描述进度描述进度描述进度描述进度描述进度描述进度描述进度描述进度描述进度描述进度描述进度描述"
+                android:textColor="@color/comm_txt_content_gray"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five" >
+
+                <TextView
+                    android:id="@+id/txt_taskevent_taskDetails_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="07-05  14:20"
+                    android:textColor="@color/comm_txt_content_gray"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/img_taskevent_taskDetails_replay"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/common_ic_replay_right"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_taskevent_taskDetails_line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="@dimen/ten"
+            android:background="@color/line" />
+    </LinearLayout>
+
+</LinearLayout>

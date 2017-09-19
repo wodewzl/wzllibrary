@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_back"
+    android:orientation="vertical" >
+
+    <!-- 任务列表中布局 2015/5/27 19:46 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white" >
+
+        <com.bs.bsims.view.BSCircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto "
+            android:id="@+id/item_taskeventlistadapter_head_icon"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_default_portrait_s"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/img_item_taskeventlistadapter_havefile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ic_taskevent_fujian_small" />
+
+            <ImageView
+                android:id="@+id/isread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/img_item_taskeventlistadapter_havefile"
+                android:background="@drawable/bg_circle_noread"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/item_taskeventlistadapter_name_tv"
+                android:layout_width="220dip"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/isread"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="肖方"
+                android:textColor="@color/title_text" />
+
+            <TextView
+                android:id="@+id/item_taskeventlistadapter_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="2015-4-24 16:39"
+                android:textColor="@color/gray_light_text" />
+
+            <TextView
+                android:id="@+id/item_taskeventlistadapter_type_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/item_taskeventlistadapter_name_tv"
+                android:text="【创意】"
+                android:textColor="@color/gray_light_text"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_taskeventlistadapter_name_tv" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp" >
+
+                    <!-- android:layout_width="150dip"   android:layout_height="wrap_content" -->
+
+                    <ProgressBar
+                        android:id="@+id/item_taskeventlistadapter_seekbar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="150dip"
+                        android:layout_height="8dip"
+                        android:layout_centerVertical="true"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/item_taskeventlistadapter_progressdrawable" />
+
+                    <TextView
+                        android:id="@+id/item_taskeventlistadapter_content_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@id/item_taskeventlistadapter_seekbar"
+                        android:text="关于对新人制度的意见"
+                        android:textColor="@color/gray_light_text" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/item_taskeventlistadapter_state_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:src="@drawable/creative_01" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

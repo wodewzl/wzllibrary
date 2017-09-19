@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/office_logo"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/otherappwpsoffice" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+       android:text="北企星检测到您未安装读取此文档的手机软件，建议您下载点击确认下载官方Wps Office!"
+        android:textColor="@color/blue_pressed"
+        android:textSize="11sp" />
+
+</LinearLayout>

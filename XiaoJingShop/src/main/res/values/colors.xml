@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="XJColor1">#A90073</color>
+    <color name="XJColor2">#DF3435</color>
+    <color name="XJColor3">#CA0501</color>
+    <color name="XJColor4">#F58A18</color>
+    <color name="XJColor5">#00BD88</color>
+    <color name="XJColor6">#FF8497</color>
+    <color name="XJColor7">#FFA800</color>
+    <color name="XJColor8">#787878</color>
+    <color name="XJColor9">#0267ff</color>
+    <color name="XJColor10">#34cd02</color>
+    <color name="XJColor11">#FBEEE5</color>
+    <color name="XJColor12">#E0FDF9</color>
+    <color name="XJColor13">#FC4D38</color>
+    <color name="divider">#999</color>
+    <color name="white">#fff</color>
+</resources>

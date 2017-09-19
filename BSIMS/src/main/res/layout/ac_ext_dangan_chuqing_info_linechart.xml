@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dangan_chuqing_info_ss_linechart__4ly1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ac_ext_dangan_chuqing_info_linechart_top_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/ac_label_attendancesstatistics"
+            android:textSize="18sp" />
+
+        <com.pc.mylinechart.view.LineChart
+            android:id="@+id/ac_ext_dangan_chuqing_info_linechart_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:id="@+id/dangan_chuqing_info_ss_linechart_4_all_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+<!--         android:background="@color/white" -->
+
+        <LinearLayout
+            android:id="@+id/dangan_chuqing_info_ss_linechart_4ly1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/dangan_chuqing_info_ss_linechart_4cv1"
+                android:layout_width="25dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/blue_pressed" />
+
+            <TextView
+                android:id="@+id/dangan_chuqing_info_ss_linechart_4c1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/task_status1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dangan_chuqing_info_ss_linechart_4ly2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/dangan_chuqing_info_ss_linechart_4cv2"
+                android:layout_width="25dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/blue_pressed" />
+
+            <TextView
+                android:id="@+id/dangan_chuqing_info_ss_linechart_4c2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/task_status2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

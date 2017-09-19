@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_padding_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/bg_circle_white" />
+
+            <com.beisheng.base.view.BSCircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/head_icon"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/user_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我草艹艹"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/time_tv"
+                style="@style/F3C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="我艹艹" />
+
+            <TextView
+                android:id="@+id/detail_tv"
+                style="@style/F3C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv"
+                android:layout_marginTop="10dp"
+                android:text="草斗罗大陆淡蓝色的劳动力就地索罗斯的伦敦骚乱的顺利登上了第三轮的胜利的手机打碎了第三轮的实力的思路" />
+
+            <TextView
+                android:id="@+id/parent_more_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_tv"
+                android:layout_marginTop="10dp"
+                android:text="查看全部回复 >"
+                android:textColor="@color/C5" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/child_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_tv"
+        android:layout_marginLeft="61dp"
+        android:background="@drawable/disscuss_bg2"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/child01_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="我爱你"
+            android:textColor="@color/C5" />
+
+        <TextView
+            android:id="@+id/child02_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:padding="2dp"
+            android:textColor="@color/C5" />
+
+        <TextView
+            android:id="@+id/child_more_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="查看全部回复 >"
+            android:textColor="@color/C5" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_below="@id/parent_more_tv"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/devider_bg" />
+
+</LinearLayout>

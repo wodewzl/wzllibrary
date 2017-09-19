@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/type_title"
+        style="@style/layout_padding_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leave_cause" />
+
+    <EditText
+        android:id="@+id/type_content"
+        style="@style/style02"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#ffff"
+        android:gravity="top"
+        android:hint="@string/leave_content_hint"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" />
+
+</LinearLayout>

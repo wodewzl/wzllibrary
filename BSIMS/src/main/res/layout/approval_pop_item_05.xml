@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="440dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="1dp" >
+        <LinearLayout
+            android:id="@+id/title_layout_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_bg_01"
+            android:orientation="vertical" 
+            >
+        <ListView
+            android:id="@+id/lv_department"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:scrollbars="none"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_layout_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_bg_01"
+            android:orientation="vertical" >
+
+                        <ExpandableListView
+                android:id="@+id/post_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:scrollbars="none" 
+                android:layout_marginTop="1dp"/>
+        </LinearLayout>
+                <LinearLayout
+            android:id="@+id/title_layout_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_bg_01"
+            android:orientation="vertical" >
+                        <ExpandableListView
+                android:id="@+id/more_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:scrollbars="none" 
+                android:layout_marginTop="1dp"/>
+
+        </LinearLayout>
+    </FrameLayout>
+    
+        <Button
+        android:id="@+id/ok_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blug_bg"
+        android:padding="10dp"
+        android:text="@string/ok"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,2302 @@
+[
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_trail_add.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_trail_add.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\company_culture_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\company_culture_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\statistics_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_borrow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_borrow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_people.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_people.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_supplies.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_supplies.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\common_gridview_photos.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\common_gridview_photos.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gallery_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_multi_image.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_multi_image.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_trade_contant_adapter_list2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_trade_contant_adapter_list2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_fbs_signin_map.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_fbs_signin_map.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_workallchrildinterview_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_workallchrildinterview_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contact_more_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contact_more_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitlist_headview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitlist_headview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_info_one_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_info_one_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_view_pager1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_view_pager1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_progress_change.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_progress_change.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmvisitrecord_index_listadpter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmvisitrecord_index_listadpter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_letter_tab.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_letter_tab.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\appliaction_register.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\appliaction_register.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\location_titile_selectnews.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\location_titile_selectnews.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statistics_visitor.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statistics_visitor.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\creative_idea_new.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\creative_idea_new.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmessage_homeadapter_group5.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmessage_homeadapter_group5.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_attendance_rank.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_attendance_rank.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_department_tab.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_department_tab.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statics_trade_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statics_trade_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_person_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_person_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\two_titie_one.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\two_titie_one.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_highseas_clients.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_highseas_clients.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontant_main_detail_info_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontant_main_detail_info_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_chuqinginfo.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_chuqinginfo.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_jibeninfo.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_jibeninfo.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\add_supplies.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\add_supplies.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_highseas_home_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_highseas_home_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_msg_header.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_msg_header.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_pop_item_03.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_pop_item_03.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\img.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\img.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_workallchrildlisence_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_workallchrildlisence_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_task_statistics_linechart.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_task_statistics_linechart.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_attendance.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_attendance.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_product_list_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_product_list_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gaode_location_activiry.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gaode_location_activiry.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_attendance_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_attendance_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\discuss_replay.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\discuss_replay.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\appmakert_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\appmakert_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\customprogressdialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\cmp_customer_actionbar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\cmp_customer_actionbar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\idea_adopt.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\idea_adopt.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_notice_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_notice_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_one_leve_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dropdown_one_leve_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_5.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_5.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmvisitrecord_add_money.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmvisitrecord_add_money.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_down_refresh.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_list_down_refresh.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_work_management.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_work_management.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice_person.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice_person.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gaode_hoscroll_gridview_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gaode_hoscroll_gridview_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\pop_message.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\pop_message.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statics_bussness_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statics_bussness_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_messagehome_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_messagehome_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_sharedfilesd_grouphome_down.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_sharedfilesd_grouphome_down.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_creative_idea.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_creative_idea.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\corporate_culture_details_one.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\corporate_culture_details_one.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\tow_tree_parent_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\tow_tree_parent_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewpager.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\activity_viewpager.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_grid.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_image_grid.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\popup_category.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\popup_category.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_client_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_client_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\yus_select_dialog_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\yus_select_dialog_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_supplies_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_supplies_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice_publish.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice_publish.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\top_indicator_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\top_indicator_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ext_pop_statistics.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ext_pop_statistics.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_upload_file_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_upload_file_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmessage_homeadapter_group1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmessage_homeadapter_group1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\creative_idea_all.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\creative_idea_all.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_workallchrildtrians_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_workallchrildtrians_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_4.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_4.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\locationdepart_list_title.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\locationdepart_list_title.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_statistics_supplies.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_statistics_supplies.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_sales_target.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_sales_target.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\danganindex.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\danganindex.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_static_sale_value_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_static_sale_value_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\loading_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\loading_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\popup_category_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\popup_category_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\schedule.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\schedule.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\creative.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\creative.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_statistics_articles.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_statistics_articles.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\personworkreport.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\personworkreport.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_detail_1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_detail_1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\app_makert_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\app_makert_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\pie_chart.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\pie_chart.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\bossstatictislogo_utils.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\bossstatictislogo_utils.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\miss_card_pop.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\miss_card_pop.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitor_sign_select.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitor_sign_select.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gv_notice_object_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gv_notice_object_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts_single_last.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_contacts_single_last.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitor_map.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitor_map.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\top_changedate.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\top_changedate.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_bussiness_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_bussiness_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_home.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_home.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\attendance_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\attendance_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\four_title_one.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\four_title_one.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_notify.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_notify.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_basicinfolearnexpadapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_basicinfolearnexpadapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\read_state.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\read_state.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\subscribe_category_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\subscribe_category_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\tab_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\tab_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_attendance.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_attendance.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_sharedfilesd_grouphome_all.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_sharedfilesd_grouphome_all.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_approval_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_approval_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_boss_index_top3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_boss_index_top3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fast_experience_login.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fast_experience_login.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_sign_in_listview_head.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_sign_in_listview_head.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\bossstatistics_doucument_statics.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\bossstatistics_doucument_statics.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\list_group_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\list_group_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_creative_suggest.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_creative_suggest.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_4.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_4.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\part_main_message_human.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\part_main_message_human.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitor_img_adpter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitor_img_adpter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_bussines_listapdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_bussines_listapdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_different_head.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_different_head.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_trade_contant_adapter_list1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_trade_contant_adapter_list1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_photos_choose_imageview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_photos_choose_imageview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_add.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_add.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_work_train.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_work_train.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmysendmsg_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmysendmsg_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_journal_list_attention.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_journal_list_attention.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\part_main_message_top.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\part_main_message_top.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\list_head_refresh.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\list_head_refresh.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sharedfilesd_home_all.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_sharedfilesd_home_all.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\time_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\time_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontant_details.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontant_details.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_need_do_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_need_do_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\huanxin_part_bottom_reply.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\huanxin_part_bottom_reply.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_taskevent.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_taskevent.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\center_music_more_window.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\center_music_more_window.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\document_type.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\document_type.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\red_money.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\red_money.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statistics_sale_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statistics_sale_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_message_boss_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_message_boss_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_leave.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_leave.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ishaveofficeapp.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ishaveofficeapp.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_highseas_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_highseas_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\move_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\move_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_detail_5.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_detail_5.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_6.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_6.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\beishengallzone_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\beishengallzone_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_articles_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\statistics_articles_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_photos_album.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_photos_album.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_taskeventlistadapter_ly.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_taskeventlistadapter_ly.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_leave_distributed.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_leave_distributed.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts_many_treeview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_contacts_many_treeview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_tradecontant_add_payment.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_tradecontant_add_payment.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontract_index_adpter_copylist.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontract_index_adpter_copylist.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_write_comment_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_write_comment_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\common_item_replay.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\common_item_replay.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_sale_value_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_sale_value_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmvisitrecord_add_visitedinfos.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmvisitrecord_add_visitedinfos.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_home_task.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_home_task.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_saledetails_listadpter1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_saledetails_listadpter1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmbussines_indexlist.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmbussines_indexlist.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_supplies_itme.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_supplies_itme.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\d_a_search_popupwindow_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\d_a_search_popupwindow_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\custom_marker_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\custom_marker_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\wheel_date_picker.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\wheel_date_picker.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\image_preview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\image_preview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_trade_detail_plan_itme.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_trade_detail_plan_itme.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontant_main_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontant_main_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_tradecontant_add_payment_record.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_tradecontant_add_payment_record.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_changeinfo_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_changeinfo_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\peck_allgroup_listview_refshnodelte.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\peck_allgroup_listview_refshnodelte.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\addbydepartmentselectall.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\addbydepartmentselectall.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statics_client_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statics_client_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_expenses_piechart_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\statistics_expenses_piechart_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_teamfilelist.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_teamfilelist.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contact_detail_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contact_detail_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmsale_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmsale_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\register_getphone.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\register_getphone.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gaode_location_showindown_infos.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gaode_location_showindown_infos.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\part_comm_head_home.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\part_comm_head_home.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_search.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_search.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_statistics_articles_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_statistics_articles_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\yus_select_dialog_multichoice.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\yus_select_dialog_multichoice.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\company_culture.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\company_culture.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message_boss_1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_message_boss_1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_photos_main_grid.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_photos_main_grid.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_dialog_manager.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_dialog_manager.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindows.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_publish_detail_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_publish_detail_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_feeapply_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_feeapply_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_detail_3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_detail_3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_approval_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\statistics_approval_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_jiont_followup.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_jiont_followup.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_saledetails_listadpter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_saledetails_listadpter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmproduct_management_listadapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmproduct_management_listadapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_articles.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\statistics_articles.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_task_changedate.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_task_changedate.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_journal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_journal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_detail_annex.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_task_detail_annex.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_approval.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_approval.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_people_add_depart_select_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_people_add_depart_select_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_approval_month_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dropdown_approval_month_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_work_attendance_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_work_attendance_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_crm_boss.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_crm_boss.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\record_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\record_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_month_sale_value_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_month_sale_value_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\unread_num_text.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\unread_num_text.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\no_content_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\no_content_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_statistics_leave.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_statistics_leave.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_upload_file_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_upload_file_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmessage_homeadapter_group3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmessage_homeadapter_group3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_leave.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_leave.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_nobg_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dropdown_nobg_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_boss_statistics_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_boss_statistics_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_sort_dep_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_sort_dep_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_list_title.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_list_title.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\work_attendance_detail_top.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\work_attendance_detail_top.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_sharedfilesd_grouphome.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_sharedfilesd_grouphome.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_lv_options.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_lv_options.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\yus_select_dialog_singlechoice.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\yus_select_dialog_singlechoice.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statics_visitor_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statics_visitor_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message_list_my.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_message_list_my.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_payment_bottom.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_payment_bottom.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_image.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\list_item_image.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_company_culture.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_company_culture.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatyousendmsg_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatyousendmsg_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_journal_list1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_journal_list1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_grid.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\activity_image_grid.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_popwin_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\14a6729b6c2a5a8711c3002a73a9932273996ac5\\output\\res\\layout\\jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_bucket.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\activity_image_bucket.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatgroupdetail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatgroupdetail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\employee_records.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\employee_records.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ext_pop_home_task_hp.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ext_pop_home_task_hp.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_list_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_list_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_dangan_chuqing_info_linechart2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_dangan_chuqing_info_linechart2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_content_detail_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_content_detail_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\add_by_department.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\add_by_department.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\row_expression.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\row_expression.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_lead_discuss_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_lead_discuss_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\public_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\public_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\custom_parent_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\custom_parent_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contacts_add_more_lv_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contacts_add_more_lv_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_task_statistics_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_task_statistics_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\danganbasicsortadpternearorlevae.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\danganbasicsortadpternearorlevae.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_download_upload_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_download_upload_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_trend_lv.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_trend_lv.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\nn.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\nn.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\activity_default.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\activity_default.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_attendance_distributed.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_attendance_distributed.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message_boss.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_message_boss.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\timepicker.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\timepicker.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_notify_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_notify_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gaode_location_activiry_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gaode_location_activiry_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_self.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_self.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_pop_item_05.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_pop_item_05.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statistics_lv_visitor_customers.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statistics_lv_visitor_customers.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_alert.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\alarm_alert.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\work_menu_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\work_menu_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_calendar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_calendar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\bossstatictislogo_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\bossstatictislogo_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitor_deatils_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitor_deatils_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_home_task_hp.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_home_task_hp.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ui_settings_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ui_settings_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_discuss_popwindow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_discuss_popwindow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\serach_title.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\serach_title.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_dep_detail_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\contacts_dep_detail_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\send_person_gv_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\send_person_gv_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\pop_item_one_level.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\pop_item_one_level.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_four_title.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_four_title.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_gongzuoinfo.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_gongzuoinfo.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_add.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\schedule_add.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statics_bussness_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statics_bussness_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmbussines_index_fragment1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmbussines_index_fragment1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_crm_client_home_contacts_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_crm_client_home_contacts_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\documentaryanalyis_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\documentaryanalyis_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_trail_add_more.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_trail_add_more.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontant_main_shoukuan_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontant_main_shoukuan_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window_titile.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\popup_window_titile.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\general_home_itme1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\general_home_itme1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gaode_hoscroll_gridview_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gaode_hoscroll_gridview_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gaode_location_showindown_info.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gaode_location_showindown_info.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_fee_apply.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_fee_apply.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_crm_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_crm_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\idea_adoption.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\idea_adoption.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\listview_bottom_more.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\listview_bottom_more.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\filedown_cricle_progress.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\filedown_cricle_progress.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitaddinfo_pop.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitaddinfo_pop.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\d_a_search_popupwindow_listview_item_textview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\d_a_search_popupwindow_listview_item_textview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_department.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_department.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice_lv_sort_letter_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice_lv_sort_letter_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_main_menu.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_main_menu.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_dangan_chuqing_info_linechart.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_dangan_chuqing_info_linechart.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_attendance.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_attendance.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_leave_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_leave_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\listview_pinned_head.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\listview_pinned_head.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\items_popupwindows.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\items_popupwindows.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_person_chat.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_person_chat.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_5.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_5.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitor_putictures.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitor_putictures.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_taskstatistics_progressbar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_taskstatistics_progressbar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmproduct_management_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmproduct_management_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_tradecontant_detailinfo.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_tradecontant_detailinfo.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_taskevent_release_tasks.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_taskevent_release_tasks.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\punch_the_clock_map_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\punch_the_clock_map_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\locusline_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\locusline_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_taskstatistics_progressbar_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_taskstatistics_progressbar_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts_department_tree_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_contacts_department_tree_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_bucket.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_image_bucket.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontant_home_adpter_index2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontant_home_adpter_index2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\emojicons.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\emojicons.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_boss_fragment2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_boss_fragment2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_my_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_my_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_vistor_signaddinfo.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_vistor_signaddinfo.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_work_attendance_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_work_attendance_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ui_cc.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ui_cc.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_attendance_ss_departmente.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_attendance_ss_departmente.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\tab_object_title.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\tab_object_title.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_boss_fragment1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_boss_fragment1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_taskstatistics.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_taskstatistics.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_need_do.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_need_do.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_emojicons.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_emojicons.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_task_ss_linechart_before.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_task_ss_linechart_before.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\contact_person_new.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\contact_person_new.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_workapprove_attachment.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_workapprove_attachment.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_discuss_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_discuss_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\disscuss_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\disscuss_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\base.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\base.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\rec_camera_preview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\rec_camera_preview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\app_online_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\app_online_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\library\\bSLibraryPhotoView\\build\\intermediates\\bundles\\default\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_personal_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_personal_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_sales_funnel_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_sales_funnel_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_approval_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_approval_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lead_pop.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lead_pop.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\app_zone_tableselect_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\app_zone_tableselect_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\no_child_content_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\no_child_content_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmbusiness_details_addcustomer.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmbusiness_details_addcustomer.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\detail_ps_gallery_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\detail_ps_gallery_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmproduct_management_addinfo.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmproduct_management_addinfo.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\person_locus.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\person_locus.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_datedialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\calendar_datedialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\comm_dialog_tips.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\comm_dialog_tips.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statistics_lv_visitor_users.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statistics_lv_visitor_users.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmvisitrecord_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmvisitrecord_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmbusiness_details_home.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmbusiness_details_home.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_view_pager3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_view_pager3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\divider.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\divider.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_calender_renwu.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\popupwindow_calender_renwu.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_sort_letter_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_sort_letter_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\part_taskevent_tasks_details_descrption.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\part_taskevent_tasks_details_descrption.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\general_home_itme.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\general_home_itme.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\new_discuss_item_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\new_discuss_item_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\column_radio_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\column_radio_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice_object.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice_object.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\head_attention.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\head_attention.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\chat_voice_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\chat_voice_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\attendance_summary.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\attendance_summary.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visit_record_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visit_record_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_pop_item_01.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_pop_item_01.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontract_index.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontract_index.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\text_while.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\text_while.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_task_statistics_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_task_statistics_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_photos_imagelist.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_photos_imagelist.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_taskevent_task_details_new.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_taskevent_task_details_new.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\part_taskeventdetails_head.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\part_taskeventdetails_head.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_work_attendance_everyone_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_work_attendance_everyone_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\expression_gridview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\expression_gridview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_trend.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\schedule_trend.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmtradecontant_home_adpter_index1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmtradecontant_home_adpter_index1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\common_item_none_tag.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\common_item_none_tag.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_lv_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dialog_lv_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmessage_homeadapter_group6.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmessage_homeadapter_group6.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_trade_sign_rank_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_trade_sign_rank_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\custom_toast.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\custom_toast.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\message_list_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\message_list_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmessage_more.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmessage_more.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\part_comm_head.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\part_comm_head.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_options_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_options_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_lv_approval.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_lv_approval.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_approval_borrow_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_approval_borrow_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_ext_work_attendance_everyone_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_ext_work_attendance_everyone_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\part_main_message_mid.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\part_main_message_mid.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_tradecontant_add_payment_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_tradecontant_add_payment_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitor_sign.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitor_sign.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmbussines_fragment2_zone.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmbussines_fragment2_zone.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\add_by_person1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\add_by_person1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_idea.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_idea.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\yus_select_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\yus_select_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_tradecontant_remind_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_tradecontant_remind_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_overtime_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_overtime_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\detail_picture_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\detail_picture_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_statics_sale_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_statics_sale_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_journal_list_all.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_journal_list_all.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmbussines_fragment2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmbussines_fragment2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_tab.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_home_tab.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_downloadgrouphome.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_downloadgrouphome.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\row_listview_reply_voice.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\row_listview_reply_voice.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_approval_payment.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_approval_payment.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\danganbasicsortadpter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\danganbasicsortadpter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_statistics_leave_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_statistics_leave_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_taskevent_select_progress.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_taskevent_select_progress.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_photos_select_imageview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_photos_select_imageview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_journal_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_journal_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_new_add_client_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_new_add_client_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_pop_item_02.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_pop_item_02.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\list_item_folder.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_add_contacts.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_add_contacts.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\update_password.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\update_password.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_workallchrildreawards_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_workallchrildreawards_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\sechedule_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\sechedule_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts_department_txt.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_contacts_department_txt.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\danganone.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\danganone.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contacts_add_more_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contacts_add_more_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_attendance.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_attendance.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_creative_idea_suggest.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_creative_idea_suggest.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_sign_in_listview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_sign_in_listview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_trend_lv.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\schedule_trend_lv.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_visitor_map_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_visitor_map_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crmbusiness_details_info.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crmbusiness_details_info.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_msg_pop.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_msg_pop.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\idea_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\idea_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\switch_button.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\switch_button.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\person_title.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\person_title.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_publish_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_publish_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\emojicon_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\emojicon_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmessage_homeadapter_group2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmessage_homeadapter_group2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\all_no_read.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\all_no_read.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts_department_supertreeview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_contacts_department_supertreeview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_sales_funnel.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_sales_funnel.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\extshardfilesdhomemyupdateapternodonw.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\extshardfilesdhomemyupdateapternodonw.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\today_message.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\today_message.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_trade_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_trade_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\journal_footprint_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\journal_footprint_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_view_pager2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_view_pager2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notice_person_list_head.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notice_person_list_head.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_notify_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_notify_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_tradecontant_remind.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_tradecontant_remind.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_detail_2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_detail_2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\add_by_person.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\add_by_person.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_edittext.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dialog_edittext.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_sort_department_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_sort_department_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_highseas_detail_client.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_highseas_detail_client.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\options_selected.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\options_selected.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_idea.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_idea.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_calendar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\popupwindow_calendar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_crm_client_home_business_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_crm_client_home_business_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_calendar_show.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\popupwindow_calendar_show.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_month_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dropdown_month_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\tab_object.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\tab_object.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_gallery.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\plugin_camera_gallery.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\custom_child_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\custom_child_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\my_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\my_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\emojicon_grid.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\emojicon_grid.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_publish.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_publish.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_emojicon_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_emojicon_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contact_item_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contact_item_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_emojicon_grid.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_emojicon_grid.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contacts.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_contacts.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\gv_head_icon_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\gv_head_icon_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\list_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\list_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_trend.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_trend.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_photos_imagelist_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_photos_imagelist_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_header.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_header.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\common_full_person_more.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\common_full_person_more.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\three_titie_one.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\three_titie_one.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_detail_4.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_detail_4.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\creative_idea.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\creative_idea.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_attendance_statistics_departmente.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_attendance_statistics_departmente.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\pop_notify_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\pop_notify_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_boss_fragment3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_boss_fragment3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_custom_1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_custom_1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_sign_in_listview_head1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_sign_in_listview_head1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\message_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\message_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\ac_sign_in.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\ac_sign_in.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\three_title.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\three_title.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\miss_card_itme.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\miss_card_itme.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_department_ss_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_department_ss_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\salesman_homepage.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\salesman_homepage.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_crm_client_home_record_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_crm_client_home_record_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\yus_alert_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\yus_alert_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\logo.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\logo.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contacts_phone_item_adapter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contacts_phone_item_adapter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\im_chatmessage_homeadapter_group4.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\im_chatmessage_homeadapter_group4.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_webview_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\14a6729b6c2a5a8711c3002a73a9932273996ac5\\output\\res\\layout\\jpush_webview_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_camera.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\list_item_camera.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_workallchrilduserpay_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_workallchrilduserpay_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\work_journal_manager.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\work_journal_manager.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\activity_locusline.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\activity_locusline.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_pop_item_04.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_pop_item_04.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_statistics_highseas_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_statistics_highseas_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\boss_self.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\boss_self.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notify.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\notify.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_client_detail.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_client_detail.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\da_workallchrildtrianfer_apdater.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\da_workallchrildtrianfer_apdater.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_schedule.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_schedule.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contact_phone_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contact_phone_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_statistics_month_contrast.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\item_task_statistics_month_contrast.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_trade_dongtai_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_trade_dongtai_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\lv_warn_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\lv_warn_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\approval_overtime.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\approval_overtime.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message_boss_2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_message_boss_2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\expenses_piechartview_table_one.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\expenses_piechartview_table_one.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\annex_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\annex_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\humanresoureproter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\humanresoureproter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\bsload_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\bsload_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\tow_tree_child_itme.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\tow_tree_child_itme.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_7.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\fragment_7.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\crm_contacts_add_more_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\crm_contacts_add_more_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\common_item_onlyname.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\common_item_onlyname.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_icon_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\dropdown_icon_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\layout\\idea_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\layout\\idea_view.xml"
+    }
+]

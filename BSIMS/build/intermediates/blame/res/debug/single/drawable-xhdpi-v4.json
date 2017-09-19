@@ -1,0 +1,974 @@
+[
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_06.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_06.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\oppose.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\oppose.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_audio1.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\right_audio1.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\boss_gaode_location.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\boss_gaode_location.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_contacts_search_image.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\ic_contacts_search_image.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_topone_bg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_topone_bg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\peixunmaozi.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\peixunmaozi.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pop_down.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\pop_down.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eye02.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\eye02.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\register_logo.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\register_logo.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_xls.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_xls.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_status_03.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_status_03.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaodeloaction_refresh_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaodeloaction_refresh_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_face_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_face_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_audio3.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\left_audio3.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_file_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_file_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_detail_status_03.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_detail_status_03.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gz_dianziphoto.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gz_dianziphoto.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_topthree_bg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_topthree_bg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_out.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\person_out.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gz_jiangcheng.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gz_jiangcheng.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_04.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_04.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lv_header1.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\lv_header1.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\t_adress_time.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\t_adress_time.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vertical_line.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\vertical_line.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_item_file.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_item_file.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_map_loc_ing_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_map_loc_ing_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_location_end1.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_location_end1.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\schedule_01.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\schedule_01.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\main_top_chat.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\main_top_chat.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chatting_biaoqing_btn_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_toptwo.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_toptwo.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_jiezhi.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_jiezhi.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_statistics_06.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_statistics_06.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\da_xinzizhang.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\da_xinzizhang.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\letter_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\letter_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_03.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_03.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_takepic_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_takepic_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\item_sgin_in_list_ic_late.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\item_sgin_in_list_ic_late.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_zip.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_zip.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_status_01.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_status_01.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_file_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_file_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dialog_bocop_loading_rotate_anim_img.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\dialog_bocop_loading_rotate_anim_img.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_nothing.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_nothing.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\peixuntime.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\peixuntime.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\peixunqueqing.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\peixunqueqing.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_img.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\default_img.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_statistics_04.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_statistics_04.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no_net.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\no_net.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_statistics_03.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_statistics_03.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\miss_img.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\miss_img.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_direction_point_todown.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_direction_point_todown.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_ic_arrow_right.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\common_ic_arrow_right.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\monthlyrecruitment.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\monthlyrecruitment.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_person_location.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_person_location.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gz_peixun.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gz_peixun.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedown_eyesget.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedown_eyesget.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cilrcle_has_blue20.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\cilrcle_has_blue20.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_01.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_01.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_statistics_05.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_statistics_05.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cq_timepick.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\cq_timepick.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_audio1.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\left_audio1.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_down.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\person_down.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dotted_line.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\dotted_line.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_ic_selected.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\common_ic_selected.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_car.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_car.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_map_loc_ing1.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_map_loc_ing1.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_audio3.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\right_audio3.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_same.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\person_same.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\letter_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\letter_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chatting_setmode_voice_btn_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chatting_setmode_voice_btn_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pie.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\pie.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_02.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_02.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedown_stop.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedown_stop.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\create_02_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\create_02_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\da_chenfa.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\da_chenfa.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chatting_biaoqing_btn_enable.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chatting_biaoqing_btn_enable.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_detail_status_01.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_detail_status_01.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\contacts_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\contacts_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\da_jiangli.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\da_jiangli.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_arrowdown.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_arrowdown.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\agree.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\agree.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_location_end.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_location_end.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gou.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gou.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_like.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_like.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\contacts_search_del.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\contacts_search_del.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_ic_unselect.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\common_ic_unselect.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_topone.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_topone.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_04.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_04.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_up.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\person_up.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\monthlyoverview.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\monthlyoverview.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_dparment.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_dparment.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_detail_status_02.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_detail_status_02.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_wait.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_wait.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_audio2.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\left_audio2.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_download_cancel.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\ic_download_cancel.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\peixunfenshu.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\peixunfenshu.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_status_02.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_status_02.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\monthlymoneychange.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\monthlymoneychange.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_in.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\person_in.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no_content.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\no_content.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\main_top_wait.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\main_top_wait.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_location_start.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_location_start.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_face_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_face_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\channel_rightblock.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\channel_rightblock.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_03.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_03.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gz_yuetan.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gz_yuetan.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\horizontal_line.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\horizontal_line.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_direction_point.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_direction_point.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\oppose_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\oppose_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\warn_bg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\warn_bg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\otherappwpsoffice.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\otherappwpsoffice.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chatting_setmode_keyboard_btn_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chatting_setmode_keyboard_btn_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_location_start1.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_location_start1.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gz_diaogangjilu.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gz_diaogangjilu.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no_schedule.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\no_schedule.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cq_binjia.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\cq_binjia.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gz_xinzi.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gz_xinzi.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cq_hunshangjia.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\cq_hunshangjia.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_status_04.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_status_04.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\item_sgin_in_list_ic_leaveearly.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\item_sgin_in_list_ic_leaveearly.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_location_noraml.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_location_noraml.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\contacts_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\contacts_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eye01.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\eye01.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_audio2.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\right_audio2.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kg_pig_transparent.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\kg_pig_transparent.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\create_02_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\create_02_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\create_03_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\create_03_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\create_01_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\create_01_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_takepic_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_takepic_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_donw.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_donw.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_main_message_boss_03.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\ic_main_message_boss_03.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_search.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_search.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_same.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_same.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_jpg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_jpg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\peixunchidao.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\peixunchidao.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_up.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_up.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\calendar_open.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\calendar_open.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\monthlysalarychange.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\monthlysalarychange.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_doc.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_doc.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\peixunquanqing.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\peixunquanqing.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\da_xinzijiang.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\da_xinzijiang.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_location_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_location_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_in_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_in_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_top_upload.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_top_upload.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_ppt.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_ppt.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\t_adress_info.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\t_adress_info.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\calendar_close.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\calendar_close.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_out_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_out_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_out_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_out_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_arrowup.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_arrowup.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_statistics_02.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_statistics_02.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\item_sgin_in_list_ic_n.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\item_sgin_in_list_ic_n.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_statistics_01.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_statistics_01.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_work_clientinformation_contactspersonman.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_work_clientinformation_contactspersonman.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_topbg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\person_topbg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_toptwo_bg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_toptwo_bg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_pition_dot.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_pition_dot.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_07.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_07.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nsm_logging_delete_btn.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\nsm_logging_delete_btn.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_02.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_02.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\monthlyleavework.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\monthlyleavework.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_in_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_in_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filedonw_likeout.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\filedonw_likeout.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\type_select_btn_nor.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\type_select_btn_nor.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_boss_01.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\message_boss_01.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\da_alltime.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\da_alltime.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_info.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\person_info.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\miss_date.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\miss_date.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_image_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_image_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_map_loc_ing.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_map_loc_ing.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\type_select_btn_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\type_select_btn_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_work_clientinformation_contactsperson.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_work_clientinformation_contactsperson.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaode_side_map_bg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaode_side_map_bg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\main_top_system.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\main_top_system.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_image_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\chat_image_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_down.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_down.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\channel_leftblock.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\channel_leftblock.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\agree_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\agree_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\create_03_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\create_03_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_detail_status_04.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_detail_status_04.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\create_01_select.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\create_01_select.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\file_list_topthree.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\file_list_topthree.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gaodeloaction_refresh.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\gaodeloaction_refresh.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statistics_05.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\statistics_05.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fee_img.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\fee_img.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_shiji.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\approval_shiji.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow_write.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\arrow_write.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\baisc_info_drop.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable-xhdpi\\baisc_info_drop.png"
+    }
+]

@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+
+android {
+//    signingConfigs {
+//        bsims_keystore {
+//            keyAlias 'peckbeisheng20150520.keystore'
+//            keyPassword 'wzl'
+//            storeFile file('G:/wuzhanglong/android_studio/workspace/Wuzhanglong/BSIMS/peckbeisheng20150520.keystore')
+//            storePassword 'beisheng.wang/api.php/Login/index/username/13487100852/ftoken/RBDTZXGUMNDKkEwMkZFN0UyMTA1RgO0O0OO0O0O'
+//        }
+//    }
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+    defaultConfig {
+        applicationId "com.bs.bsims"
+        minSdkVersion 15
+        targetSdkVersion 22
+//        targetSdkVersion 25
+        multiDexEnabled true
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "3cf534d8d4a433e7f4fd920c", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+    }
+    
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+//            signingConfig signingConfigs.bsims_keystore
+        }
+//        debug {
+//            signingConfig signingConfigs.bsims_keystore
+//        }
+
+    }
+
+
+}
+
+android {
+    useLibrary 'org.apache.http.legacy'
+}
+
+
+
+dependencies {
+    //    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile project(':BSIMS:library:bSLibrarySwipeListView')
+    compile project(':BSIMS:library:bSLibraryPhotoView')
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/AMap_Location_V3.1.0_20161027.jar')
+    compile files('libs/AMap_Services_V2.7.0_20151125.jar')
+    compile files('libs/android-async-http-1.4.7.jar')
+    compile files('libs/Android_2DMapApi_V2.4.1.jar')
+    compile files('libs/commons-io.jar')
+    compile files('libs/easemobchat_2.0.6.jar')
+
+    compile files('libs/Msc.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile files('libs/Xutils3.jar')
+    compile files('libs/yunzhixun_IM_SDK_ver_3.0.4.3_release.jar')
+    compile files('libs/yunzhixun_tcp_SDK_ver_3.0.5.1_release.jar')
+    compile 'cn.jiguang.sdk:jpush:3.0.3'
+    // 此处以JPush 3.0.3 版本为例。
+    compile 'cn.jiguang.sdk:jcore:1.1.1'
+    // 此处以JCore 1.1.1 版本为例。
+//    compile 'com.r0adkll:slidableactivity:2.0.5'
+//    compile 'com.aitangba:swipeback:1.0.1'
+    //滑动返回
+    //    compile 'com.aitangba:swipeback:1.0.1'
+    compile 'pub.devrel:easypermissions:0.3.0'
+    compile "com.android.support:multidex:1.0.0"
+}

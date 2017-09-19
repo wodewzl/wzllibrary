@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <com.bs.bsims.view.BSCircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto "
+            android:id="@+id/item_taskstatistics_progressbar_head_icon"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_default_portrait_s"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/img_item_taskstatistics_progressbar_havefile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ic_taskevent_fujian_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/item_taskstatistics_progressbar_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img_item_taskstatistics_progressbar_havefile"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="肖方"
+                android:textColor="@color/title_text" />
+
+            <TextView
+                android:id="@+id/item_taskstatistics_progressbar_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/common_ic_arrow_right"
+                android:text="2015-4-24 16:39"
+                android:textColor="@color/gray_light_text" />
+
+            <TextView
+                android:id="@+id/item_taskstatistics_progressbar_type_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/item_taskstatistics_progressbar_name_tv"
+                android:text="【创意】"
+                android:textColor="@color/gray_light_text" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_taskstatistics_progressbar_name_tv" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <ProgressBar
+                        android:id="@+id/item_taskstatistics_progressbar_seekbar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="220dip"
+                        android:layout_height="7dip"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/item_taskeventlistadapter_progressdrawable" />
+
+                    <TextView
+                        android:id="@+id/item_taskstatistics_progressbar_content_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@id/item_taskstatistics_progressbar_seekbar"
+                        android:text="关于对新人制度的意见"
+                        android:textColor="@color/gray_light_text"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/item_taskstatistics_progressbar_state_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:src="@drawable/creative_01"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

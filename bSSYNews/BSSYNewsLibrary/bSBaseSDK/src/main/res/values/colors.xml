@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="C1">#ffffff</color>
+    <!-- 灰色背景 -->
+    <color name="C2">#efefef</color>
+    <color name="C3_1">#cfcfcf</color>
+    <color name="C3_2">#dcdcdc</color>
+    <color name="C3">#eeeeee</color>
+    <color name="C4">#000000</color>
+    <color name="C5">#666666</color>
+    <color name="C6">#aaaaaa</color>
+    <!-- 蓝色 -->
+    <color name="C7">#00a9fe</color>
+    <!-- 蓝色—深 -->
+    <color name="C7_h">#4492C2</color>
+    <color name="C8">#f8f8f8f8</color>
+    <color name="C9">#ff0000</color>
+    <color name="C16">#81bbe0</color>
+    <color name="C17">#d1d1d1</color>
+
+    <!-- 黄色 -->
+    <color name="C10">#FFBA00</color>
+    <color name="C11">#8fd8f2</color>
+    <!-- 绿色 -->
+    <color name="C12">#019A3F</color>
+
+    <!-- 棕色 -->
+    <color name="C13">#F66E58</color>
+    <color name="C14">#999999</color>
+    <!-- 透明 -->
+    <color name="C15">#00000000</color>
+    <!-- 半透明 -->
+    <color name="C18">#e0000000</color>
+    <color name="grey_dark">#B5B5B5</color>
+    <color name="blue_pressed">#3094cf</color>
+    <color name="grey">#CFCFCF</color>
+    <color name="blug_bg">#00A9FE</color>
+
+    <!-- 十堰新闻title颜色 -->
+    <color name="sy_title_color">#B10304</color>
+    <color name="text_hint_color">#888888</color>
+    <color name="devider_bg">#dddddd</color>
+</resources>

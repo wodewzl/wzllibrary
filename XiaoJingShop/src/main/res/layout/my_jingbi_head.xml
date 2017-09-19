@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/C1"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_20">
+
+        <TextView
+            android:id="@+id/type_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="可用鲸币"
+            android:textSize="@dimen/sp_16"/>
+
+        <TextView
+            android:id="@+id/jingbi_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥365"
+            android:textColor="@color/XJColor6"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/C3"/>
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_15"
+        android:orientation="vertical"
+
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/all_tv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/XJColor4"
+                android:gravity="center"
+                android:text="总"
+                android:textColor="@color/C1"/>
+
+            <LinearLayout
+                android:id="@+id/all_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                style="@style/padding_15_10">
+
+                <TextView
+                    android:id="@+id/all_tv_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="总鲸币："
+                    android:textColor="@color/C5"/>
+
+                <TextView
+                    android:id="@+id/all_tv_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/C5"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/over_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/freeze_tv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/XJColor5"
+                android:gravity="center"
+                android:text="余"
+                android:textColor="@color/C1"/>
+
+            <LinearLayout
+                android:id="@+id/freeze_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                style="@style/padding_15_10">
+
+                <TextView
+                    android:id="@+id/freeze_tv_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="冻结鲸币："
+                    android:textColor="@color/C5"/>
+
+                <TextView
+                    android:id="@+id/freeze_tv_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sss"
+                    android:textColor="@color/C5"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/shop_tv"
+        style="@style/Material.Drawable.Ripple.Wave"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="去消费"
+        android:textColor="@color/XJColor6"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+
+              android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/C9"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="华莱士"
+            android:textColor="@color/C4"
+            android:textSize="14sp"/>
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:progressTint="@color/C10"
+            android:rating="5"
+            android:stepSize="0.5"
+            />
+
+        <TextView
+            android:id="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/rating_bar"
+            android:text="9.8"
+            android:textColor="@color/C10"
+            />
+
+        <TextView
+            android:id="@+id/month_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/star"
+            android:text="月销量888单"
+            />
+
+        <TextView
+            android:id="@+id/send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/name"
+            android:layout_toRightOf="@id/month_sale"
+            android:gravity="right"
+            android:text="20分钟送达"
+            />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/star"
+            android:text="起送20元 | 配送2元"
+
+            />
+
+        <View
+            android:id="@+id/devider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/desc"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/devider_bg"/>
+
+        <TextView
+            android:id="@+id/new_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/devider"
+            android:background="@color/C12"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="新"
+            android:textColor="@color/C1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/devider"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/new_bg"
+            android:text="新用户下单立减15.0"
+            android:textColor="@color/C10"/>
+
+        <TextView
+            android:id="@+id/less"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_bg"
+            android:layout_marginTop="10dp"
+            android:background="@color/C12"
+            android:padding="2dp"
+            android:text="减"
+            android:textColor="@color/C1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_bg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/less"
+            android:text="新用户下单立减15.0"
+            android:textColor="@color/C10"/>
+    </RelativeLayout>
+</LinearLayout>

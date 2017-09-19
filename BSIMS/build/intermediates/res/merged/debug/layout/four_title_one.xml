@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_bg_01"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/title01"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/title_name_01"
+                style="@style/F3C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/by_more" />
+
+            <ImageView
+                android:id="@+id/select_icon01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_contacts_department_fragment_arrow_default1" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/devider_02"
+            android:layout_width="1dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_vertical"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:id="@+id/title02"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/title_name_02"
+                style="@style/F3C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="@string/by_sector" />
+
+            <ImageView
+                android:id="@+id/select_icon02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_contacts_department_fragment_arrow_default1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_vertical"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:id="@+id/title03"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/title_name_03"
+                style="@style/F3C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/by_post" />
+
+            <ImageView
+                android:id="@+id/select_icon03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_contacts_department_fragment_arrow_default1" />
+        </LinearLayout>
+        <View
+            android:layout_width="1dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_vertical"
+            android:background="#e6e6e6" />
+
+        <LinearLayout
+            android:id="@+id/title04"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/title_name_04"
+                style="@style/F3C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/by_post" />
+
+            <ImageView
+                android:id="@+id/select_icon04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_contacts_department_fragment_arrow_default1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/title_layout"
+        android:background="#e6e6e6" />
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/C1"
+>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/subscribe_main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:orientation="vertical"
+        android:layout_marginTop="14.0dip"
+        android:paddingBottom="14.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/my_category_text"
+                style="@style/F2C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的频道" />
+
+            <TextView
+                android:id="@+id/my_category_text_drag"
+                style="@style/F4C5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="长按拖动排序" />
+<LinearLayout
+    android:id="@+id/delete_ll"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+              android:layout_height="30dp">
+            <TextView
+                android:id="@+id/delete_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:paddingRight="4dp"
+                android:text="点击编辑"
+                android:textSize="16sp"
+                android:textColor="@color/sy_title_color" />
+</LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/seperate_line"
+            style="@style/subscribe_seperate_line" />
+
+        <com.beisheng.synews.view.DragGrid
+            android:id="@+id/userGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="14dip"
+            android:gravity="center"
+            android:horizontalSpacing="15dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dip" />
+
+        <View
+            android:id="@+id/seperate_line2"
+            style="@style/subscribe_seperate_line" />
+
+        <TextView
+            android:id="@+id/more_category_text"
+            style="@style/subscribe_more_tip_text"
+            android:layout_marginBottom="14.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:text="更多频道" />
+
+        <com.beisheng.synews.view.OtherGridView
+            android:id="@+id/otherGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="14dip"
+            android:gravity="center"
+            android:horizontalSpacing="15dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dip" />
+        <View
+            android:id="@+id/seperate_line3"
+            style="@style/subscribe_seperate_line" />
+
+        <TextView
+            android:id="@+id/city_category_text"
+            style="@style/subscribe_more_tip_text"
+            android:layout_marginBottom="14.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:text="市县区频道" />
+        <com.beisheng.synews.view.CityGridView
+            android:id="@+id/cityGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="14dip"
+            android:gravity="center"
+            android:horizontalSpacing="15dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dip" />
+        <View
+            android:id="@+id/seperate_line4"
+            style="@style/subscribe_seperate_line" />
+
+        <TextView
+            android:id="@+id/branch_category_text"
+            style="@style/subscribe_more_tip_text"
+            android:layout_marginBottom="14.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:text="部门频道" />
+        <com.beisheng.synews.view.BranchGridView
+            android:id="@+id/branchGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="14dip"
+            android:gravity="center"
+            android:horizontalSpacing="15dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:layout_marginBottom="15dp"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dip" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

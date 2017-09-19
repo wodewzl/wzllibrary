@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\base_fragment.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\base_fragment.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_image.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\list_item_image.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\progress_bar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\progress_bar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\image_preview.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\image_preview.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\activity_default.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\activity_default.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_multi_image.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\fragment_multi_image.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\list_item_folder.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\slide_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\slide_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\my_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\my_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\base_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\update_download_notification_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\update_download_notification_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_lv_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\dialog_lv_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\no_content_layout.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\no_content_layout.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\top_indicator_item.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\top_indicator_item.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_camera.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\src\\main\\res\\layout\\list_item_camera.xml"
+    }
+]

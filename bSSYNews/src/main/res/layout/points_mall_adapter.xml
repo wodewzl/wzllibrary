@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/C1"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/commodity_img"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/base_article_bigimage" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/commodity_img"
+            android:layout_marginTop="3dp"
+            android:lines="2"
+            android:text="原价点点滴滴"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/desc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/name_tv"
+            android:layout_marginTop="3dp"
+            android:text="我喜欢地地道道的"
+            android:textColor="#F0953A"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/name_tv"
+            android:layout_marginTop="3dp"
+            android:text="原价点点滴滴"
+            android:textColor="#F0953A" 
+             android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

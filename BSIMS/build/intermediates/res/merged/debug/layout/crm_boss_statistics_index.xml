@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.bs.bsims.view.ReboundScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/tv_location_father_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/C3"
+                android:gravity="center"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp" >
+
+                <TextView
+                    android:id="@+id/last_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/corners_tab_trade_left_normal"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxWidth="150dp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="上月"
+                    android:textColor="@color/C5" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#dddddd" />
+
+                <TextView
+                    android:id="@+id/this_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/corners_tab_center_select"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxWidth="150dp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="本月"
+                    android:textColor="@color/C1" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="fill_parent"
+              android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#dddddd" />
+
+                <TextView
+                    android:id="@+id/this_season"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/corners_tab_trade_right_normal"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxWidth="150dp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="本季度"
+                    android:textColor="@color/C5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/select_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/sale_title_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/yibiaopan_01"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/yibiaopan_02"
+                    android:textColor="@color/C5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1" >
+
+                    <com.bs.bsims.view.BSCrmTrapezoidalFunnelView
+                        android:id="@+id/crmfunnelview"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text01"
+                        style="@style/text_s14_end_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/crm_funnel_top5"
+                        android:drawablePadding="3dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/text02"
+                        style="@style/text_s14_end_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/crm_funnel_top4"
+                        android:drawablePadding="3dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/text03"
+                        style="@style/text_s14_end_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/crm_funnel_top3"
+                        android:drawablePadding="3dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/text04"
+                        style="@style/text_s14_end_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/crm_funnel_top2"
+                        android:drawablePadding="3dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/text05"
+                        style="@style/text_s14_end_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/crm_funnel_top1"
+                        android:drawablePadding="3dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/C1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="最大成交额"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_maxmoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@color/red" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/C3" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/C1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="预测总金额"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_dopemoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@color/red" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/C1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="目标金额"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_targetmoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@color/red" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/new_add_client_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/crm_boss_top3_customer" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="新增客户"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_newcm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#15B1A6"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/new_add_bussiness_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/crm_boss_top3_bussinesnew" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="新增商机"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_newbs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#FBCE01"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/new_add_trades_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/crm_boss_top3_ideaway" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="新增合同"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_newtd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#4AB0F2"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/crm_statics_sales_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_salett"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/statistics_sale"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:text="销售业绩" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal|right"
+                        android:text="1111"
+                        android:textColor="#40D7C7"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_getmoney"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="1111"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        style="@style/F4C6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal|right"
+                        android:text="回款率" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_target_money"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="1111"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/crm_statics_trande_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_trade"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/statistics_trade"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:text="合同分析" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_trade_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal|right"
+                        android:text="1111"
+                        android:textColor="#2BA8D9"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_gettrade"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="11111"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        style="@style/F4C6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal|right"
+                        android:text="应收款" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_trade_money"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="11111"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/static_vistor_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/statistics_visitor"
+                        android:drawablePadding="5dp"
+                        android:gravity="center_vertical"
+                        android:text="跟单记录" />
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_visitorpercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal|right"
+                        android:textColor="#EA4A4A"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_vcnum"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="1111"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        style="@style/F4C6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal|right"
+                        android:text="日均拜访"
+                        android:textColor="@color/gray_bg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/crm_boos_statistics_vvnum"
+                        style="@style/text_midlle_eclipse25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="1111"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/crm_statics_client_layout"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <TextView
+                    style="@style/text_midlle_eclipse25"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/statistics_customer"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="center_vertical"
+                    android:text="客户分析" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:onClick="readALLCcount"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/board_customerall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1111"
+                            android:textColor="#15B1A6" />
+
+                        <TextView
+                            style="@style/F4C6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="客户总量" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:onClick="readMonthAddCcount"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/board_customeradd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1111"
+                            android:textColor="#FBCE01"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            style="@style/F4C6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="新增客户" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/new_add_trades_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:onClick="readMonthGiveCcount"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/board_customergive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1111"
+                            android:textColor="#4AB0F2"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            style="@style/F4C6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="放弃客户" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/crm_statiics_bussness_layout"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <TextView
+                    style="@style/text_midlle_eclipse25"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/statistics_bussines"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="center_vertical"
+                    android:text="商机分析" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:onClick="readALLBcount"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/board__bussinesall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1111"
+                            android:textColor="#15B1A6" />
+
+                        <TextView
+                            style="@style/F4C6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="商机总量" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:onClick="readMonthAddBcount"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/board__bussinesadd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1111"
+                            android:textColor="#FBCE01"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            style="@style/F4C6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="新增商机" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:onClick="readMonthGiveBcount"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/board__bussinesgive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1111"
+                            android:textColor="#4AB0F2"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            style="@style/F4C6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="输单商机" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.bs.bsims.view.ReboundScrollView>
+
+</LinearLayout>

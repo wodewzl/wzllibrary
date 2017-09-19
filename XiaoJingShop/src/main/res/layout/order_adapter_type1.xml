@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/C3"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:orientation="horizontal"
+        style="@style/padding_15_10"
+        android:layout_marginBottom="0.8dp">
+
+        <TextView
+            android:id="@+id/shop_people_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="小鲸"
+            android:textSize="@dimen/sp_14"
+            />
+
+        <TextView
+            android:id="@+id/order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="小鲸"
+            android:textColor="@color/XJColor2"
+            android:textSize="@dimen/sp_14"/>
+    </LinearLayout>
+
+</LinearLayout>

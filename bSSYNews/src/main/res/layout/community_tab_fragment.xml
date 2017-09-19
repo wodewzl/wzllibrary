@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    tools:context="com.tiger.quicknews.activity.MainActivity" >
+
+    <com.beisheng.base.view.BSAutoSwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"  >
+         <com.beisheng.synews.view.BSListViewLoadMore
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:visibility="gone">
+        </com.beisheng.synews.view.BSListViewLoadMore> 
+    </com.beisheng.base.view.BSAutoSwipeRefreshLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaojing.shop.activity.HistoryShopActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/title_view"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/C7"
+            android:orientation="horizontal"
+            android:paddingRight="15dp"
+            android:paddingTop="25dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/back_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/base_ic_head_back"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/C1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/search_et"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners_bantouming"
+                android:drawableRight="@drawable/ic_search_white_18dp"
+                android:hint="搜索您想要的宝贝"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/C1"
+                android:textColorHint="@color/C1"
+                android:textSize="@dimen/sp_12"
+                android:imeOptions="actionSearch"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/C1"
+            android:orientation="horizontal">
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/option_tv01"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="销量"
+                android:textSize="13sp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/C3"
+                />
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/option_tv02"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/shop_list_sort"
+                android:gravity="center"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:text="价格"
+                android:textSize="13sp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/C3"/>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/option_tv03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/shop_list_saixuan"
+                android:gravity="center"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:text="筛选"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/price_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:animateLayoutChanges="true"
+            android:background="@color/C1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/start_price_tv"
+                style="@style/margin_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/C9"
+                android:gravity="center"
+                android:hint="起始价格"
+                android:inputType="numberDecimal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:textColorHint="@color/C6"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="至"/>
+
+            <EditText
+                android:id="@+id/end_price_tv"
+                style="@style/margin_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/C9"
+                android:gravity="center"
+                android:hint="结束价格"
+                android:inputType="numberDecimal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:textColorHint="@color/C6"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/ok_tv"
+                style="@style/margin_15_10"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@color/XJColor2"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:text="确定"
+                android:textColor="@color/C1"/>
+        </LinearLayout>
+
+        <com.wuzhanglong.library.view.AutoSwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp">
+
+            <com.github.jdsjlzx.recyclerview.LuRecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_15"/>
+        </com.wuzhanglong.library.view.AutoSwipeRefreshLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

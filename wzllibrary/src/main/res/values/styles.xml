@@ -1,0 +1,284 @@
+<resources>
+
+
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowBackground">@color/C2</item>-->
+        <!--<item name="colorPrimaryDark">@color/sy_title_color</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+
+        <item name="android:textColor">@color/C4</item>
+        <item name="android:textSize">12sp</item>
+        <!--<item name="android:windowAnimationStyle">@style/HoloThemeActivityAnimation</item>-->
+        <item name="colorPrimary">@color/C11</item>
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+    <style name="Theme.AppStartLoad" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/logo</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <!-- 设置右滑主题 -->
+    <style name="AppThemeTranslucent" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/HoloThemeActivityAnimation</item>
+        <!-- 设置背景透明，右滑时才能看到上一个界面，否则会看到黑屏效果-->，
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+    <!--Activity退出动画-->
+    <style
+        name="HoloThemeActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+
+    <!--主界面单独设置以下主题，不透明,否则右滑不是显示上一个页面而是直接显示桌面了~-->
+    <style name="AppThemeNoTranslucent" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="F4C1">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+
+    <style name="F5C1">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+
+    <style name="F2C1">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+
+    <style name="F2C7">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+
+    <style name="F5C7">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+
+    <style name="F1C4">
+        <item name="android:textSize">@dimen/F1</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+
+    <style name="F5C6">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+
+    <style name="F5C4">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+
+    <style name="F5C5">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+
+    <style name="F3C6">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+
+    <style name="F3C7">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+
+    <style name="F3C11">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C11</item>
+    </style>
+
+    <style name="F3C10">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C10</item>
+    </style>
+
+    <style name="F4C7">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+
+    <style name="F4C15">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+
+    <style name="F3C4">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+
+    <style name="F3C5">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+
+    <style name="F3C9">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C9</item>
+    </style>
+
+    <style name="F3C1">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+
+    <style name="F2C5">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+
+    <style name="F1C1">
+        <item name="android:textSize">@dimen/F1</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+
+    <style name="F4C4">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+
+    <style name="F4C6">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+
+    <style name="F4C5">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+
+    <style name="F2C4">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+
+    <style name="F4C14">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C14</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowBackground">@color/C19</item>-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="action_bar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+
+    <style name="AppTheme.Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--colorPrimaryDark对应状态栏的颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--colorPrimary对应ActionBar的颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--colorAccent 对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="WZLCheckBox">
+        <item name="cbd_width">32dp</item>
+        <item name="cbd_height">32dp</item>
+        <item name="cbd_boxSize">15dp</item>
+        <item name="cbd_cornerRadius">100dp</item>
+        <item name="cbd_strokeSize">2dp</item> <!--边框-->
+        <item name="cbd_strokeColor">@color/C7</item>
+
+        <!--<item name="cbd_tickColor">@color/C9</item>选择勾的颜色-->
+        <item name="cbd_animDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+
+    <style name="padding_15_10">
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:paddingRight">@dimen/dp_15</item>
+        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:paddingBottom">@dimen/dp_10</item>
+    </style>
+
+    <style name="margin_15_10">
+        <item name="android:layout_marginLeft">@dimen/dp_15</item>
+        <item name="android:layout_marginRight">@dimen/dp_15</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:layout_marginBottom">@dimen/dp_10</item>
+    </style>
+
+
+    <style name="padding_15_13">
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:paddingRight">@dimen/dp_15</item>
+        <item name="android:paddingTop">@dimen/dp_13</item>
+        <item name="android:paddingBottom">@dimen/dp_13</item>
+    </style>
+
+    <style name="margin_15_13">
+        <item name="android:layout_marginLeft">@dimen/dp_15</item>
+        <item name="android:layout_marginRight">@dimen/dp_15</item>
+        <item name="android:layout_marginTop">@dimen/dp_13</item>
+        <item name="android:layout_marginBottom">@dimen/dp_13</item>
+    </style>
+
+    <style name="BaseAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="BaseAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="TextAppearance.AppCompat.Light" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="item1_custom" parent="Material.Drawable.Ripple.Wave">
+        <item name="rd_rippleColor">#20000000</item>
+    </style>
+    <style name="item2_custom" parent="Material.Drawable.Ripple.Touch">
+        <item name="rd_rippleColor">#20000000</item>
+    </style>
+
+    <style name="view_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:background">@color/C3</item>
+    </style>
+</resources>

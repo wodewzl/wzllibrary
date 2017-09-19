@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/leave_layout"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_selecttor"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/parent_tv_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/approval_type"
+                    android:drawablePadding="10dp"
+                    android:text="@string/approval_small_type" />
+
+                <TextView
+                    android:id="@+id/approval_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/gray_light_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/common_ic_arrow_right" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                style="@style/parent_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="申诉日期" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:onClick="onGetLastMonth"
+                    android:src="@drawable/calendar_last_focused" />
+
+                <LinearLayout
+                    android:id="@+id/monthtranfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corners_blue"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <!-- calender_icon  android:background="@drawable/corners_blue" btn_sign_in_list_head_action  ic_main_message_05 genera_07_selected -->
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:id="@+id/start_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/cq_timepick"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="2016年7月"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:onClick="onGetNextMonth"
+                    android:src="@drawable/calendar_next_unfocused" />
+            </LinearLayout>
+
+    
+
+            <LinearLayout
+                android:id="@+id/start_time_layout"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/missing_card_date"
+                    style="@style/parent_tv_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/start_time"
+                    android:drawablePadding="10dp"
+                    android:text="@string/missing_card_date" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/gray_light_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/common_ic_arrow_right" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/missing_card_title"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/missing_card_reason" />
+
+            <EditText
+                android:id="@+id/missing_card_content"
+                style="@style/style02"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#ffff"
+                android:gravity="top"
+                android:hint="请输入原因"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" />
+
+            <include layout="@layout/approval_people" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg_01"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/gray_text"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/sure"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/blug_bg"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</LinearLayout>

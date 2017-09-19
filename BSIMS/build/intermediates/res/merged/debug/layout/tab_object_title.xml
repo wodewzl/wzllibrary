@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<!--     <CheckedTextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textSize="0dp"/> -->
+    
+<!--         <LinearLayout
+            android:id="@+id/ll_all"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/tab_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/by_sector"
+                android:textColor="#4d4d4d" 
+                android:layout_marginRight="5dp"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/bg_select_selecttor"/>
+
+             <ImageView
+                android:id="@+id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:src="@drawable/ic_contacts_department_fragment_arrow_selected" / 
+        </LinearLayout> -->
+        
+                   <TextView
+                android:id="@+id/tab_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/by_sector"
+                android:textColor="#4d4d4d" 
+                android:layout_marginRight="5dp"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/bg_select_selecttor"/>
+        
+                <View
+            android:layout_width="1dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_vertical"
+            android:background="#e6e6e6" />
+
+<!--     <ImageView
+        android:id="@+id/indicate_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@id/item_name"
+        android:src="@drawable/update_hint"
+        android:visibility="gone" /> -->
+
+</LinearLayout>

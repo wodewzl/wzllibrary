@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/lead_tv"
+                    style="@style/smallTitle"
+                    android:text="@string/leading_reviews" />
+
+            <com.bs.bsims.view.BSListView
+                android:id="@+id/lv_lead"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:divider="@null" />
+
+            <TextView
+                android:id="@+id/general_tv"
+                style="@style/smallTitle"
+                android:text="@string/discuss" />
+
+            <com.bs.bsims.view.BSListView
+                android:id="@+id/lv_general"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@null" 
+                android:background="@color/white"/>
+
+</LinearLayout>

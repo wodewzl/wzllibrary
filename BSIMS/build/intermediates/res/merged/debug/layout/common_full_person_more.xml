@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_part_personMore"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+
+    <LinearLayout
+        android:id="@+id/linear_common_arrow_threePoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/common_img_personMore_threePoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/common_ic_three_points" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/common_ic_arrow_right" />
+    </LinearLayout>
+
+    <com.bs.bsims.view.MyGridView
+        android:id="@+id/common_myGridViewOfClass_full"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/linear_common_arrow_threePoints"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+         android:paddingLeft="5dp"
+         android:paddingTop="10dp"
+         android:paddingBottom="10dp"/>
+
+</RelativeLayout>

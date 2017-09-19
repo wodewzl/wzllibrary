@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\del_icon_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\del_icon_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\base_article_bigimage.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\base_article_bigimage.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\loading_pin.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\loading_pin.png"
+    }
+]

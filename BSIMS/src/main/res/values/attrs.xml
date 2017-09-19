@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabWidget">
+        <attr name="bottom_labels" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="BSCircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="border_width_out" format="dimension"/>
+        <attr name="border_color_out" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FlowIndicator">
+        <attr name="count" format="integer"/>
+        <attr name="space" format="dimension"/>
+        <attr name="point_size" format="dimension"/>
+        <attr name="point_seleted_color" format="color|reference"/>
+        <attr name="point_normal_color" format="color|reference"/>
+        <attr name="point_radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"/>
+        <attr name="max" format="integer"/>
+        <attr name="textIsDisplayable" format="boolean"/>
+        <attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+    </declare-styleable>
+    <declare-styleable name="LoadingView">
+        <attr name="loadingText" format="string"/>
+        <attr name="loadingTextAppearance" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer"/>
+        <attr name="rv_framerate" format="integer"/>
+        <attr name="rv_rippleDuration" format="integer"/>
+        <attr name="rv_zoomDuration" format="integer"/>
+        <attr name="rv_color" format="color"/>
+        <attr name="rv_centered" format="boolean"/>
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0"/>
+            <enum name="doubleRipple" value="1"/>
+            <enum name="rectangle" value="2"/>
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension"/>
+        <attr name="rv_zoom" format="boolean"/>
+        <attr name="rv_zoomScale" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension"/>
+        <attr name="emojiconAlignment" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="baseline" value="1"/>
+        </attr>
+        <attr name="emojiconTextStart" format="integer"/>
+        <attr name="emojiconTextLength" format="integer"/>
+        <attr name="emojiconUseSystemDefault" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColor" format="color"/>
+
+    <declare-styleable name="IMChatImageView">
+        <attr name="from" format="enum">
+            <enum name="left" value="1"/>
+            <enum name="right" value="0"/>
+        </attr>
+        <attr name="image" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="location" value="1"/>
+        </attr>
+        <attr name="imageStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="location" value="1"/>
+        </attr>
+        <attr name="textAreaBkg" format="color"/>
+        <attr name="arrowWidthOffset" format="dimension"/>
+        <attr name="arrowHeightOffset" format="dimension"/>
+        <attr name="circleDismen" format="dimension"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+    </declare-styleable>
+    <declare-styleable name="MessagePopView">
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="focusColor" format="color"/>
+        <attr name="operateStyle">
+            <enum name="copy" value="0"/>
+            <enum name="delete" value="1"/>
+            <enum name="copyAnddelete" value="2"/>
+        </attr>
+        <attr name="trangleH" format="dimension"/>
+        <attr name="paddingL" format="dimension"/>
+        <attr name="devideWidth" format="dimension"/>
+        <attr name="devideColor" format="color"/>
+    </declare-styleable>
+
+</resources>

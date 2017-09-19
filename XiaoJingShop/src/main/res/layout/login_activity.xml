@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wuzhanglong.library.view.ReboundScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/C1"
+        android:orientation="vertical"
+        android:paddingTop="70dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/login_logo"/>
+
+        <net.anumbrella.customedittext.FloatLabelView
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dip"
+            android:gravity="center_vertical"
+            android:hint="手机号"
+
+            android:layout="@layout/custom_user_edittext"
+            android:textColorHint="@color/C6"
+            app:leftDistance="1dip"
+            />
+
+        <net.anumbrella.customedittext.FloatLabelView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="5dip"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:layout="@layout/custom_password_edittext"
+            android:textColorHint="@color/C6"
+            app:leftDistance="1dip"
+            />
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/user"
+            style="@style/WZLCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="商户"
+            android:visibility="gone"/>
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/shop"
+            style="@style/WZLCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/password"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="会员"
+            android:visibility="gone"/>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/login_bt"
+            style="@style/Material.Drawable.Ripple.Wave.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shop"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="20dp"
+            android:background="@color/C7"
+            android:text="登 录"
+            android:textColor="@color/C1"
+            android:textSize="14sp"
+            app:rd_enable="true"/>
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/regist_tv"
+            style="@style/Material.Drawable.Ripple.Wave.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_bt"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="免费注册"
+            android:textColor="@color/C7"/>
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/reset_tv"
+            style="@style/Material.Drawable.Ripple.Wave.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/login_bt"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="找回密码"
+            android:textColor="@color/C7"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_vertical"
+                    android:text="服务热线"
+                    android:textColor="@color/C3_1"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+            </LinearLayout>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/phone_tv"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/contacts_phone_normal"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="400-766-7778"
+                android:textColor="@color/C7"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="武汉小鲸优品电子商务有限公司"
+                android:textColor="@color/C3_1"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.wuzhanglong.library.view.ReboundScrollView>
+

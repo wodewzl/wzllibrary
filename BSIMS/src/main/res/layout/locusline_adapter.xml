@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_locus_item_date"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/time_bg"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="2016-03-01"
+        android:textColor="@color/C1"
+        android:layout_marginBottom="6dp" />
+    
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <com.bs.bsims.view.BSCircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto "
+            android:id="@+id/img_locus_item_head_iconbasic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparent"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_locus_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:maxLength="5"
+                    android:text="肖方"
+                    android:textSize="16sp" />
+                
+                <TextView
+                    android:id="@+id/tv_locus_item_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:maxLength="10"
+                    android:text="111111"
+                    android:textColor="@color/C6"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_locus_item_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:textColor="@color/C5" />
+                
+                <TextView
+                   android:id="@+id/tv_locus_item_time"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="5dp"
+                   android:ellipsize="end"
+                   android:gravity="center_vertical"
+                   android:singleLine="true"
+                   android:text="15:33"
+                   android:textColor="@color/C5" />
+                
+            </LinearLayout>
+            
+            <TextView
+                android:drawableLeft="@drawable/crm_client_address_black"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tv_locus_item_address"
+                style="@style/text_s14_end_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="具体地理位置"
+                android:textColor="@color/C5" />
+
+            <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+               <TextView
+                   android:drawableLeft="@drawable/is_topaddress"
+                    android:id="@+id/tv_locus_item_reportLocation"
+                    style="@style/text_s14_end_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="上报位置1111111111111111111111111111111111111111111"
+                    android:textColor="@color/C5" 
+                    android:visibility="gone"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="5dp"
+                   android:ellipsize="end"
+                   android:gravity="center_vertical"
+                   android:singleLine="true"
+                   android:text="15:33"
+                   android:textColor="@color/C5"
+                   android:visibility="gone" />
+            </LinearLayout> -->
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="大力打击" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+         <ProgressBar
+                android:id="@+id/count_pb"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dip"
+                android:indeterminate="false"
+                android:layout_weight="1"
+                android:progress="30"
+                android:progressDrawable="@drawable/item_taskeventlistadapter_progressdrawable" />
+
+            <TextView
+                  android:id="@+id/count_tv"
+                style="@style/F5C5"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="次跟进" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

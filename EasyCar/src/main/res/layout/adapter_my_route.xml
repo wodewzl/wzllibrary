@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@color/C3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/C1"
+        style="@style/padding_15_10">
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2017-7-6 10:37"
+            android:textColor="@color/C5"/>
+
+        <TextView
+            android:id="@+id/moeny_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="89.0"
+            android:textColor="@color/C5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/C1"
+        style="@style/padding_15_10"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/get_car_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2017-7-6 10:37"
+                android:drawableLeft="@drawable/my_route_01"
+                android:drawablePadding="5dp"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/back_car_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="89.0"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/my_route_02"
+                android:drawablePadding="5dp"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成"
+            android:textColor="@color/C5"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</LinearLayout>

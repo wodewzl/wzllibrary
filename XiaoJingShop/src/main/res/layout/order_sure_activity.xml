@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    tools:context="com.xiaojing.shop.activity.AddressAddActivity">
+
+    <com.wuzhanglong.library.view.ReboundScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/C3"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <View
+                android:id="@+id/xuxian_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:id="@+id/address_layout"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDF9CC"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/order_sure_01"
+                    android:drawablePadding="5dp"
+                    android:text="吴章龙"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/phone_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@id/name_tv"
+                    android:drawableLeft="@drawable/order_sure_02"
+                    android:drawablePadding="5dp"
+                    android:text="吴章龙"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/address_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/phone_tv"
+                    android:layout_marginTop="5dp"
+                    android:text="吴章龙"
+                    android:textColor="@color/C5"
+                    android:textSize="12sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/my_go"/>
+            </RelativeLayout>
+
+            <com.rey.material.widget.Button
+                android:id="@+id/address_bt"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+
+                android:background="@color/C7"
+                android:text="添加收货地址"
+                android:textColor="@color/C1"
+                android:textSize="14sp"
+                app:rd_enable="true"
+                android:visibility="gone"/>
+
+            <View
+                android:id="@+id/xuxian_2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:visibility="gone"/>
+
+            <TextView
+                style="@style/margin_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="结算信息"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="总价："
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/price_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="240"
+                    android:textColor="@color/XJColor3"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/jin_dou_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/divider_1"
+                        android:gravity="center"
+                        android:text="使用鲸豆"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:id="@+id/jin_dou_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="10鲸豆=1元"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+
+                <com.suke.widget.SwitchButton
+                    android:id="@+id/switch_button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:sb_show_indicator="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/jin_bi_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/divider_1"
+                        android:gravity="center"
+                        android:text="使用鲸币"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:id="@+id/jin_bi_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="1鲸币=1元"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+
+                <com.suke.widget.SwitchButton
+                    android:id="@+id/switch_button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:sb_show_indicator="false"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/yu_e_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/divider_1"
+                        android:gravity="center"
+                        android:text="使用余额"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:id="@+id/yu_e_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="1鲸币=1元"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+
+                <com.suke.widget.SwitchButton
+                    android:id="@+id/switch_button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:sb_show_indicator="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/other_layout"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:animateLayoutChanges="true"
+                android:background="@color/C1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="还需支付："
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/other_price_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="240"
+                    android:textColor="@color/XJColor4"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/margin_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_3"
+                android:text="选择支付方式"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:id="@+id/pay_layout_01"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/zhifubao"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="支付宝支付"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="推荐有支付宝账号的用户使用"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/pay_cb_1"
+                    style="@style/WZLCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pay_layout_02"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_1"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/weixin"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="微信支付"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="推荐安装微信5.0以上版本的使用"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/pay_cb_2"
+                    style="@style/WZLCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pay_layout_03"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_1"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/kuaiqian"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="快钱支付"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="使用快钱账户支付"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/pay_cb_3"
+                    style="@style/WZLCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_1"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/yue"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="余额支付"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="使用账户余额支付"
+                        android:textColor="@color/C5"/>
+                </LinearLayout>
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/shop"
+                    style="@style/WZLCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <com.rey.material.widget.Button
+                android:id="@+id/commit_bt"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:layout_marginTop="20dp"
+                android:background="@color/C7"
+                android:text="确认支付"
+                android:textColor="@color/C1"
+                android:textSize="14sp"
+                app:rd_enable="true"/>
+        </LinearLayout>
+    </com.wuzhanglong.library.view.ReboundScrollView>
+
+</android.support.constraint.ConstraintLayout>

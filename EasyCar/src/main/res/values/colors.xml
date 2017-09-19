@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Car1">#FF5A00</color>
+    <color name="Car2">#212121</color>
+    <color name="Car3">#E93751</color>
+    <color name="Car4">#0076FE</color>
+    <color name="Car5">#846a0d</color>
+    <color name="Car6">#FEE686</color>
+    <color name="Car7">#FE9501</color>
+    <color name="Car8">#EFEFEF</color>
+    <color name="Car9">#13902c</color>
+    <color name="Car10">#CAB45F</color>
+    <color name="Car11">#38507c</color>
+</resources>

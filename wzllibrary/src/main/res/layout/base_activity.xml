@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/C3"
+             android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/base_head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/C7"
+            android:clipToPadding="true"
+            android:fitsSystemWindows="true"
+            android:paddingTop="25dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/base_back_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/base_ic_head_back"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="返回"
+                android:textColor="@color/C1"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/base_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:maxLength="10"
+                android:text="标题"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/base_ok_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/base_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/C3"
+            android:orientation="vertical"
+           >
+        </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/no_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/base_no_content"
+                android:text="暂无相关数据"
+                android:textColor="@color/C5"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/no_net_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/no_net"
+                android:text="网络异常,请重新尝试"
+                android:textColor="@color/C5"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/toast_conten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+</FrameLayout>

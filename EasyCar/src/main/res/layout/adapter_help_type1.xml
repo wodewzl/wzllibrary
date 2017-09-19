@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:background="@color/C1"
+    >
+
+    <TextView
+        android:id="@+id/type1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/help_01"
+        android:drawableRight="@drawable/help_06"
+        style="@style/padding_15_13"
+        android:drawablePadding="5dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"/>
+</LinearLayout>

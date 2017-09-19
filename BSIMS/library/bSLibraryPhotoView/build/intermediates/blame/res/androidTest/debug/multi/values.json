@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\library\\bSLibraryPhotoView\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\library\\bSLibraryPhotoView\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 56,
+                        "endOffset": 107
+                    }
+                }
+            }
+        ]
+    }
+]

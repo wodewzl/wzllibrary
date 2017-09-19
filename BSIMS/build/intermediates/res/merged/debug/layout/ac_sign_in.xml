@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_father"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_bg_01"
+        android:orientation="vertical" >
+
+        <include layout="@layout/part_comm_head" />
+
+        <com.bs.bsims.view.BSLoadingView
+            android:id="@+id/loading_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/romvelistcard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp" >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <ImageView
+                    android:id="@+id/bg_sgin_in_list_head_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bg_sgin_in_list_head_line"
+                    android:visibility="visible" />
+
+                <com.bs.bsims.view.BSRefreshListView
+                    android:id="@+id/listview_sing_in"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="25dp"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@color/black"
+                    android:listSelector="@android:color/transparent"
+                    android:visibility="invisible" />
+
+                <include
+                    android:id="@+id/sign_in_head"
+                    layout="@layout/item_sign_in_listview_head" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loadingfile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:drawableTop="@drawable/no_content"
+            android:gravity="center"
+            android:text=""
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rl_item_sign_month"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/bg_sign_in_list_head_month"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/sign_work_state"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

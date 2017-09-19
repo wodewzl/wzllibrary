@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res"/><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\build\generated\res\rs\release"/><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res"><file name="slide_bottom_in" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\anim\slide_bottom_in.xml" qualifiers="" type="anim"/><file name="slide_bottom_out" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\anim\slide_bottom_out.xml" qualifiers="" type="anim"/><file name="slide_left_in" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\anim\slide_left_in.xml" qualifiers="" type="anim"/><file name="slide_left_out" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\anim\slide_left_out.xml" qualifiers="" type="anim"/><file name="slide_right_in" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\anim\slide_right_in.xml" qualifiers="" type="anim"/><file name="slide_right_out" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\anim\slide_right_out.xml" qualifiers="" type="anim"/><file name="cancel_selector" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable\cancel_selector.xml" qualifiers="" type="drawable"/><file name="confir_selector" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable\confir_selector.xml" qualifiers="" type="drawable"/><file name="dialog_bg" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable\dialog_bg.xml" qualifiers="" type="drawable"/><file name="loading_progress_bar" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable\loading_progress_bar.xml" qualifiers="" type="drawable"/><file name="progress_drawable" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable\progress_drawable.xml" qualifiers="" type="drawable"/><file name="progress_large_white" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable\progress_large_white.xml" qualifiers="" type="drawable"/><file name="sliding_back_shadow" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable\sliding_back_shadow.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="base_article_bigimage" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xhdpi\base_article_bigimage.png" qualifiers="xhdpi-v4" type="drawable"/><file name="del_icon_normal" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xhdpi\del_icon_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="loading_pin" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xhdpi\loading_pin.png" qualifiers="xhdpi-v4" type="drawable"/><file name="asy" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\asy.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_selected" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\btn_selected.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_unselected" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\btn_unselected.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="contacts_search_del" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\contacts_search_del.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="default_check" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\default_check.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="default_error" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\default_error.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="delete_icon" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\delete_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_head_back" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\ic_head_back.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="no_content" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\no_content.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="photo_def" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\photo_def.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="reload_img" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\reload_img.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="text_indicator" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\text_indicator.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="upload_picture" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\drawable-xxhdpi\upload_picture.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_default" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\activity_default.xml" qualifiers="" type="layout"/><file name="activity_main" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="base_activity" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\base_activity.xml" qualifiers="" type="layout"/><file name="base_fragment" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\base_fragment.xml" qualifiers="" type="layout"/><file name="dialog_lv_item" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\dialog_lv_item.xml" qualifiers="" type="layout"/><file name="fragment_multi_image" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\fragment_multi_image.xml" qualifiers="" type="layout"/><file name="image_preview" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\image_preview.xml" qualifiers="" type="layout"/><file name="item_published_grida" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\item_published_grida.xml" qualifiers="" type="layout"/><file name="list_item_camera" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\list_item_camera.xml" qualifiers="" type="layout"/><file name="list_item_folder" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\list_item_folder.xml" qualifiers="" type="layout"/><file name="list_item_image" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\list_item_image.xml" qualifiers="" type="layout"/><file name="main_activity" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\main_activity.xml" qualifiers="" type="layout"/><file name="my_dialog" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\my_dialog.xml" qualifiers="" type="layout"/><file name="no_content_layout" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\no_content_layout.xml" qualifiers="" type="layout"/><file name="progress_bar" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\progress_bar.xml" qualifiers="" type="layout"/><file name="progress_dialog" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\progress_dialog.xml" qualifiers="" type="layout"/><file name="slide_layout" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\slide_layout.xml" qualifiers="" type="layout"/><file name="top_indicator_item" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\top_indicator_item.xml" qualifiers="" type="layout"/><file name="update_download_notification_layout" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\layout\update_download_notification_layout.xml" qualifiers="" type="layout"/><file name="main" path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="BSFlowIndicator">
+        <attr format="integer" name="count"/>
+        <attr format="dimension" name="space"/>
+        <attr format="dimension" name="point_size"/>
+        <attr format="color|reference" name="point_seleted_color"/>
+        <attr format="color|reference" name="point_normal_color"/>
+        <attr format="dimension" name="point_radius"/>
+    </declare-styleable><declare-styleable name="BSCircularProgressView">
+        <attr format="float" name="cpv_progress"/>
+        <attr format="float" name="cpv_maxProgress"/>
+        <attr format="integer" name="cpv_animDuration"/>
+        <attr format="integer" name="cpv_animSwoopDuration"/>
+        <attr format="integer" name="cpv_animSyncDuration"/>
+        <attr format="color" name="cpv_color"/>
+        <attr format="dimension" name="cpv_thickness"/>
+        <attr format="boolean" name="cpv_indeterminate"/>
+        <attr format="boolean" name="cpv_animAutostart"/>
+        <attr format="integer" name="cpv_animSteps"/>
+        <attr format="float" name="cpv_startAngle"/>
+    </declare-styleable><declare-styleable name="BSCircleImageView">
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+        <attr format="dimension" name="border_width_out"/>
+        <attr format="color" name="border_color_out"/>
+    </declare-styleable></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values\colors.xml" qualifiers=""><color name="C7">#00a9fe</color><color name="text_hint_color">#888888</color><color name="devider_bg">#dddddd</color><color name="C8">#f8f8f8f8</color><color name="C9">#ff0000</color><color name="grey_dark">#B5B5B5</color><color name="C7_h">#4492C2</color><color name="C3_2">#dcdcdc</color><color name="C3_1">#cfcfcf</color><color name="blue_pressed">#3094cf</color><color name="sy_title_color">#B10304</color><color name="C11">#8fd8f2</color><color name="C10">#FFBA00</color><color name="C3">#eeeeee</color><color name="C13">#F66E58</color><color name="C4">#000000</color><color name="C12">#019A3F</color><color name="blug_bg">#00A9FE</color><color name="C5">#666666</color><color name="C15">#00000000</color><color name="C6">#aaaaaa</color><color name="C14">#999999</color><color name="C17">#d1d1d1</color><color name="C16">#81bbe0</color><color name="C1">#ffffff</color><color name="C2">#efefef</color><color name="C18">#e0000000</color><color name="grey">#CFCFCF</color></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values\dimens.xml" qualifiers=""><dimen name="sp_16">16sp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="sp_18">18sp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="sp_10">10sp</dimen><dimen name="F4">12sp</dimen><dimen name="F5">10sp</dimen><dimen name="sp_12">12sp</dimen><dimen name="F2">16sp</dimen><dimen name="F3">14sp</dimen><dimen name="sp_14">14sp</dimen><dimen name="F1">18sp</dimen></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values\integers.xml" qualifiers=""><integer name="config_slideAnimTime">300</integer><integer name="abc_max_action_buttons">2</integer></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="app_name">com.beisheng.base</string></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values\styles.xml" qualifiers=""><style name="F5C5">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C5</item>
+    </style><style name="F3C7">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C7</item>
+    </style><style name="F4C6">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C6</item>
+    </style><style name="F2C7">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C7</item>
+    </style><style name="F5C4">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C4</item>
+    </style><style name="F3C6">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C6</item>
+    </style><style name="F4C5">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C5</item>
+    </style><style name="F3C5">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C5</item>
+    </style><style name="F4C4">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C4</item>
+    </style><style name="F3C4">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C4</item>
+    </style><style name="F2C5">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C5</item>
+    </style><style name="F5C1">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C1</item>
+    </style><style name="F2C4">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C4</item>
+    </style><style name="new_circle_progress" parent="@android:style/Theme.Dialog">
+
+        
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">false</item>
+        
+        <item name="android:windowBackground">@color/C15</item>
+        
+        <item name="android:backgroundDimEnabled">false</item>
+        
+    </style><style name="F4C1">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C1</item>
+    </style><style name="F1C4">
+        <item name="android:textSize">@dimen/F1</item>
+        <item name="android:textColor">@color/C4</item>
+    </style><style name="F3C1">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C1</item>
+    </style><style name="myProgressBarStyleLarge">
+
+
+
+　　                                <item name="android:indeterminateDrawable">@drawable/progress_large_white</item>
+    </style><style name="F2C1">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C1</item>
+    </style><style name="loading_dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style><style name="F1C1">
+        <item name="android:textSize">@dimen/F1</item>
+        <item name="android:textColor">@color/C1</item>
+    </style><style name="ProgressBarHorizontal_color" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/loading_progress_bar</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">2dip</item>
+    </style><style name="F4C15">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C7</item>
+    </style><style name="F4C14">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C14</item>
+    </style><style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style><style name="F3C10">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C10</item>
+    </style><style name="F3C11">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C11</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/C2</item>
+       
+    </style><style name="F5C7">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C7</item>
+    </style><style name="F3C9">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C9</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><style name="F5C6">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C6</item>
+    </style><style name="F4C7">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C7</item>
+    </style></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values\values.xml" qualifiers=""><integer name="cpv_default_progress">0</integer><integer name="cpv_default_start_angle">-90</integer><integer name="cpv_default_anim_sync_duration">500</integer><bool name="cpv_default_anim_autostart">false</bool><integer name="cpv_default_max_progress">100</integer><integer name="cpv_default_anim_duration">4000</integer><integer name="cpv_default_anim_swoop_duration">5000</integer><dimen name="cpv_default_thickness">4dp</dimen><integer name="cpv_default_anim_steps">3</integer><color name="cpv_default_color">#2196F3</color><bool name="cpv_default_is_indeterminate">false</bool></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file></source><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\build\generated\res\rs\release"/><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\bSSYNews\BSSYNewsLibrary\bSBaseSDK\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="BSCircularProgressView"><attr format="float" name="cpv_progress"/><attr format="float" name="cpv_maxProgress"/><attr format="integer" name="cpv_animDuration"/><attr format="integer" name="cpv_animSwoopDuration"/><attr format="integer" name="cpv_animSyncDuration"/><attr format="color" name="cpv_color"/><attr format="dimension" name="cpv_thickness"/><attr format="boolean" name="cpv_indeterminate"/><attr format="boolean" name="cpv_animAutostart"/><attr format="integer" name="cpv_animSteps"/><attr format="float" name="cpv_startAngle"/></declare-styleable><declare-styleable name="BSCircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="dimension" name="border_width_out"/><attr format="color" name="border_color_out"/></declare-styleable><declare-styleable name="BSFlowIndicator"><attr format="integer" name="count"/><attr format="dimension" name="space"/><attr format="dimension" name="point_size"/><attr format="color|reference" name="point_seleted_color"/><attr format="color|reference" name="point_normal_color"/><attr format="dimension" name="point_radius"/></declare-styleable></configuration></mergedItems></merger>

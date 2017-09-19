@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/C7"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="购物车"
+            android:textColor="@color/C1"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        />
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/C1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/check_box"
+                style="@style/CheckBox_XJColor2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"/>
+
+            <View
+                android:id="@+id/view_check"
+                android:layout_width="65dp"
+                android:layout_height="65dp"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/total_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="13sp"/>
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/commit_tv"
+            style="@style/Material.Drawable.Ripple.Wave.Light"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/XJColor2"
+            android:gravity="center"
+            android:text="确认信息"
+            android:textColor="@color/C1"
+            android:textSize="13sp"/>
+    </LinearLayout>
+</LinearLayout>

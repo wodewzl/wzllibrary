@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/part_comm_head" />
+
+    <com.bs.bsims.view.Cc
+        android:id="@+id/ui_download_detail_cc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/rgp_costDto_Ct_code_P"
+            android:orientation="horizontal" >
+
+            <!-- android:checked="true"    android:drawablePadding="10dp" -->
+
+            <RadioButton
+                android:id="@+id/ac_download_upload_detail_rgp_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableLeft="@drawable/selector_public_sortlistview_checkbox"
+                android:drawablePadding="10dp"
+                android:checked="true"
+                android:text="公开"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/ac_download_upload_detail_rgp_not_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableLeft="@drawable/selector_public_sortlistview_checkbox"
+                android:drawablePadding="10dp"
+                android:text="不公开"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <!-- android:paddingLeft="20px" -->
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_download_detail_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txt_download_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="关于OA.doc" />
+
+        <TextView
+            android:id="@+id/txt_download_detail_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="来自迅科"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linear_download_detail_fileNotDownloadLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <Button
+                    android:id="@+id/btn_download_detail_downloadFile"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/corners_blue"
+                    android:gravity="center"
+                    android:text="下载原文件"
+                    android:textColor="#FFFFFF" />
+
+                <!-- android:background="@drawable/circle_green_drak" -->
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_download_detail_fileDownloadingLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:visibility="invisible" >
+
+                <TextView
+                    android:id="@+id/txt_download_detail_downloadDes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="下载中...(1M/15M)" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_progress_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#eeeeee" >
+
+                    <ProgressBar
+                        android:id="@+id/progress_downloadProgress"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2dp"
+                        android:progressDrawable="@drawable/download_progress_style" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

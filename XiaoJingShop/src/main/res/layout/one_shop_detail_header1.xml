@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/C1"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/detail_img"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:background="@color/C1"/>
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        style="@style/margin_15_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="期号："
+                />
+
+            <TextView
+                android:id="@+id/number_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="55852258888"
+                />
+
+            <TextView
+                android:id="@+id/state_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:text="进行中"
+                android:textColor="@color/C1"
+                android:background="#ff00"/>
+        </LinearLayout>
+
+        <ProgressBar
+
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:progress="40"
+            android:progressDrawable="@drawable/progressbar_horizontal_white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/join_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="倒计时揭晓"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/total_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="倒计时揭晓"
+                android:textColor="@color/C5"/>
+
+            <TextView
+                android:id="@+id/other_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="倒计时揭晓"
+                android:textColor="@color/C5"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/padding_15_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/C3">
+
+        <LinearLayout
+            android:id="@+id/head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corners_white"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/header_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/one_order_03"
+                android:gravity="center"
+                android:text="商品详情"
+                android:textColor="@color/C5"/>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/header_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/one_order_01"
+                android:gravity="center"
+                android:text="往期揭晓"
+                android:textColor="@color/C5"/>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/header_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/one_order_02"
+                android:gravity="center"
+                android:text="往期晒单"
+                android:textColor="@color/C5"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

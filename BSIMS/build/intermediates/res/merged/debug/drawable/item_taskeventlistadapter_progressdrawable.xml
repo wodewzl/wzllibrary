@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置背景色白色） -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dip" />
+
+            <!-- android:endColor="@color/white"   grey -->
+              <solid android:color="@color/C3" />    
+        </shape>
+    </item>
+    <!-- 设置进度条颜色（橙色） -->
+    <item android:id="@android:id/progress">
+        <scale
+            android:drawable="@drawable/item_taskeventlistadapter_progressdrawable_front"
+            android:scaleWidth="100%" />
+    </item>
+
+</layer-list>

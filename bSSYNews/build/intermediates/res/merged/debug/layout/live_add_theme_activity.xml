@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.beisheng.base.view.BSReboundScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/live_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/C1"
+            android:gravity="top"
+            android:hint="添加直播间主题："
+            android:padding="10dp"
+            android:textColorHint="@color/C6"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/C1"
+            android:gravity="top"
+            android:hint="添加直播间描述："
+            android:padding="10dp"
+            android:textColorHint="@color/C6"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/photo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/C1"
+            android:minHeight="190dp" >
+
+            <TextView
+                android:id="@+id/tv_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/live_add_bg"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="添加封面图片"
+                android:textColor="@color/C6" />
+
+            <ImageView
+                android:id="@+id/photo_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="2dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/add_bt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/sy_title_color"
+            android:text="添加主题"
+            android:textColor="@color/C1" />
+    </LinearLayout>
+
+</com.beisheng.base.view.BSReboundScrollView>

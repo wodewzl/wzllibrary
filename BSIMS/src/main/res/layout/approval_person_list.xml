@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+         android:background="@color/white"
+        android:layout_marginBottom="10dp"
+     
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+       >
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="2dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@color/gray_bg_01" />
+
+            <ImageView
+                android:id="@+id/is_approval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="10dp"
+                 android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                 />
+        </FrameLayout>
+
+        <LinearLayout
+               android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal" >
+
+                    <com.bs.bsims.view.BSCircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto "
+                        android:id="@+id/head_icon"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/ic_default_portrait_s" />
+
+                    <TextView
+                        android:id="@+id/title_name"
+                        style="@style/tv_style02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当前审批人："
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/name"
+                            style="@style/tv_style02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|right"
+                            android:gravity="left"
+                            android:text="我啊啊" />
+
+                        <TextView
+                            android:id="@+id/time"
+                            style="@style/tv_style02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|right"
+                            android:gravity="right"
+                            android:text="我啊啊1111" />
+
+                        <TextView
+                            android:id="@+id/status"
+                            style="@style/tv_style02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="11111" />
+
+                        <TextView
+                            android:id="@+id/cui"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/name"
+                            android:background="@drawable/frame_kongxin_blue"
+                            android:text="催一下"
+                            android:padding="5dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/C7"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/notify_bg_normal"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/gray_light_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

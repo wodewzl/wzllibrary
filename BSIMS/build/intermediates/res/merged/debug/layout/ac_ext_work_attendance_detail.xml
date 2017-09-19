@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/work_attendance_detail_father"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <include layout="@layout/work_attendance_detail_top" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/fuxk_base_divide_line_color" />
+
+    <include
+        android:id="@+id/work_attendance_layout"
+         layout="@layout/item_work_attendance_detail" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="@color/fuxk_base_divide_line_color" />
+
+    <com.bs.bsims.view.BSRefreshListView
+        android:id="@+id/work_attendance_detail_refreshlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:scrollbars="none" />
+
+    <ExpandableListView
+        android:id="@+id/work_attendance_detail_exdlistview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:scrollbars="none" />
+
+</LinearLayout>

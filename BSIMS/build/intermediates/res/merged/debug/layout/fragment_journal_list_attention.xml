@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/serach_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_deep_layout"
+        android:visibility="visible" >
+
+        <com.bs.bsims.view.BSIndexEditText
+            android:id="@+id/edit_single_search"
+            style="@style/style02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/corners_white"
+            android:drawableLeft="@drawable/ic_contacts_search_image"
+            android:drawablePadding="4dp"
+            android:hint="请输入关键字"
+            android:imeOptions="actionSearch"
+            android:padding="5dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <com.bs.bsims.view.PinnedSectionListView
+        android:id="@+id/refresh_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@color/C3"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/loading_layouta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="正在加载···"
+            android:textColor="@color/blug_bg" />
+    </LinearLayout>
+
+</LinearLayout>

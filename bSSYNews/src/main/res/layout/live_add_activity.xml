@@ -1,0 +1,74 @@
+<com.beisheng.base.view.BSReboundScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/content_et"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/C1"
+            android:gravity="top"
+            android:hint="请输入直播内容"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textSize="14sp" />
+
+        <GridView
+            android:id="@+id/grideview_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/C1"
+            android:horizontalSpacing="3dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:padding="10dp"
+            android:scrollbars="none"
+            android:verticalSpacing="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/video_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_tv"
+            android:layout_marginTop="1dp"
+            android:background="@color/C1"
+            android:minHeight="120dp"
+            android:padding="10dp"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/video_bg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/video_def"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/newplay" />
+
+            <com.beisheng.synews.videoplay.VideoSuperPlayer
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.beisheng.base.view.BSReboundScrollView>

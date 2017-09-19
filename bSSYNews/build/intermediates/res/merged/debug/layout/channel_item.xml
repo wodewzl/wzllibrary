@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_subscribe"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="34.0dip"
+    android:minWidth="72.0dip" >
+
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/subscribe_item_bg"
+        android:gravity="center"
+        android:minHeight="34.0dip"
+        android:minWidth="72.0dip"
+        android:textColor="@color/subscribe_item_text_color"
+        android:textSize="14.0sp" />
+
+    <ImageView
+        android:id="@+id/delete_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/delete_icon"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/delete_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/xxx"
+        android:visibility="gone" />
+
+</RelativeLayout>

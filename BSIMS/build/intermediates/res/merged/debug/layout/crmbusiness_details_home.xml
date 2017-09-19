@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <com.bs.bsims.view.BSScrollView
+        android:id="@+id/pullscroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/translucent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/top_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/crm_bussines_topnews"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:id="@+id/middle_ly"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/title01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/cilent_company_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:lines="2"
+                                android:text="ddddddd"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/cilent_company_money"
+                                style="@style/text_s16_end_weight"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="ddddddd"
+                                android:textColor="@color/yellow1" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/ly1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/texttop_1"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="10%" />
+
+                            <TextView
+                                android:id="@+id/texttop_2"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="30%" />
+
+                            <TextView
+                                android:id="@+id/texttop_3"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="50%" />
+
+                            <TextView
+                                android:id="@+id/texttop_4"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="80%" />
+
+                            <TextView
+                                android:id="@+id/texttop_5"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="100%" />
+
+                            <TextView
+                                android:id="@+id/texttop_6"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="0%" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/ly2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ly1"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center" >
+
+                                <View
+                                    android:id="@+id/view_white_direction"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dip"
+                                    android:background="@color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal" >
+
+                                <ImageView
+                                    android:id="@+id/bussines_state1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/bg_circle_c3" />
+
+                                <ImageView
+                                    android:id="@+id/bussines_state2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/bg_circle_c3" />
+
+                                <ImageView
+                                    android:id="@+id/bussines_state3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/bg_circle_c3" />
+
+                                <ImageView
+                                    android:id="@+id/bussines_state4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/bg_circle_c3" />
+
+                                <ImageView
+                                    android:id="@+id/bussines_state5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/bg_circle_c3" />
+
+                                <ImageView
+                                    android:id="@+id/bussines_state0"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/bg_circle_c3" />
+                            </LinearLayout>
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ly2"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/textbot_1"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="初步接洽" />
+
+                            <TextView
+                                android:id="@+id/textbot_2"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="需求确定" />
+
+                            <TextView
+                                android:id="@+id/textbot_3"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="方案报价" />
+
+                            <TextView
+                                android:id="@+id/textbot_4"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="谈判审核" />
+
+                            <TextView
+                                android:id="@+id/textbot_5"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingLeft="10dp"
+                                android:text="赢单 " />
+
+                            <TextView
+                                android:id="@+id/textbot_6"
+                                style="@style/F5C1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingLeft="10dp"
+                                android:text="输单 " />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/top1sofar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="8dp" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:paddingTop="2dp"
+                                android:singleLine="true"
+                                android:src="@drawable/crm_bussines_news_customer" />
+
+                            <TextView
+                                android:id="@+id/bussines_canme"
+                                style="@style/text_s12_end_weight"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:text="测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/add_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|bottom"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center" >
+
+                            <TextView
+                                android:id="@+id/add_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/crm_client_add"
+                                android:drawablePadding="10dp"
+                                android:gravity="center_vertical"
+                                android:text="添加跟单记录"
+                                android:textColor="@color/blug_bg" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/crm_give_logo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/crm_bussines_gives_logo"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/tv_location_father_ly"
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/detailinfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/corners_tab_left_select"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:maxWidth="150dp"
+                            android:paddingLeft="10dp"
+                            android:singleLine="true"
+                            android:text="详细信息"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="fill_parent"
+                            android:background="#dddddd" />
+
+                        <TextView
+                            android:id="@+id/detailinfo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/corners_tab_center_normal"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:maxWidth="150dp"
+                            android:paddingLeft="10dp"
+                            android:singleLine="true"
+                            android:text="跟单记录"
+                            android:textColor="@color/C5"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="fill_parent"
+                            android:background="#dddddd" />
+
+                        <TextView
+                            android:id="@+id/shoukuan_record"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/corners_tab_right_normal"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:maxWidth="150dp"
+                            android:paddingLeft="10dp"
+                            android:singleLine="true"
+                            android:text="商机动态"
+                            android:textColor="@color/C5"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/id_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.bs.bsims.view.BSScrollView>
+
+    <RelativeLayout
+        android:id="@+id/comm_head_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/translucent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/head_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_head_back"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="返回"
+            android:textColor="@color/C1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/crm_client_detail_iv"
+                android:layout_width="37dp"
+                android:layout_height="22dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/crm_client_detail"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/crm_client_contacts_iv"
+                android:layout_width="37dp"
+                android:layout_height="22dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/crm_client_contacts_icon"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/crm_client_giveup_iv"
+                android:layout_width="37dp"
+                android:layout_height="22dp"
+                android:adjustViewBounds="true"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/crm_client_notify_iv"
+                android:layout_width="37dp"
+                android:layout_height="22dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/crm_client_notify"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@+id/crm_client_notify_ivs"
+                android:layout_width="37dp"
+                android:layout_height="22dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/crm_menu"
+            />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

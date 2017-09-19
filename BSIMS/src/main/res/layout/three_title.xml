@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/frame_bulue_style"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/left_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/corners_tab_left_select"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/all"
+            android:textColor="@color/white" 
+            />
+
+        <TextView
+            android:id="@+id/middle_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/my_create_idea"
+            android:textColor="@color/blug_bg" 
+            android:background="@drawable/corners_tab_middle_normal"/>
+
+        <TextView
+            android:id="@+id/right_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/my_suggest"
+            android:textColor="@color/blug_bg" 
+            android:background="@drawable/corners_tab_right_normal"/>
+    </LinearLayout>
+</LinearLayout>

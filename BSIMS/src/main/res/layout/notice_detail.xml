@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="8dip" >
+
+                <TextView
+                    android:id="@+id/notice_title"
+                    style="@style/style04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="本周五下午召开全体员工大会" />
+
+                <TextView
+                    android:id="@+id/notice_time"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/notice_title"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="2015-4-21 19:41" />
+
+                <TextView
+                    android:id="@+id/publisher_tv"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/notice_time"
+                    android:layout_toRightOf="@id/notice_time"
+                    android:text="@string/publisher" />
+
+                <TextView
+                    android:id="@+id/publisher_name"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/notice_time"
+                    android:layout_toRightOf="@id/publisher_tv"
+                    android:text="胡月" />
+
+                <TextView
+                    android:id="@+id/number_tv"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/notice_time"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/number" />
+
+                <TextView
+                    android:id="@+id/number_text_tv"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/number_tv"
+                    android:layout_toRightOf="@id/number_tv"
+                    android:text="18602727134" />
+            </RelativeLayout>
+              <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/C3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <WebView
+                    android:id="@+id/content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_light_text" />
+
+                <TextView
+                    android:id="@+id/annex_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/C3"
+                    android:padding="10dip"
+                    android:text="附件" />
+
+                <com.bs.bsims.view.BSListView
+                    android:id="@+id/annex_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:scrollbars="none" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/head_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/head_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/head_icon" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                 android:background="@color/C3"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/left_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/discuss_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:text="@string/discuss"
+                        android:textColor="@color/C5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/center_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/read_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_horizontal"
+                        android:text="已看"
+                        android:textColor="#96A6A7" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/C6"
+                    android:gravity="center" />
+
+                <LinearLayout
+                    android:id="@+id/right_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/no_read_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_horizontal"
+                        android:text="未看"
+                        android:textColor="#96A6A7" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/line_img"
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:background="@color/C7" />
+
+            <LinearLayout
+                android:id="@+id/gride_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <com.bs.bsims.view.BSGridView
+                    android:id="@+id/gv_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="5"
+                    android:paddingTop="10dp"
+                    android:verticalSpacing="10dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/reminder_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/reminder_text"
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/frame_kongxin_blue"
+                        android:gravity="center"
+                        android:text="提醒未看成员"
+                        android:textColor="@color/C7" />
+                </LinearLayout>
+
+                <com.bs.bsims.view.BSGridView
+                    android:id="@+id/gv_no_read_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="5"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/go_bt"
+                    style="@style/F3C4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/C1"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="center_vertical"
+                    android:text="···"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <com.bs.bsims.view.BSListView
+                android:id="@+id/list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/hint_bg_color" >
+
+        <FrameLayout
+            android:id="@+id/bottom_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hint_bg_color" />
+    </LinearLayout>
+
+</RelativeLayout>

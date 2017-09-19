@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_01"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_deep_layout"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <com.bs.bsims.view.BSIndexEditText
+            android:id="@+id/edit_single_search"
+            style="@style/F4C5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_white"
+            android:drawableLeft="@drawable/ic_contacts_search_image"
+            android:drawablePadding="4dp"
+            android:hint="请输入关键字"
+            android:imeOptions="actionSearch"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/no_read_tv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/frame_shixing_write"
+            android:gravity="center"
+            android:text="未读"
+            android:textColor="@color/C7"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/three_titie_one"
+        layout="@layout/three_titie_one"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/no_content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/no_child_content_layout"
+        android:visibility="gone" />
+
+    <com.bs.bsims.view.BSRefreshListView
+        android:id="@+id/lv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:listSelector="#00000000"
+        android:scrollbars="none" />
+
+</LinearLayout>

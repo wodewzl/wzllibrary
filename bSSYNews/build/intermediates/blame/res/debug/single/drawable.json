@@ -1,0 +1,622 @@
+[
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_drawable.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\progress_horizontal_drawable.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_black_a10_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\bg_black_a10_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_progress_bar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_progress_bar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_pocket_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_laiwang_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_dynamic.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_laiwang_dynamic.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_gmail_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_gmail_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_yixin.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tb01.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\home_tb01.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_whatsapp_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_whatsapp_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_dynamic_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_laiwang_dynamic_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_line.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_line.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\daily_date.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\daily_date.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_white.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\bg_circle_white.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_white.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\corners_white.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_circle.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_yixin_circle.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\sina_web_default.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\sina_web_default.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\wechat_fav.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\wechat_fav.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_buttong_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\radio_buttong_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_flickr_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_flickr_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\choice_selected.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\choice_selected.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\broke_tb01.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\broke_tb01.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\default\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_kakao_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_kakao_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\subscribe_item_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\subscribe_item_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_video.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_share_video.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_line_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_line_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pinterest_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_pinterest_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_facebook_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tb03.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\home_tb03.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_circle_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_yixin_circle_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tb05.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\home_tb05.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_rank.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\bg_circle_rank.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_kakao.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_kakao.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\choice_unselected.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\choice_unselected.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_evernote_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_evernote_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_laiwang.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_linkedin_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_linkedin_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_evernote.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_evernote.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_instagram_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_instagram_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_pic.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_share_pic.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tb04.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\home_tb04.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_whatsapp.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_whatsapp.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_gmail_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_gmail_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sms_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_sms_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_linkedin.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_linkedin.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_pocket.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\daily_view.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\daily_view.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sms_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_sms_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_drawable.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\progress_drawable.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_foursquare_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_foursquare_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\daily_list.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\daily_list.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\default\\res\\drawable\\cancel_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_ynote_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_ynote_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\dotted_line_corner.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\dotted_line_corner.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tb02.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\home_tb02.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\webview_progress.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\webview_progress.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\broke_tb02.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\broke_tb02.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook_close.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_facebook_close.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_yixin_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\biz_video_progressbar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\src\\main\\res\\drawable\\biz_video_progressbar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_alipay.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_alipay.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_large_white.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\default\\res\\drawable\\progress_large_white.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_ynote.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_ynote.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tumblr.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_tumblr.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_flickr.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_flickr.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\confir_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\default\\res\\drawable\\confir_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\sliding_back_shadow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSBaseSDK\\build\\intermediates\\bundles\\default\\res\\drawable\\sliding_back_shadow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tumblr_gray.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_tumblr_gray.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pinterest.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_pinterest.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_foursquare.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_foursquare.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_music.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_share_music.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\bSSYNews\\BSSYNewsLibrary\\bSLibraryUmengShare\\build\\intermediates\\bundles\\default\\res\\drawable\\umeng_socialize_twitter.png"
+    }
+]

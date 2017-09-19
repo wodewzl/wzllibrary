@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/C1"
+              android:orientation="horizontal"
+              android:paddingBottom="7dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="7dp">
+
+    <ImageView
+        android:id="@+id/note_img"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/note"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/small_img_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="96dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+            >
+                <TextView
+                    android:id="@+id/title_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:text="导带队领导来到滴答滴答滴答滴答滴答滴答滴答滴答滴答滴答滴答滴答滴答滴答滴答了"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:id="@+id/adv_type"
+                    style="@style/F5C1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/sy_title_color"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:text="专题"
+                    android:visibility="gone"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/large_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:scaleType="fitXY"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:id="@+id/video_layout"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_below="@id/detail_tv"
+                android:background="@color/C1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/video_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/base_article_bigimage"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/play_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/newplay"/>
+
+                <com.beisheng.synews.videoplay.VideoSuperPlayer
+                    android:id="@+id/video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone">
+                </com.beisheng.synews.videoplay.VideoSuperPlayer>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/read_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/special_tv"
+                    style="@style/F4C1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/sy_title_color"
+                    android:gravity="left"
+                    android:padding="2dp"
+                    android:text="专题"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/time_tv"
+                    style="@style/F4C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="6小时前"/>
+
+                <LinearLayout
+                    android:id="@+id/agree_comment_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/C9"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="2dp">
+
+                    <TextView
+                        android:id="@+id/agree_tv"
+                        style="@style/F4C5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:drawableLeft="@drawable/new_read"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="6小"/>
+
+                    <TextView
+                        android:id="@+id/comment_tv"
+                        style="@style/F4C5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/new_comment"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="7小时前"/>
+                </LinearLayout>
+
+                <!--<TextView-->
+                <!--android:id="@+id/adv_type"-->
+                <!--style="@style/F5C1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left"-->
+                <!--android:background="@color/sy_title_color"-->
+                <!--android:paddingLeft="2dp"-->
+                <!--android:paddingRight="2dp"-->
+                <!--android:paddingTop="1dp"-->
+                <!--android:paddingBottom="1dp"-->
+                <!--android:text="专题" -->
+                <!--android:visibility="gone"/>-->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

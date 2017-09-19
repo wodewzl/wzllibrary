@@ -1,0 +1,61 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 10
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/libapshare.jar')
+    compile files('libs/mta-sdk-1.6.2.jar')
+    compile files('libs/open_sdk_r5509.jar')
+    compile files('libs/SocialSDK_alipay.jar')
+    compile files('libs/SocialSDK_douban.jar')
+    compile files('libs/SocialSDK_email.jar')
+    compile files('libs/SocialSDK_evernote.jar')
+    compile files('libs/SocialSDK_facebook_1.jar')
+    compile files('libs/SocialSDK_facebook_2.jar')
+    compile files('libs/SocialSDK_flickr.jar')
+    compile files('libs/SocialSDK_foursquare.jar')
+    compile files('libs/SocialSDK_instagram.jar')
+    compile files('libs/SocialSDK_kakao.jar')
+    compile files('libs/SocialSDK_laiwang_1.jar')
+    compile files('libs/SocialSDK_laiwang_2.jar')
+    compile files('libs/SocialSDK_line.jar')
+    compile files('libs/SocialSDK_linkedin_1.jar')
+    compile files('libs/SocialSDK_linkedin_2.jar')
+    compile files('libs/SocialSDK_pinterest.jar')
+    compile files('libs/SocialSDK_pocket.jar')
+    compile files('libs/SocialSDK_QQZone_3.jar')
+    compile files('libs/SocialSDK_renren_1.jar')
+    compile files('libs/SocialSDK_renren_2.jar')
+    compile files('libs/SocialSDK_Sina.jar')
+    compile files('libs/SocialSDK_sms.jar')
+    compile files('libs/SocialSDK_tencentWB_1.jar')
+    compile files('libs/SocialSDK_tencentWB_2.jar')
+    compile files('libs/SocialSDK_tencentWB_3.jar')
+    compile files('libs/SocialSDK_tumblr.jar')
+    compile files('libs/SocialSDK_twitter.jar')
+    compile files('libs/SocialSDK_WeiXin_1.jar')
+    compile files('libs/SocialSDK_WeiXin_2.jar')
+    compile files('libs/SocialSDK_whatsapp.jar')
+    compile files('libs/SocialSDK_yixin_1.jar')
+    compile files('libs/SocialSDK_yixin_2.jar')
+    compile files('libs/SocialSDK_ynote.jar')
+    compile files('libs/twitter4j-core-4.0.4.jar')
+    compile files('libs/umeng_social_sdk.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/weiboSDKCore_3.1.4.jar')
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/work_content"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        style="@style/F3C4"
+        android:text="@string/work_content" />
+
+    <EditText
+        android:id="@+id/write_today_work"
+        style="@style/F3C5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ffff"
+        android:gravity="top"
+        android:hint="@string/write_today_work"
+        android:padding="10dp" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/finish_progress"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        style="@style/F3C4"
+        android:text="@string/finish_progress" />
+
+    <EditText
+        android:id="@+id/write_today_finish_progres"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ffff"
+        android:gravity="top"
+        style="@style/F3C5"
+        android:hint="@string/write_today_finish_progres"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/experience_summarize"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        style="@style/F3C4"
+        android:text="@string/experience_summarize" />
+
+    <EditText
+        android:id="@+id/write_today_experience_summarize"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ffff"
+        android:gravity="top"
+        style="@style/F3C5"
+        android:hint="@string/write_today_experience_summarize"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/tomorrow_plan"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        style="@style/F3C4"
+        android:text="@string/tomorrow_plan" />
+
+    <EditText
+        android:id="@+id/write_tomorrow_plan"
+       style="@style/F3C5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ffff"
+        android:gravity="top"
+        android:hint="@string/write_tomorrow_plan"
+        android:padding="10dp" />
+
+</LinearLayout>

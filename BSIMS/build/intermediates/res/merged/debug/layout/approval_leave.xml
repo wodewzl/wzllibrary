@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_father"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_bg_01"
+        android:orientation="vertical" >
+
+        <include layout="@layout/part_comm_head" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/leave_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_selecttor"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <TextView
+                        style="@style/parent_tv_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/approval_type"
+                        android:drawablePadding="10dp"
+                        android:text="@string/approval_small_type" />
+
+                    <TextView
+                        android:id="@+id/approval_type"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@color/gray_light_text" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/common_ic_arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                         android:id="@+id/start_time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/crm_contant_starttime" />
+
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/start_time_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="   选择\n开始时间" />
+
+                             
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/crm_trant_arrow" />
+
+                    <LinearLayout
+                         android:id="@+id/end_time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/crm_contant_endtime" />
+
+                        <LinearLayout
+                             android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                 android:id="@+id/end_time_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="   选择\n结束时间" />
+ 
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+              
+            
+
+                <LinearLayout
+                    android:id="@+id/leave_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/item_selecttor"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:visibility="visible" >
+
+                    <TextView
+                        style="@style/parent_tv_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/duration_time"
+                        android:drawablePadding="10dp"
+                        android:text="@string/leave_time" />
+
+                    <TextView
+                        android:id="@+id/duration_time_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@color/gray_light_text" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/parent_tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/leave_cause" />
+
+                <EditText
+                    android:id="@+id/leave_content"
+                    style="@style/style02"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#ffff"
+                    android:gravity="top"
+                    android:hint="@string/leave_content_hint"
+                    android:padding="10dp" />
+
+                <GridView
+                    android:id="@+id/grideview_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:horizontalSpacing="3dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scrollbars="none"
+                    android:verticalSpacing="10dp" />
+
+                <TextView
+                    style="@style/parent_tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/transfer_people" />
+
+                <com.bs.bsims.view.BSGridView
+                    android:id="@+id/transfer_gv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="5"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:verticalSpacing="10dp" />
+
+                <TextView
+                    android:id="@+id/approver_tv"
+                    style="@style/parent_tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/approver"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/approver_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" >
+
+                    <com.bs.bsims.view.BSGridView
+                        android:id="@+id/approver_gv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="5"
+                        android:verticalSpacing="10dp" />
+
+                    <TextView
+                        android:id="@+id/approver_go_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/common_ic_arrow_right"
+                        android:textSize="20dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/inform_people_tv"
+                    style="@style/parent_tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/inform_people" />
+
+                <LinearLayout
+                    android:id="@+id/inform_people_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <com.bs.bsims.view.BSGridView
+                        android:id="@+id/inform_gv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="5"
+                        android:verticalSpacing="10dp" />
+
+                    <TextView
+                        android:id="@+id/inform_go_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/common_ic_arrow_right"
+                        android:textSize="20dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_bg_01"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/gray_text"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/sure"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:text="@string/sure"
+                android:textColor="@color/blug_bg"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

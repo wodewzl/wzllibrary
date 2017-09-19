@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/C3"
+              android:orientation="vertical">
+
+    <com.wuzhanglong.library.view.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/C3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_01"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="头像"
+                    android:textSize="13sp"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/head_img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:civ_border_color="@color/C3_1"
+                    app:civ_border_width="2dp"/>
+
+                <TextView
+                    android:id="@+id/tv_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/my_go"
+                    android:textColor="@color/C6"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_02"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="用户名"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tv_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/my_go"
+                    android:textColor="@color/C6"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_03"
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="昵称"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tv_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/my_go"
+                    android:textColor="@color/C6"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.wuzhanglong.library.view.ReboundScrollView>
+
+</LinearLayout>

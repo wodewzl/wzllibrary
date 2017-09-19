@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_01"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_deep_layout"
+        android:orientation="vertical" 
+        android:layout_margin="10dp"
+       android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame_bulue_style"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/all_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/corners_tab_left_select"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/all"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/my_idea"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/corners_tab_middle_normal"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/my_create_idea"
+                android:textColor="@color/blug_bg" />
+
+            <TextView
+                android:id="@+id/my_suggest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/corners_tab_right_normal"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/my_suggest"
+                android:textColor="@color/blug_bg" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/manageBarFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        >
+
+        <LinearLayout
+            android:id="@+id/manageBar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/manageInstall"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1.0"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="全部创意"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/manageUninstall"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="我的创意"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/manageBarChooserLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="5dip"
+            android:layout_gravity="bottom|left"
+            android:background="@color/C7" 
+           />
+        <ImageView
+            android:id="@+id/manageBarChooserMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="5dip"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/C7" 
+           />
+        <ImageView
+            android:id="@+id/manageBarChooserRight"
+            android:layout_width="wrap_content"
+            android:layout_height="5dip"
+            android:layout_gravity="bottom|right"
+            android:background="@color/C7" 
+           />
+    </FrameLayout>
+    <com.bs.bsims.view.BSRefreshListView
+        android:id="@+id/lv_crate_idea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

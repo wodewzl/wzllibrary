@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C3"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/padding_15_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收支明细"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/pay_tv"
+            style="@style/padding_15_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="支出"
+            android:textSize="13sp"/>
+
+        <View
+            android:id="@+id/divider_1"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/pay_tv"
+            android:background="@color/C5"/>
+
+        <TextView
+            android:id="@+id/income_tv"
+            style="@style/padding_15_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收入"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/divider_1"
+            android:layout_toStartOf="@+id/divider_1"
+            android:textSize="13sp"/>
+
+        <View
+            android:id="@+id/divider_2"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/income_tv"
+            android:background="@color/C5"/>
+
+        <TextView
+            android:id="@+id/all_tv"
+            style="@style/padding_15_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/divider_2"
+            android:text="全部"
+            android:textColor="@color/C7"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+</RelativeLayout>

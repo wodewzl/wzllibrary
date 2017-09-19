@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="#D5D5D5"
+        android:orientation="vertical" >
+
+        <com.beisheng.base.view.BSIndexEditText
+            android:id="@+id/edit_single_search"
+            style="@style/F4C5"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_white"
+            android:drawableLeft="@drawable/ic_contacts_search_image"
+            android:drawablePadding="4dp"
+            android:hint="搜索"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+</LinearLayout>

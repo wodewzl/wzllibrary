@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:background="@color/C3"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/life_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     
+        android:background="@color/C3"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:background="@color/C3"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" >
+        </android.support.v4.view.ViewPager>
+
+        <com.beisheng.base.view.BSFlowIndicator
+            android:id="@+id/galleryIndicator"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="8dp"
+            app:count="3"
+            app:point_normal_color="@color/C1"
+            app:point_radius="3dip"
+            app:point_seleted_color="@color/sy_title_color"
+            app:point_size="5dip"
+            app:space="5dip"
+           />
+    </FrameLayout>
+
+</LinearLayout>

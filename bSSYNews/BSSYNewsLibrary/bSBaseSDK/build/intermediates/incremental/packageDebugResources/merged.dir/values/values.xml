@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="cpv_default_anim_autostart">false</bool>
+    <bool name="cpv_default_is_indeterminate">false</bool>
+    <color name="C1">#ffffff</color>
+    <color name="C10">#FFBA00</color>
+    <color name="C11">#8fd8f2</color>
+    <color name="C12">#019A3F</color>
+    <color name="C13">#F66E58</color>
+    <color name="C14">#999999</color>
+    <color name="C15">#00000000</color>
+    <color name="C16">#81bbe0</color>
+    <color name="C17">#d1d1d1</color>
+    <color name="C18">#e0000000</color>
+    <color name="C2">#efefef</color>
+    <color name="C3">#eeeeee</color>
+    <color name="C3_1">#cfcfcf</color>
+    <color name="C3_2">#dcdcdc</color>
+    <color name="C4">#000000</color>
+    <color name="C5">#666666</color>
+    <color name="C6">#aaaaaa</color>
+    <color name="C7">#00a9fe</color>
+    <color name="C7_h">#4492C2</color>
+    <color name="C8">#f8f8f8f8</color>
+    <color name="C9">#ff0000</color>
+    <color name="blue_pressed">#3094cf</color>
+    <color name="blug_bg">#00A9FE</color>
+    <color name="cpv_default_color">#2196F3</color>
+    <color name="devider_bg">#dddddd</color>
+    <color name="grey">#CFCFCF</color>
+    <color name="grey_dark">#B5B5B5</color>
+    <color name="sy_title_color">#B10304</color>
+    <color name="text_hint_color">#888888</color>
+    <declare-styleable name="BSCircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="dimension" name="border_width_out"/><attr format="color" name="border_color_out"/></declare-styleable>
+    <declare-styleable name="BSCircularProgressView"><attr format="float" name="cpv_progress"/><attr format="float" name="cpv_maxProgress"/><attr format="integer" name="cpv_animDuration"/><attr format="integer" name="cpv_animSwoopDuration"/><attr format="integer" name="cpv_animSyncDuration"/><attr format="color" name="cpv_color"/><attr format="dimension" name="cpv_thickness"/><attr format="boolean" name="cpv_indeterminate"/><attr format="boolean" name="cpv_animAutostart"/><attr format="integer" name="cpv_animSteps"/><attr format="float" name="cpv_startAngle"/></declare-styleable>
+    <declare-styleable name="BSFlowIndicator"><attr format="integer" name="count"/><attr format="dimension" name="space"/><attr format="dimension" name="point_size"/><attr format="color|reference" name="point_seleted_color"/><attr format="color|reference" name="point_normal_color"/><attr format="dimension" name="point_radius"/></declare-styleable>
+    <dimen name="F1">18sp</dimen>
+    <dimen name="F2">16sp</dimen>
+    <dimen name="F3">14sp</dimen>
+    <dimen name="F4">12sp</dimen>
+    <dimen name="F5">10sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cpv_default_thickness">4dp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="config_slideAnimTime">300</integer>
+    <integer name="cpv_default_anim_duration">4000</integer>
+    <integer name="cpv_default_anim_steps">3</integer>
+    <integer name="cpv_default_anim_swoop_duration">5000</integer>
+    <integer name="cpv_default_anim_sync_duration">500</integer>
+    <integer name="cpv_default_max_progress">100</integer>
+    <integer name="cpv_default_progress">0</integer>
+    <integer name="cpv_default_start_angle">-90</integer>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">com.beisheng.base</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/C2</item>
+       <!--  <item name="android:windowContentTransitions">true</item> -->
+    </style>
+    <style name="F1C1">
+        <item name="android:textSize">@dimen/F1</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+    <style name="F1C4">
+        <item name="android:textSize">@dimen/F1</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+    <style name="F2C1">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+    <style name="F2C4">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+    <style name="F2C5">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+    <style name="F2C7">
+        <item name="android:textSize">@dimen/F2</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+    <style name="F3C1">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+    <style name="F3C10">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C10</item>
+    </style>
+    <style name="F3C11">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C11</item>
+    </style>
+    <style name="F3C4">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+    <style name="F3C5">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+    <style name="F3C6">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+    <style name="F3C7">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+    <style name="F3C9">
+        <item name="android:textSize">@dimen/F3</item>
+        <item name="android:textColor">@color/C9</item>
+    </style>
+    <style name="F4C1">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+    <style name="F4C14">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C14</item>
+    </style>
+    <style name="F4C15">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+    <style name="F4C4">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+    <style name="F4C5">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+    <style name="F4C6">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+    <style name="F4C7">
+        <item name="android:textSize">@dimen/F4</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+    <style name="F5C1">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C1</item>
+    </style>
+    <style name="F5C4">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C4</item>
+    </style>
+    <style name="F5C5">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C5</item>
+    </style>
+    <style name="F5C6">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+    <style name="F5C7">
+        <item name="android:textSize">@dimen/F5</item>
+        <item name="android:textColor">@color/C7</item>
+    </style>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ProgressBarHorizontal_color" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/loading_progress_bar</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">2dip</item>
+    </style>
+    <style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="loading_dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="myProgressBarStyleLarge">
+
+
+
+　　                                <item name="android:indeterminateDrawable">@drawable/progress_large_white</item>
+    </style>
+    <style name="new_circle_progress" parent="@android:style/Theme.Dialog">
+
+        <!-- <item name="android:indeterminateDrawable">@drawable/ic_circle_progress</item> -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@color/C15</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+</resources>

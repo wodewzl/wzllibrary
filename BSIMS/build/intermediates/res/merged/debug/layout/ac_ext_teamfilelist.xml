@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_deep_layout"
+        android:orientation="horizontal" >
+
+        
+
+        <com.bs.bsims.view.BSIndexEditText
+            android:id="@+id/edit_teamfilelist_single_search"
+            style="@style/F3C6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/corners_white"
+            android:drawableLeft="@drawable/ic_contacts_search_image"
+            android:drawablePadding="4dp"
+            android:hint="请输入关键字"
+            android:imeOptions="actionSearch"
+            android:padding="5dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loadingfile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:drawableTop="@drawable/no_content"
+        android:gravity="center"
+        android:text="暂时没有此类型的文档哦~"
+        android:visibility="gone" />
+
+    <com.bs.bsims.view.BSRefreshListView
+        android:id="@+id/bslistview_teamfilelist_approval"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+</LinearLayout>

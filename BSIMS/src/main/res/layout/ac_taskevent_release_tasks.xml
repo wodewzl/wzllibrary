@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hint_bg_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edit_taskevent_release_tasks_title"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:hint="标题"
+                android:textColorHint="@color/C6"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/ten"
+                    android:background="@color/line" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edit_taskevent_release_tasks_details"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:hint="详情"
+                android:textColor="@color/comm_txt_listview_black"
+                android:textColorHint="@color/C6" 
+                android:textSize="14dp"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/twenty"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/relative_taskevent_release_tasks_start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/ten" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="开始"
+                        android:textColor="@color/comm_txt_listview_black" />
+
+                    <TextView
+                        android:id="@+id/txt_taskevent_releasetask_startTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:drawableRight="@drawable/ic_contacts_department_fragment_arrow_default1"
+                        android:textColor="@color/comm_txt_listview_black" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/ten"
+                    android:background="@color/line" />
+
+                <RelativeLayout
+                    android:id="@+id/relative_taskevent_release_tasks_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/ten" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="结束"
+                        android:textColor="@color/comm_txt_listview_black" />
+
+                    <TextView
+                        android:id="@+id/txt_taskevent_releasetask_endTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:drawableRight="@drawable/ic_contacts_department_fragment_arrow_default1"
+                        android:textColor="@color/comm_txt_listview_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/twenty"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/relative_taskevent_release_tasks_addFujian"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/ten" >
+
+                    <TextView
+                        android:id="@+id/txt_releaseTaskEvent_fujianName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_toRightOf="@+id/txt_releaseTaskEvent_fujianInstrution"
+                        android:drawableRight="@drawable/common_ic_arrow_right"
+                        android:gravity="center_vertical|right"
+                        android:singleLine="true"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txt_releaseTaskEvent_fujianInstrution"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_taskevent_fujian_big"
+                        android:gravity="center_vertical"
+                        android:text="添加附件"
+                        android:textColor="@color/comm_txt_listview_black" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/ten"
+                    android:background="@color/line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="10dip"
+                    android:visibility="visible" >
+
+                    <com.bs.bsims.view.MyGridView
+                        android:id="@+id/mygridView_addtask_attachment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:horizontalSpacing="10dp"
+                        android:numColumns="4"
+                        android:verticalSpacing="10dp" />
+
+                    <TextView
+                        android:id="@+id/txt_addtask_attachment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="点击上传附件"
+                        android:textColor="@color/comm_txt_listview_gray"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten"
+                    android:text="负责人  (限1人,任务初审者)"
+                    android:textColor="@color/comm_txt_listview_black" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/relative_taskevent_release_tasks_fuzeren"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/ten"
+                        android:paddingTop="5dip" >
+
+                        <com.bs.bsims.view.BSCircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto "
+                            android:id="@+id/image_taskevent_releasetask_fuzeren"
+                            android:layout_width="50dip"
+                            android:layout_height="50dip"
+                            android:src="@drawable/add_persion" />
+
+                        <TextView
+                            android:id="@+id/txt_taskevent_releasetask_fuzeren"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/image_taskevent_releasetask_fuzeren"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="5dip"
+                            android:ellipsize="middle"
+                            android:singleLine="true"
+                            android:text="添加"
+                            android:textColor="#484848"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten"
+                    android:text="跟进人(限1人,进度修改者)"
+                    android:textColor="@color/comm_txt_listview_black" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/relative_taskevent_release_tasks_genjinren"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/ten"
+                        android:paddingTop="5dip" >
+
+                        <com.bs.bsims.view.BSCircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto "
+                            android:id="@+id/image_taskevent_releasetask_genjinren"
+                            android:layout_width="50dip"
+                            android:layout_height="50dip"
+                            android:src="@drawable/add_persion" />
+
+                        <TextView
+                            android:id="@+id/txt_taskevent_releasetask_genjinren"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/image_taskevent_releasetask_genjinren"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="5dip"
+                            android:ellipsize="middle"
+                            android:singleLine="true"
+                            android:text="添加"
+                            android:textColor="#484848"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ten"
+                    android:text="相关人(多人,任务参与者)"
+                    android:textColor="@color/comm_txt_listview_black" />
+
+                <RelativeLayout
+                    android:id="@+id/relative_taskevent_release_tasks_xiangguanren"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip"
+                    android:visibility="visible" >
+
+                    <!-- android:padding="@dimen/ten"       android:paddingBottom="10dip" -->
+                    <!-- android:paddingLeft="15dip" -->
+                    <!-- android:paddingRight="15dip" -->
+                    <!-- android:paddingTop="10dip" -->
+
+                    <com.bs.bsims.view.MyGridView
+                        android:id="@+id/myGridView_taskevent_releasetask_xiangguanren"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:horizontalSpacing="10dp"
+                        android:numColumns="4"
+                        android:verticalSpacing="10dp" />
+
+                    <TextView
+                        android:id="@+id/txt_taskevent_releasetask_xiangguanren"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="点击添加相关人"
+                        android:textColor="@color/comm_txt_listview_gray"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

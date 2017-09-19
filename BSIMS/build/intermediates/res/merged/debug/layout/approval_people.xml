@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/transfer_tv"
+        style="@style/layout_padding_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transfer_people"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/transfer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:visibility="gone" >
+
+        <com.bs.bsims.view.BSGridView
+            android:id="@+id/transfer_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+             android:numColumns="5" 
+            android:verticalSpacing="10dp" />
+
+        <TextView
+            android:id="@+id/transfer_go_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/common_ic_arrow_right"
+            android:textSize="20dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/approver_tv"
+        style="@style/layout_padding_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/approver"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/approver_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:visibility="gone" >
+
+        <com.bs.bsims.view.BSGridView
+            android:id="@+id/approver_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:listSelector="@android:color/transparent"
+           android:numColumns="5" 
+            android:verticalSpacing="10dp"/>
+
+        <TextView
+            android:id="@+id/approver_go_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/common_ic_arrow_right"
+            android:textSize="20dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/inform_people_tv"
+        style="@style/layout_padding_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inform_people" />
+
+    <LinearLayout
+        android:id="@+id/inform_people_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+
+        android:paddingTop="10dp" >
+
+        <com.bs.bsims.view.BSGridView
+            android:id="@+id/inform_gv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="5" 
+            android:verticalSpacing="10dp"/>
+
+        <TextView
+            android:id="@+id/inform_go_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/common_ic_arrow_right"
+            android:textSize="20dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

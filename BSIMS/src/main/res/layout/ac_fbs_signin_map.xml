@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/title_father"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/part_comm_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_bg_01" >
+
+        <com.bs.bsims.view.ReboundScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <!-- <com.amap.api.maps.MapView -->
+                <!-- android:id="@+id/map_signin_map" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="160dp" -->
+                <!-- android:background="#eeeeee" > -->
+                <!-- </com.amap.api.maps.MapView> -->
+
+                <FrameLayout
+                    android:id="@+id/map_signin_frm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.amap.api.maps2d.MapView
+                        android:id="@+id/map_signin_map"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+                    <ImageView
+                        android:id="@+id/sign_photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:src="@drawable/chat_takepic_normal" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_signin_map_local_des"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible" >
+
+                    <GridView
+                        android:id="@+id/grideview_upload"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@color/white"
+                        android:horizontalSpacing="3dp"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="3"
+                        android:padding="10dp"
+                        android:scrollbars="none"
+                        android:verticalSpacing="5dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txt_signin_map_local_des"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:drawableLeft="@drawable/crm_client_address_black"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:hint="(正在获取位置...)"
+                        android:padding="10dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#eeeeee" />
+
+                    <TextView
+                        android:id="@+id/txt_signin_map_local_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:drawableLeft="@drawable/crm_bussines_time"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:hint="(正在获取时间...)"
+                        android:padding="10dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#eeeeee" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            style="@style/text_midlle_eclipse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:drawableLeft="@drawable/crm_bussines_detail_cmoer"
+                            android:drawablePadding="5dp"
+                            android:textColor="@color/C14" />
+
+                        <EditText
+                            android:id="@+id/business_work_details"
+                            style="@style/F3C4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="#ffff"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="top"
+                            android:hint="备注信息"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#eeeeee"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_signin_map_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#999999"
+                    android:gravity="center"
+                    android:text="提交"
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+                <!-- android:background="#999999"  android:background="@drawable/circle_green_drak" -->
+
+            </LinearLayout>
+        </com.bs.bsims.view.ReboundScrollView>
+    </LinearLayout>
+
+</LinearLayout>

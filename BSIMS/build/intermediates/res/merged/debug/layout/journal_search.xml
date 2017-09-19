@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_deep_layout"
+    android:orientation="vertical" >
+
+    <com.bs.bsims.view.BSIndexEditText
+        android:id="@+id/filter_edit"
+        style="@style/F3C6"
+        android:layout_width="fill_parent"
+        android:layout_height="29dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/corners_white"
+        android:drawableLeft="@drawable/ic_contacts_search_image"
+        android:drawablePadding="4dp"
+        android:hint="请输入关键字"
+        android:padding="5dp"
+        android:singleLine="true" />
+    
+    <LinearLayout 
+        android:id="@+id/journal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/C3"
+        android:visibility="gone">
+    <com.bs.bsims.view.PinnedSectionListView
+        android:id="@+id/refresh_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@color/C3"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:visibility="visible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/people_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#F3F3F3" >
+
+        <ListView
+            android:id="@+id/lv_contacts_sort"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/show_head_toast_bg"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="gone" />
+
+        <com.bs.bsims.view.BSSideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" 
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

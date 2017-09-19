@@ -1,0 +1,130 @@
+1.引导页与轮播图
+  git地址：https://github.com/panxw/android-image-indicator
+           http://blog.csdn.net/u010375364/article/details/51982086
+2.多姿的轮播图
+  地址：https://github.com/youth5201314/banner
+        http://liuyvhao.blog.51cto.com/11690759/1786878
+        http://www.cnblogs.com/java-g/p/5690703.html
+3.九宫格发布
+  地址：https://github.com/bingoogolapple/BGAPhotoPicker-Android
+        https://github.com/jeasonlzy/NineGridView
+4.头像下拉缩放动效
+   地址：http://www.open-open.com/lib/view/open1432175568239.html
+5.listView 分组悬浮
+  地址：http://www.open-open.com/lib/view/open1455778636261.html
+6.仿苹果开关ToggleButton
+   地址：https://github.com/zcweng/ToggleButton
+7.仿QQ气泡拖拽消失
+  地址：https://github.com/chenupt/BezierDemo
+        https://github.com/qstumn/BadgeView
+8.引导指示点
+  地址：https://github.com/ongakuer/CircleIndicator
+9.viewpager顶部tab 指示器
+  地址：http://blog.csdn.net/gaolei1201/article/details/50421104
+10.进度提示
+   地址：http://blog.csdn.net/developer_jiangqq/article/details/49612399
+         https://github.com/81813780/AVLoadingIndicatorView
+11.右滑返回
+   地址：https://github.com/XBeats/and_swipeback 右边缘滑动返回
+         https://github.com/r0adkll/Slidr 全局滑动返回
+12.万能Adapter
+   地址：https://github.com/hongyangAndroid/baseAdapter
+  　　　 https://github.com/hongyangAndroid/baseAdapter(用法)
+13.RecyclerView 包括下拉刷新，自动加载更多，分页悬浮，侧滑删除
+   地址：https://github.com/scwang90/SmartRefreshLayout
+         https://github.com/jdsjlzx/LRecyclerView
+   　　　http://blog.csdn.net/jdsjlzx/article/details/51794220(用法)
+         https://github.com/bingoogolapple/BGAAdapter-Android/
+14.Dialog对话框
+   地址：https://github.com/pedant/sweet-alert-dialog
+         https://github.com/afollestad/material-dialogs
+         https://github.com/hss01248/DialogUtil
+         https://github.com/Bigkoo/Android-PickerView 三级联动，含有城市选择
+         https://juejin.im/post/59b15deff265da2494125a24 集成sweet-alert-dialog
+15.二维码扫描
+   地址：https://github.com/XuDaojie/QRCode-Android
+         https://github.com/yipianfengye/android-zxingLibrary
+         https://github.com/maning0303/ZXingCodeDemo
+16.动态获取权限
+   地址：http://www.jianshu.com/p/2b3661928e66
+   https://github.com/googlesamples/easypermissions
+17.工具类大全
+   地址：https://github.com/vondear/RxTools
+18.精美框架项目
+   地址：https://github.com/jaydenxiao2016/AndroidFire
+19.textview显示html
+   地址：https://github.com/sufficientlysecure/html-textview
+20.实现CollapsingToolbarLayout的下拉缩放
+   地址：https://github.com/anzewei/Android-DesignEx
+21.岑浸式状态栏
+   地址：
+   https://github.com/laobie/StatusBarUtil
+         https://github.com/fodroid/XStatusBarHelper
+22.Material Design bottmbar
+    地址：http://www.open-open.com/lib/view/open1465996383855.html //标准，还可以添加标记，如未读数据
+          https://github.com/open-android/FragmentTabhostUtils //底部导航栏
+23.顶部导航
+   地址：https://github.com/shanyao0/TabPagerIndicatorDemo //与26重复
+24.联系人索引
+  地址：https://github.com/gjiazhe/WaveSideBar
+25.时间轴效果
+   地址：https://github.com/zhangxuyang321/StepView
+26.指示器
+   地址：https://github.com/hackware1993/MagicIndicator
+27.自动更新
+   地址：https://github.com/louisgeek/CheckAppUpdateByPgyer
+28.圆形头像
+   地址：https://github.com/hdodenhof/CircleImageView
+30.对某个view聚光，可以用在引导用户
+   https://github.com/faruktoptas/FancyShowCaseView
+31.Magin 系列
+  地址：https://github.com/DreaminginCodeZH/MaterialRatingBar
+        https://github.com/mikepenz/MaterialDrawer
+        https://github.com/roughike/BottomBar
+32.上滑隐藏toolbar
+   地址：https://github.com/ksoichiro/Android-ObservableScrollView/blob/master/docs/quick-start/dependencies.md
+33.某个view 点击后特效
+   地址：https://github.com/traex/RippleEffect
+34.时间和日期选择器
+   地址：https://github.com/gzu-liyujiang/AndroidPicker
+         https://github.com/wdullaer/MaterialDateTimePicker
+35.自定义editText
+   地址：compile 'net.anumbrella:customedittext:1.0.0'（只有引用，没找到地址）
+36.标题渐变、吸附悬浮、筛选分类、动态头部等
+  地址：https://github.com/sfsheng0322/StickyHeaderListView
+37.Material Design Android Library
+  地址：https://github.com/rey5137/material
+38.评分组件
+  地址：https://github.com/DreaminginCodeZH/MaterialRatingBar
+
+39.图片文件压缩
+  地址：https://github.com/Curzibn/Luban
+       https://github.com/nanchen2251/CompressHelper
+40.关键字搜索
+  地址： https://github.com/chengzipi/Searchbox
+        https://github.com/alidili/FlowLayout
+41.购物车加减
+  地址：https://github.com/qinci/NumberButton
+42.悬浮库
+  地址：https://github.com/Sing1/StickyHeadersRecyclerView
+43.viewPager 头部上画搜索渐变
+  地址：https://github.com/hugeterry/CoordinatorTabLayout
+        https://github.com/jeasonlzy/HeaderViewPager
+        https://github.com/cpoopc/ScrollableLayout(ViewPager/RecycleView)
+        https://github.com/w446108264/ScrollableLayout(任何View)
+44.上滑动头像缩放到左上角，类似陌陌
+  地址：https://github.com/zoonooz/simple-view-behavior
+45.分包
+  地址：https://github.com/TangXiaoLv/Android-Easy-MultiDex
+46.FloatingActionButton
+   地址：https://github.com/makovkastar/FloatingActionButton
+47.CollapsingToolbarLayout的下拉缩放
+   地址：https://github.com/anzewei/Android-DesignEx
+        https://github.com/HendraAnggrian/collapsingtoolbarlayout-subtitle
+48.新手指引
+   地址：https://juejin.im/entry/5921c435570c350069b3a0ed
+49.密码对话框
+   地址：https://github.com/EthanCo/PasswordInput
+
+50.Retrofit与RxJvava
+https://github.com/Tamicer/RetrofitClient

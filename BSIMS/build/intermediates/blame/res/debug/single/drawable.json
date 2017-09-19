@@ -1,0 +1,958 @@
+[
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystorkpush2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystorkpush2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_left_normal1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_left_normal1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_corners_green.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\circle_corners_green.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\yus_btn_check.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\yus_btn_check.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\im_play.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\im_play.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_05.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_05.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\im_chat_send_btn_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\im_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_brown.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_brown.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_calendar_last.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bt_calendar_last.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\onclick_approve.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\onclick_approve.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_c7.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_c7.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_static_bg_people.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_static_bg_people.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_letter.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_letter.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\onclick_approve_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\onclick_approve_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_check.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_check.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_left_select_bule10.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_left_select_bule10.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystorkpush4.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystorkpush4.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_black_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_black_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\download_progress_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\download_progress_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_03.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_03.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_circle_progress.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\ic_circle_progress.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\file_list_top_bgc2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\file_list_top_bgc2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_write.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_write.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_statistics_rect_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_statistics_rect_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\action_btn.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\action_btn.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\item_taskeventlistadapter_progressdrawable_front.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\item_taskeventlistadapter_progressdrawable_front.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_static_bg_number.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_static_bg_number.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_bg_gender.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_bg_gender.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_red.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_red.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\app_market_right.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\app_market_right.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_left_select1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_left_select1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_bg1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\tv_bg1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_gray_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_gray_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_c3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_c3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_kongxin_green.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_kongxin_green.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\static_sale_value_rank.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\static_sale_value_rank.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\im_chat_voice_btn_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\im_chat_voice_btn_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_green.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_green.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\app_makert_left.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\app_makert_left.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_4round_line.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_4round_line.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_white.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_white.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_press_speak_btn.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_blue_light.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_blue_light.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\dotted_lineds.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\dotted_lineds.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_nobgd.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bt_nobgd.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystork.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystork.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_kongxin_yellow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_kongxin_yellow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\folder_text_color.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\folder_text_color.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_trade_center_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_trade_center_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_taskevent_progress.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_taskevent_progress.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\common_bg_gray_white.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\common_bg_gray_white.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\crm_funnel_top4.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\crm_funnel_top4.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_message.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_message.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_statistics_rect_deep_green.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_statistics_rect_deep_green.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_blackpre_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_blackpre_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\cancel_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_send_btn_selector2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\chat_send_btn_selector2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_contacts_tv_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_contacts_tv_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_left.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_left.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_left_gray10.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_left_gray10.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\dotted_line_c1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\dotted_line_c1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_brown.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_brown.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixin_bc2_c.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixin_bc2_c.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\type_select_btn.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\type_select_btn.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_greenlow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_greenlow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_workapprove_red_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\txt_workapprove_red_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\item_selecttor.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\item_selecttor.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_public_sortlistview_checkbox.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\selector_public_sortlistview_checkbox.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_statistics_rect_orange.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_statistics_rect_orange.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_gray_style_high.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_gray_style_high.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_tab03.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_tab03.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\seekbar_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_green_light.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_green_light.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\crm_funnel_top3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\crm_funnel_top3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_noread.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_noread.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_yellow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_yellow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixin_bc3_cc1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixin_bc3_cc1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystork_menubtn.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystork_menubtn.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_right_select_bule10.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_right_select_bule10.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_sign_in_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\btn_sign_in_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_create_02.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_create_02.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\text_while.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\text_while.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_notice_senmsg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_notice_senmsg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_create_03.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_create_03.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\onclick_approve_pressed.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\onclick_approve_pressed.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_middle_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_middle_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_titlebar.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_titlebar.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_devider_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_devider_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_01.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_01.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_10_gray_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_10_gray_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_calendar_next.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bt_calendar_next.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_left_select.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_left_select.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\item_click.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\item_click.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\file_list_top_bgc3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\file_list_top_bgc3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_bulue_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_bulue_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\notify_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\notify_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_right_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_right_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\holder_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\holder_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_middle_select2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_middle_select2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_right_select2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_right_select2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_statistics_rect_green.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_statistics_rect_green.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_blue_high.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_blue_high.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_gray.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_gray.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\image_layout_shape.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\image_layout_shape.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_middle_select.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_middle_select.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_yellow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_yellow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystorkpush1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystorkpush1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\srounded_tab_right_grey.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\srounded_tab_right_grey.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_04.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_04.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystork_gray.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystork_gray.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bgd_relatly_line.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bgd_relatly_line.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_c20.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_c20.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_voice_btn.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\srounded_tab_left_grey.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\srounded_tab_left_grey.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_phone.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_phone.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_center_select.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_center_select.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_kongxin_gray.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_kongxin_gray.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_06.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_06.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystorkpush.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystorkpush.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_green_drak.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\circle_green_drak.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\kcalendar_bt_calendar_next.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\kcalendar_bt_calendar_next.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_02.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_circle_02.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_kongxin_red.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_kongxin_red.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_contacts_tv_select.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_contacts_tv_select.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_right_select.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_right_select.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_drawable_c19.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\progress_drawable_c19.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\file_list_top_bgc1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\file_list_top_bgc1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_static_bg_time.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_static_bg_time.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_trade_left_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_trade_left_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\edit_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_tab_boss03.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_tab_boss03.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_contacts_search_edit.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\selector_contacts_search_edit.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\snap_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\snap_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_contacts.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_contacts.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\common_photos_pic_choose_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\common_photos_pic_choose_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_notice_unread.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_notice_unread.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_drawable_c19_stytle.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\progress_drawable_c19_stytle.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\crm_funnel_top5.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\crm_funnel_top5.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\crm_vistor_bgselect.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\crm_vistor_bgselect.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_self.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_self.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_statistics_rect_light_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_statistics_rect_light_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\crm_funnel_top2.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\crm_funnel_top2.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystorkpush3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystorkpush3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_select_selecttor.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_select_selecttor.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_workapprove_green_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\txt_workapprove_green_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_right_gray10.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_right_gray10.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\kcalendar_bt_calendar_last.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\kcalendar_bt_calendar_last.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\boss_statistics_rect_zongse.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\boss_statistics_rect_zongse.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_work.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_work.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_right_normal1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_right_normal1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\kcalendar_bt_nobgd.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\kcalendar_bt_nobgd.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_left_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_left_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_gray.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_gray.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_create_01.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_create_01.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\yus_bg_green.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\yus_bg_green.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystork1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystork1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\recording_hint_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\recording_hint_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_light_gray.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_light_gray.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_trade_right_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_trade_right_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\dotted_line_c3.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\dotted_line_c3.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_white.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_white.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_gray_bottom_style.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_gray_bottom_style.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_tab_center_normal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_tab_center_normal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\yus_bg_white.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\yus_bg_white.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\confir_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\confir_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\top_category_scroll_text_color_day.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\top_category_scroll_text_color_day.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_takepic_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\chat_takepic_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\im_button_recording.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\im_button_recording.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_image_selector.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\chat_image_selector.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\crm_funnel_top1.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\crm_funnel_top1.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_kongxin_zise.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_kongxin_zise.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystorkpush5.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystorkpush5.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_kongxin_blue.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_kongxin_blue.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\dotted_line_c4.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\dotted_line_c4.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_notice_read.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_notice_read.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\comm_dialog_tips_hint_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\comm_dialog_tips_hint_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\im_button_recordnormal.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\im_button_recordnormal.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\tv_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\recording_text_hint_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_yellow.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_yellow.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\yus_btn_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\yus_btn_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\chatfrom_bg.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_green.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\corners_green.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\linearystork_bule.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\linearystork_bule.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\webview_progress.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\webview_progress.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_upload_back.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\circle_upload_back.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_shixing_tranle.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\frame_shixing_tranle.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\ratingbar_stytle.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\ratingbar_stytle.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_crm.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\bg_crm.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\item_taskeventlistadapter_progressdrawable.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\item_taskeventlistadapter_progressdrawable.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8edf174ffe57308abe2346a89eb70a7082c6b956\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_buttong_bg.xml",
+        "source": "G:\\wuzhanglong\\android_studio\\workspace\\Wuzhanglong\\BSIMS\\src\\main\\res\\drawable\\radio_buttong_bg.xml"
+    }
+]

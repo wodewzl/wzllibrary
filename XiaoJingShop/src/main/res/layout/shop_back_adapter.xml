@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/C1"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/padding_15_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/C1"
+            />
+
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2"
+            android:text="白色升级版顶顶顶顶顶顶顶顶dddd顶顶顶顶顶顶"
+            android:textSize="@dimen/sp_14"/>
+
+        <TextView
+            android:id="@+id/price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_tv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img"
+            android:text="白色升级版"
+            android:textSize="12sp"
+            android:textColor="@color/C5"/>
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/name_tv"
+            android:layout_marginTop="5dp"
+            android:text="x1"
+            android:textSize="12sp"
+            android:textColor="@color/C5"/>
+
+    </RelativeLayout>
+</LinearLayout>

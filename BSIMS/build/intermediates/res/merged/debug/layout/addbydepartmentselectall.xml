@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/line_public_many_employee_all"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingRight="15dp" >
+
+        <LinearLayout
+            android:id="@+id/line_contacts_department_see_person"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+         
+
+            <TextView
+                android:id="@+id/txt_contacts_department_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="选择全公司"
+                android:textColor="@color/comm_txt_listview_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_public_many_employee_check"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical" >
+
+            <CheckBox
+                android:id="@+id/checkBox_up_check_selectall"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:button="@drawable/selector_public_sortlistview_checkbox"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

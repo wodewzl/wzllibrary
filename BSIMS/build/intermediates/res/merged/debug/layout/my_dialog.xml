@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center" >
+    
+<LinearLayout 
+    android:layout_width="300.0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+     <TextView
+        android:id="@+id/textv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dp"
+        android:textColor="@color/blug_bg" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp"
+        android:layout_marginTop="10.0dp"
+        android:background="@color/blug_bg" />
+
+    <LinearLayout
+        android:id="@+id/relayout_addview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dp"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="15.0dp"
+        android:paddingRight="15.0dp" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cancel_selector"
+            android:text="取  消"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/btn_confir_line"
+            android:layout_width="20.0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_confir"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/confir_selector"
+            android:text="确  定"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    
+</LinearLayout>
+
+   
+</LinearLayout>

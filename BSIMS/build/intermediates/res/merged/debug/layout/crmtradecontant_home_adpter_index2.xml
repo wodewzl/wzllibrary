@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/recorde_names"
+                style="@style/text_midlle_eclipse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="回款人："
+                android:textColor="@color/gray_bg"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/recorde_name"
+                style="@style/text_midlle_eclipse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/recorde_names"
+                android:text="马化腾11111111111111111111111111111111111111111"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/record_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="15dp"
+                android:maxLength="25"
+                android:text="20151111111111111111111111111111111111111"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingBottom="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/recorde_moneys"
+                style="@style/text_midlle_eclipse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="已付："
+                android:textColor="@color/gray_bg"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/recorde_money"
+                style="@style/text_midlle_eclipse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/recorde_moneys"
+                android:text=""
+                android:textColor="#00AAFE" />
+
+            <TextView
+                android:id="@+id/recorde_moneystate"
+                style="@style/text_midlle_eclipse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/recorde_money"
+                android:text=""
+                android:textColor="@color/gray_bg"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/record_states"
+                style="@style/F5C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="15dp"
+                android:background="@drawable/corners_yellow"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+              />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

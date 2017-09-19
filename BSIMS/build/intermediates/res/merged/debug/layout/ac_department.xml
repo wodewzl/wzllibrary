@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D5D5"
+    android:orientation="vertical" >
+
+    <include layout="@layout/part_comm_head" />
+
+    <com.bs.bsims.view.BSIndexEditText
+        android:id="@+id/edit_single_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/selector_contacts_search_edit"
+        android:drawableLeft="@drawable/ic_contacts_search_image"
+        android:hint="请输入关键字"
+        android:singleLine="true"
+        android:textSize="15.0dip"/>
+
+    <ListView
+        android:id="@+id/listView_departmentList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+</LinearLayout>

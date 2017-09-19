@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/layout_padding_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="基本信息"
+            android:textColor="@color/gray_bg"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/start_time_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/crm_busssines_addname" />
+
+                <EditText
+                    android:id="@+id/bussines_name"
+                    style="@style/F3C4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ffff"
+                    android:gravity="left|center_vertical"
+                    android:hint="商机名称"
+                    android:maxWidth="160dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/app_bg" />
+
+            <LinearLayout
+                android:id="@+id/ly_customer"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/bussines_customer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/crm_client_name"
+                    android:drawablePadding="10dp"
+                    android:hint="选择客户"
+                    android:textColor="@color/C4" />
+
+                <TextView
+                    android:id="@+id/bussines_customer_ic"
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/app_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/crm_client_money_black" />
+
+                <EditText
+                    android:id="@+id/bussines_money"
+                    style="@style/F3C4"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffff"
+                    android:gravity="left|center_vertical"
+                    android:hint="预计金额"
+                    android:maxWidth="160dp"
+                    android:numeric="integer"
+                    android:singleLine="true" />
+
+                <TextView
+                    style="@style/F3C5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:gravity="right|center"
+                    android:singleLine="true"
+                    android:text="元"
+                    android:textColor="@color/gray_bg" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/app_bg" />
+
+            <LinearLayout
+                android:id="@+id/ly_bsdate"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/bussines_dateend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/crm_bussines_detail_time"
+                    android:drawablePadding="10dp"
+                    android:hint="预计成单日期"
+                    android:textColor="@color/C4" />
+
+                <TextView
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/app_bg" />
+
+            <LinearLayout
+                android:id="@+id/ly_bsstate"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/bussines_street"
+                    style="@style/text_midlle_eclipse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/crm_bussiness_type"
+                    android:drawablePadding="10dp"
+                    android:hint="销售阶段"
+                    android:textColor="@color/C4" />
+
+                <TextView
+                    android:id="@+id/bussines_street_right"
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/app_bg" />
+
+            <LinearLayout
+                android:id="@+id/ly_bsrousre"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/bussines_chance_from"
+                    style="@style/text_midlle_eclipse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/crm_client_source"
+                    android:drawablePadding="10dp"
+                    android:hint="商机来源"
+                    android:textColor="@color/C4" />
+
+                <TextView
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/layout_padding_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="其他信息"
+            android:textColor="@color/gray_bg"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ly_product"
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/bussines_chance_getproduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/crm_bussines_detail_prod"
+                    android:drawablePadding="10dp"
+                    android:hint="产品"
+                    android:textColor="@color/C4" />
+
+                <TextView
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/product_info_namess2"
+                    style="@style/text_midlle_eclipse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawableLeft="@drawable/crm_bussines_addqx"
+                    android:drawablePadding="5dp"
+                    android:text="权限所属"
+                    android:textColor="@color/C14" />
+
+                <TextView
+                    android:id="@+id/bussines_dateend"
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/app_bg" />
+
+            <LinearLayout
+                style="@style/layout_padding_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/text_midlle_eclipse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/crm_bussines_detail_cmoer"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/C14" />
+
+                <EditText
+                    android:id="@+id/business_work_details"
+                    style="@style/F3C4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#ffff"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="top"
+                    android:hint="备注信息"
+                    android:padding="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

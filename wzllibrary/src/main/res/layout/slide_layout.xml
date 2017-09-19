@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wuzhanglong.library.sliding.SlidingLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/slide_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     >
+    <!--android:background="@color/sy_title_color"-->
+    <ImageView
+            android:id="@+id/iv_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"/>
+    <FrameLayout
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+</com.wuzhanglong.library.sliding.SlidingLayout>

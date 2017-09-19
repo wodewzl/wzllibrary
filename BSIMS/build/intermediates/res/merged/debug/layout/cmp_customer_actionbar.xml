@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/bg_main_message_04"
+    android:orientation="vertical" >
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/ic_head_back"
+        android:drawablePadding="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="返回"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/titleName"
+        android:textSize="@dimen/F1"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/action_btn"
+        android:minHeight="1dp"
+        android:minWidth="1dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:textSize="@dimen/F4" />
+
+</RelativeLayout>

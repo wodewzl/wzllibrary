@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pinned_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C3"
+        android:paddingTop="10dp" 
+               android:paddingLeft="15dp"
+       >
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/time_bg"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="2016-03-01"
+            android:textColor="@color/C1" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/C1"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="吴章龙" />
+
+                <TextView
+                    android:id="@+id/depart_tv"
+                    style="@style/F4C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name_tv"
+                    android:layout_marginTop="2dp"
+                    android:text="市场部" />
+
+                <TextView
+                    android:id="@+id/type_tv"
+                    style="@style/F4C1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="2dp"
+                    android:text="日报" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title01"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="今日工作总结" />
+
+                <TextView
+                    android:id="@+id/today_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="9dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="嫖娼" />
+
+                <TextView
+                    android:id="@+id/title03"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="完成情况"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/finish_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="9dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="嫖娼"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/title04"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="经验总结"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/experience_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="9dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="嫖娼"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/title02"
+                    style="@style/F3C6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="明日计划" />
+
+                <TextView
+                    android:id="@+id/tomrrow_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="9dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="虎骨宁" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sheng_lue"
+                style="@style/F3C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:paddingBottom="5dp"
+                android:text="······· 全文 "
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/F4C5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:text="发布时间：" />
+
+                <TextView
+                    android:id="@+id/publish_time_tv"
+                    style="@style/F4C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2016-03-1" />
+
+                <TextView
+                    android:id="@+id/replay_tv"
+                    style="@style/F4C5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/message"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="15"
+                    android:textColor="@color/C7" />
+
+                <LinearLayout
+                    android:id="@+id/aggree_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="15dp" >
+
+                    <ImageView
+                        android:id="@+id/img_agree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/agree" />
+
+                    <TextView
+                        android:id="@+id/praise_tv"
+                        style="@style/F4C5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="赞"
+                        android:textColor="@color/C7" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_layout"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/bg_circle_white" />
+
+            <com.bs.bsims.view.BSCircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto "
+                android:id="@+id/head_icon"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/ic_default_portrait_s" />
+
+            <ImageView
+                android:id="@+id/favor_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:paddingTop="40dp"
+                android:src="@drawable/favor_bg" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

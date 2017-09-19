@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/C3" />
+
+    <RelativeLayout
+        android:id="@+id/calendar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:background="@color/C1" >
+
+        <RelativeLayout
+            android:id="@+id/popupwindow_calendar_last_month"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/popupwindow_calendar_month" >
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/kcalendar_bt_calendar_last" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/popupwindow_calendar_month"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#aa564b4b"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/popupwindow_calendar_next_month"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/popupwindow_calendar_month" >
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/kcalendar_bt_calendar_next" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.bs.bsims.view.BSCalendarView
+        android:id="@+id/popupwindow_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_title"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible" >
+    </com.bs.bsims.view.BSCalendarView>
+
+    <com.bs.bsims.view.BSCalendarCurrentItemView
+        android:id="@+id/one_itme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_title"
+        android:layout_gravity="center_horizontal" >
+    </com.bs.bsims.view.BSCalendarCurrentItemView>
+
+    <LinearLayout
+        android:id="@+id/contents_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/one_itme"
+        android:layout_weight="1"
+        android:background="@color/C2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/C2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/C7"
+                    android:textSize="37sp" />
+
+                <TextView
+                    android:id="@+id/schedule_title"
+                    style="@style/F3C6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="吴章龙龙龙龙龙龙龙龙" />
+
+                <ImageView
+                    android:id="@+id/state_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/calendar_open" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/C2" />
+        </LinearLayout>
+
+
+        <com.bs.bsims.view.BSRefreshListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</RelativeLayout>

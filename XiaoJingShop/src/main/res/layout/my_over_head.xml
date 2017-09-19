@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/C1"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="可用余额"
+            android:textSize="@dimen/sp_16"/>
+
+        <com.rey.material.widget.TextView
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:id="@+id/over_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥365"
+            android:textColor="@color/XJColor6"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/C3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+        <com.rey.material.widget.TextView
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:id="@+id/recharge_tv"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="充  值"
+            android:textColor="@color/XJColor6"
+            android:layout_marginRight="30dp"
+            android:textSize="14sp"/>
+
+        <com.rey.material.widget.TextView
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:id="@+id/withdraw_tv"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="提  现"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/XJColor5"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

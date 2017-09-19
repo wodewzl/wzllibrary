@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_changedate" />
+
+    <!-- android:textColor="#333333" -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp" />
+
+    <com.bs.bsims.view.BSRefreshListView
+        android:id="@+id/ac_ext_taskstatistics_progressbar_list_refreshlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:scrollbars="none" />
+
+</LinearLayout>

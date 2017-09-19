@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/C2"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textview"
+        style="@style/F3C4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:gravity="left"
+        android:padding="15dip"
+        android:singleLine="true"
+        android:text="06月" 
+       android:textSize="12sp"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/slip_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/slip_frame"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-200dp"
+        android:contentDescription="@null"
+        android:src="@drawable/slip_bg" />
+
+    <ImageView
+        android:id="@+id/slip_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/slip_frame" />
+
+    <ImageView
+        android:id="@+id/slip_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/slip_bg"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/slip_btn" />
+
+</RelativeLayout>

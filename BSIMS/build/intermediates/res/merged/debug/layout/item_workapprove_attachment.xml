@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/line_attachment_action"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/image_attachment_action"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_workapprove_grid_add"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/line_attachment_content"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/image_attachment_file"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_upload_file"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/text_attachment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_below="@+id/image_attachment_file"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dip"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="恢复供货风格功夫功夫"
+            android:textColor="#484848"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/img_attachment_reduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dip"
+            android:src="@drawable/ic_workapprove_del"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

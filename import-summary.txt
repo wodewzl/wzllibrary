@@ -1,0 +1,262 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From BSIms_122:
+* BSlibrary\
+* BSlibrary\BSLibraryPhotoView\
+* BSlibrary\BSLibraryPhotoView\.classpath
+* BSlibrary\BSLibraryPhotoView\.project
+* BSlibrary\BSLibraryPhotoView\.settings\
+* BSlibrary\BSLibraryPhotoView\.settings\org.eclipse.jdt.core.prefs
+* BSlibrary\BSLibraryPhotoView\AndroidManifest.xml
+* BSlibrary\BSLibraryPhotoView\LICENSE
+* BSlibrary\BSLibraryPhotoView\bin\
+* BSlibrary\BSLibraryPhotoView\bin\AndroidManifest.xml
+* BSlibrary\BSLibraryPhotoView\bin\R.txt
+* BSlibrary\BSLibraryPhotoView\bin\classes\
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\BuildConfig.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\Compat.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\IPhotoView.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoView.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoViewAttacher$1.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoViewAttacher$AnimatedZoomRunnable.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoViewAttacher$FlingRunnable.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoViewAttacher$OnMatrixChangedListener.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoViewAttacher$OnPhotoTapListener.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoViewAttacher$OnViewTapListener.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\PhotoViewAttacher.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\R$attr.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\R$layout.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\R$string.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\R.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\SDK16.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\ScrollerProxy$GingerScroller.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\ScrollerProxy$PreGingerScroller.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\ScrollerProxy.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\VersionedGestureDetector$CupcakeDetector.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\VersionedGestureDetector$EclairDetector.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\VersionedGestureDetector$FroyoDetector$1.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\VersionedGestureDetector$FroyoDetector.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\VersionedGestureDetector$OnGestureListener.class
+* BSlibrary\BSLibraryPhotoView\bin\classes\uk\co\senab\photoview\VersionedGestureDetector.class
+* BSlibrary\BSLibraryPhotoView\bin\library.jar
+* BSlibrary\BSLibraryPhotoView\gen\
+* BSlibrary\BSLibraryPhotoView\gen\uk\
+* BSlibrary\BSLibraryPhotoView\gen\uk\co\
+* BSlibrary\BSLibraryPhotoView\gen\uk\co\senab\
+* BSlibrary\BSLibraryPhotoView\gen\uk\co\senab\photoview\
+* BSlibrary\BSLibraryPhotoView\gen\uk\co\senab\photoview\BuildConfig.java
+* BSlibrary\BSLibraryPhotoView\gen\uk\co\senab\photoview\R.java
+* BSlibrary\BSLibraryPhotoView\pom.xml
+* BSlibrary\BSLibraryPhotoView\project.properties
+* BSlibrary\BSLibraryPhotoView\res\
+* BSlibrary\BSLibraryPhotoView\res\layout\
+* BSlibrary\BSLibraryPhotoView\res\layout\main.xml
+* BSlibrary\BSLibraryPhotoView\res\values\
+* BSlibrary\BSLibraryPhotoView\res\values\strings.xml
+* BSlibrary\BSLibraryPhotoView\src\
+* BSlibrary\BSLibraryPhotoView\src\uk\
+* BSlibrary\BSLibraryPhotoView\src\uk\co\
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\Compat.java
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\IPhotoView.java
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\PhotoView.java
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\PhotoViewAttacher.java
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\SDK16.java
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\ScrollerProxy.java
+* BSlibrary\BSLibraryPhotoView\src\uk\co\senab\photoview\VersionedGestureDetector.java
+* BSlibrary\BSLibrarySwipeListView\
+* BSlibrary\BSLibrarySwipeListView\.classpath
+* BSlibrary\BSLibrarySwipeListView\.project
+* BSlibrary\BSLibrarySwipeListView\.settings\
+* BSlibrary\BSLibrarySwipeListView\.settings\org.eclipse.jdt.core.prefs
+* BSlibrary\BSLibrarySwipeListView\AndroidManifest.xml
+* BSlibrary\BSLibrarySwipeListView\bin\
+* BSlibrary\BSLibrarySwipeListView\bin\AndroidManifest.xml
+* BSlibrary\BSLibrarySwipeListView\bin\R.txt
+* BSlibrary\BSLibrarySwipeListView\bin\classes\
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\BuildConfig.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\R$attr.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\R$drawable.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\R$string.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\R$style.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\R.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenu.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuAdapter.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuCreator.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuItem.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuLayout$1.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuLayout.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuListView$1.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuListView$OnMenuItemClickListener.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuListView$OnSwipeListener.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuListView.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuView$OnSwipeItemClickListener.class
+* BSlibrary\BSLibrarySwipeListView\bin\classes\com\baoyz\swipemenulistview\SwipeMenuView.class
+* BSlibrary\BSLibrarySwipeListView\bin\jarlist.cache
+* BSlibrary\BSLibrarySwipeListView\bin\res\
+* BSlibrary\BSLibrarySwipeListView\bin\res\crunch\
+* BSlibrary\BSLibrarySwipeListView\bin\res\crunch\drawable-hdpi\
+* BSlibrary\BSLibrarySwipeListView\bin\res\crunch\drawable-hdpi\ic_launcher.png
+* BSlibrary\BSLibrarySwipeListView\bin\res\crunch\drawable-mdpi\
+* BSlibrary\BSLibrarySwipeListView\bin\res\crunch\drawable-mdpi\ic_launcher.png
+* BSlibrary\BSLibrarySwipeListView\bin\res\crunch\drawable-xhdpi\
+* BSlibrary\BSLibrarySwipeListView\bin\res\crunch\drawable-xhdpi\ic_launcher.png
+* BSlibrary\BSLibrarySwipeListView\bin\swipemenulistview.jar
+* BSlibrary\BSLibrarySwipeListView\gen\
+* BSlibrary\BSLibrarySwipeListView\gen\com\
+* BSlibrary\BSLibrarySwipeListView\gen\com\baoyz\
+* BSlibrary\BSLibrarySwipeListView\gen\com\baoyz\swipemenulistview\
+* BSlibrary\BSLibrarySwipeListView\gen\com\baoyz\swipemenulistview\BuildConfig.java
+* BSlibrary\BSLibrarySwipeListView\gen\com\baoyz\swipemenulistview\R.java
+* BSlibrary\BSLibrarySwipeListView\libs\
+* BSlibrary\BSLibrarySwipeListView\libs\android-support-v4.jar
+* BSlibrary\BSLibrarySwipeListView\proguard-project.txt
+* BSlibrary\BSLibrarySwipeListView\project.properties
+* BSlibrary\BSLibrarySwipeListView\res\
+* BSlibrary\BSLibrarySwipeListView\res\drawable-hdpi\
+* BSlibrary\BSLibrarySwipeListView\res\drawable-hdpi\ic_launcher.png
+* BSlibrary\BSLibrarySwipeListView\res\drawable-mdpi\
+* BSlibrary\BSLibrarySwipeListView\res\drawable-mdpi\ic_launcher.png
+* BSlibrary\BSLibrarySwipeListView\res\drawable-xhdpi\
+* BSlibrary\BSLibrarySwipeListView\res\drawable-xhdpi\ic_launcher.png
+* BSlibrary\BSLibrarySwipeListView\res\values-v11\
+* BSlibrary\BSLibrarySwipeListView\res\values-v11\styles.xml
+* BSlibrary\BSLibrarySwipeListView\res\values-v14\
+* BSlibrary\BSLibrarySwipeListView\res\values-v14\styles.xml
+* BSlibrary\BSLibrarySwipeListView\res\values\
+* BSlibrary\BSLibrarySwipeListView\res\values\strings.xml
+* BSlibrary\BSLibrarySwipeListView\res\values\styles.xml
+* BSlibrary\BSLibrarySwipeListView\src\
+* BSlibrary\BSLibrarySwipeListView\src\com\
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\SwipeMenu.java
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\SwipeMenuAdapter.java
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\SwipeMenuCreator.java
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\SwipeMenuItem.java
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\SwipeMenuLayout.java
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\SwipeMenuListView.java
+* BSlibrary\BSLibrarySwipeListView\src\com\baoyz\swipemenulistview\SwipeMenuView.java
+* keystore\
+* keystore\peckbeisheng20150520.keystore
+* proguard-project.txt
+From BSLibraryPhotoView:
+* BSLibraryPhotoView.iml
+* LICENSE
+* pom.xml
+From BSLibrarySwipeListView:
+* BSLibrarySwipeListView.iml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.+
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In BSLibraryPhotoView:
+* AndroidManifest.xml => bSLibraryPhotoView\src\main\AndroidManifest.xml
+* assets\ => bSLibraryPhotoView\src\main\assets
+* res\ => bSLibraryPhotoView\src\main\res\
+* src\ => bSLibraryPhotoView\src\main\java\
+In BSLibrarySwipeListView:
+* AndroidManifest.xml => bSLibrarySwipeListView\src\main\AndroidManifest.xml
+* assets\ => bSLibrarySwipeListView\src\main\assets
+* res\ => bSLibrarySwipeListView\src\main\res\
+* src\ => bSLibrarySwipeListView\src\main\java\
+In BSIms_122:
+* AndroidManifest.xml => BSIMS\src\main\AndroidManifest.xml
+* assets\ => BSIMS\src\main\assets\
+* libs\AMap_Location_V3.1.0_20161027.jar => BSIMS\libs\AMap_Location_V3.1.0_20161027.jar
+* libs\AMap_Services_V2.7.0_20151125.jar => BSIMS\libs\AMap_Services_V2.7.0_20151125.jar
+* libs\android-async-http-1.4.7.jar => BSIMS\libs\android-async-http-1.4.7.jar
+* libs\Android_2DMapApi_V2.4.1.jar => BSIMS\libs\Android_2DMapApi_V2.4.1.jar
+* libs\commons-io.jar => BSIMS\libs\commons-io.jar
+* libs\easemobchat_2.0.6.jar => BSIMS\libs\easemobchat_2.0.6.jar
+* libs\jpush-android-2.1.7.jar => BSIMS\libs\jpush-android-2.1.7.jar
+* libs\Msc.jar => BSIMS\libs\Msc.jar
+* libs\picasso-2.5.2.jar => BSIMS\libs\picasso-2.5.2.jar
+* libs\universal-image-loader-1.9.5.jar => BSIMS\libs\universal-image-loader-1.9.5.jar
+* libs\Xutils3.jar => BSIMS\libs\Xutils3.jar
+* libs\yunzhixun_IM_SDK_ver_3.0.4.3_release.jar => BSIMS\libs\yunzhixun_IM_SDK_ver_3.0.4.3_release.jar
+* libs\yunzhixun_tcp_SDK_ver_3.0.5.1_release.jar => BSIMS\libs\yunzhixun_tcp_SDK_ver_3.0.5.1_release.jar
+* res\ => BSIMS\src\main\res\
+* src\ => BSIMS\src\main\java\
+* show_head_toast_bg.9.PNG => show_head_toast_bg.9.png
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

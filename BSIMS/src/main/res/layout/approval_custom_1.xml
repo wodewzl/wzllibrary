@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/leave_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/C1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="12sp"
+        android:paddingBottom="12dp"
+        style="@style/layout_padding_style"
+        >
+
+        <TextView
+            android:id="@+id/type_title"
+            style="@style/parent_tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:text="@string/leave_time" />
+
+        <EditText
+            android:id="@+id/type_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+             android:textColor="@color/gray_light_text" 
+             android:textSize="14sp"
+            android:background="@color/C1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:gravity="right"
+            android:text="王思聪" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp" >
+
+            <TextView 
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="15dip"/>
+
+            <TextView
+                android:id="@+id/line_text"
+                android:layout_width="1dp"
+                android:layout_height="20dp" 
+                android:background="#D7D7D7"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/giveup_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/C6"
+            android:text="23" />
+    </LinearLayout>
+
+</LinearLayout>

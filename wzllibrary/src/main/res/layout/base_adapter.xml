@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fillViewport="true"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/no_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/C2"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/adapter_no_content_tv"
+            style="@style/F3C6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/base_no_content"
+            android:gravity="center"
+            android:text="没有相关信息"/>
+    </LinearLayout>
+
+</LinearLayout>

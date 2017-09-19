@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+>
+
+    <CheckedTextView
+        android:id="@+id/type_name_tv"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:gravity="center"
+        android:maxLength="4"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="最新消息"
+        android:textSize="14sp"
+        android:textColor="@color/group_common_color" />
+
+</LinearLayout>

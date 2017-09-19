@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_01"
+    android:orientation="vertical" >
+    
+  <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dp" >
+
+                <TextView
+                    android:id="@+id/notice_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="本周五下午召开全体员工大会"
+                    android:textColor="@color/title_text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/notice_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/notice_title"
+                    android:layout_marginTop="5dp"
+                    android:text="2015-4-21 19:41" 
+                    android:textColor="@color/gray_light_text"/>
+
+                <TextView
+                    android:id="@+id/publisher_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/notice_time"
+                    android:layout_toRightOf="@id/notice_time"
+                    android:text="@string/publisher" 
+                    android:textColor="@color/gray_light_text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/notice_time"
+                    android:layout_toRightOf="@id/publisher_tv"
+                    android:text="胡月" 
+                    android:textColor="@color/gray_light_text"/>
+
+                <TextView
+                    android:id="@+id/number_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/notice_time"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/number" 
+                    android:textColor="@color/gray_light_text"/>
+
+                <TextView
+                    android:id="@+id/number_text_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/number_tv"
+                    android:layout_toRightOf="@id/number_tv"
+                    android:text="18602727134" 
+                    android:textColor="@color/gray_light_text"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all_department" 
+                    android:textColor="@color/gray_light_text"/>
+
+                <TextView
+                    android:id="@+id/notice_content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="我啊以后ID啊熬多久ad法规定大高度爱妃个的ad个打了肯德基拉空房间啊可怜的加拉肯德基啦大大" 
+                    android:textColor="@color/gray_light_text"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/head_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/head_icon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/head_icon" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notice_end" 
+                    android:textColor="@color/gray_light_text"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/notice_object"
+                android:textColor="#96A6A7"
+                android:textSize="17sp" 
+                android:visibility="gone"/>
+
+            <com.bs.bsims.view.BSGridView
+                android:id="@+id/notice_object_gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4" 
+                android:background="@color/white"
+                android:visibility="gone"/>
+            
+            <TextView 
+                android:id="@+id/discuss_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/discuss"
+                android:padding="10dp"
+                android:textColor="#96A6A7"/>
+            
+                        <com.bs.bsims.view.BSListView
+                android:id="@+id/list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@null" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/head_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#136ACB"
+        android:orientation="horizontal" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/broke_note_tv"
+            style="@style/layout_padding_style"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="#136ACB"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrowsss"
+            android:drawableLeft="@drawable/book"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="爆料须知"
+            android:textSize="16sp"
+            android:textColor="@color/C1"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <com.beisheng.base.view.BSAutoSwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.beisheng.synews.view.BSListViewLoadMore
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/C1"
+            android:visibility="gone" >
+        </com.beisheng.synews.view.BSListViewLoadMore>
+    </com.beisheng.base.view.BSAutoSwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/transparent" >
+
+            <ImageView
+                android:id="@+id/footer_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                 android:layout_marginTop="13dp"
+                android:background="@drawable/baisc_info_drop" />
+
+            <TextView
+                android:id="@+id/basicinfoendtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/footer_type"
+                android:text="11111111111111111111111111111" />
+
+            <TextView
+                android:id="@+id/basicinfoschool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/basicinfoendtime"
+                android:layout_alignLeft="@id/basicinfoendtime"
+                android:layout_marginTop="5dp"
+                android:text="1ddddddddd"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/basicinfoeducation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basicinfoschool"
+                   android:layout_alignLeft="@id/basicinfoschool"
+                android:layout_marginTop="5dp"
+                android:text="1dddddddddasaaaa"
+                android:textColor="@color/C6"
+                android:layout_marginBottom="5dp" />
+        </RelativeLayout>
+
+</LinearLayout>

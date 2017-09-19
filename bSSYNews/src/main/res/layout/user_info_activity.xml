@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    android:orientation="vertical" >
+
+    <com.beisheng.base.view.BSReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/C3"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout_01"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="昵称" />
+
+                <TextView
+                    android:hint="未设置"
+                    android:id="@+id/tv_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:textColor="@color/C6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_06"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="头像" />
+
+                <com.beisheng.base.view.BSCircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/head_img"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip" />
+
+                <TextView
+                     android:hint="未设置"
+                    android:id="@+id/tv_06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:textColor="@color/C6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_02"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="手机号" />
+
+                <TextView
+                     android:hint="未设置"
+                    android:id="@+id/tv_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:textColor="@color/C6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_03"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="密码" />
+
+                <TextView
+                     android:hint="未设置"
+                    android:id="@+id/tv_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:textColor="@color/C6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_04"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="收货地址" />
+
+                <TextView
+                    android:id="@+id/tv_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:hint="未设置"
+                    android:textColor="@color/C6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_05"
+                style="@style/layout_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="商品兑换记录" />
+
+                <TextView
+                    android:id="@+id/tv_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/name_tv"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:textColor="@color/C6" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.beisheng.base.view.BSReboundScrollView>
+
+</LinearLayout>

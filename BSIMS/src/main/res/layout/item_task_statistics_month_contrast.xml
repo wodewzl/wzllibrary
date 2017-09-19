@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_item_task_statistics_month_contrast"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_taskevent_fujian_small" />
+
+            <TextView
+                android:id="@+id/txt_last_item_task_statistics_month_contrast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_item_task_statistics_month_contrast"
+                android:layout_centerHorizontal="true"
+                android:text="肖方"
+                android:textColor="@color/title_text" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_item_task_statistics_month_contrast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txt_item_task_statistics_month_contrast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="肖方"
+                    android:textColor="@color/title_text" />
+
+                <TextView
+                    android:id="@+id/txt_item_task_statistics_month_contrast_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/item_taskeventlistadapter_progressdrawable_front"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/txt_item_task_statistics_month_contrast_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:singleLine="true"
+                    android:text="10"
+                    android:textColor="@color/title_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txt_last_item_task_statistics_month_contrast_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="肖方"
+                    android:textColor="@color/title_text" />
+
+                <TextView
+                    android:id="@+id/txt_last_item_task_statistics_month_contrast_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/item_taskeventlistadapter_progressdrawable_front"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/txt_last_item_task_statistics_month_contrast_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:singleLine="true"
+                    android:text="10"
+                    android:textColor="@color/title_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/common_ic_arrow_right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginLeft="80dp"
+        android:background="@color/line" />
+
+</LinearLayout>

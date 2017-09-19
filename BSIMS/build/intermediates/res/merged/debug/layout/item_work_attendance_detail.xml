@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nsm_attendance_father"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <com.bs.bsims.view.BSCircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto "
+            android:id="@+id/item_work_attendance_detail_icon"
+            android:layout_width="22dip"
+            android:layout_height="22dip"
+            android:background="@drawable/nsm_attendance_pig"
+            android:gravity="center_vertical" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/item_work_attendance_detail_icon"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:id="@+id/tem_work_attendance_detail_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:text="本月考工"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/tem_work_attendance_detail_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:drawableRight="@drawable/common_ic_arrow_right"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/black_01" />
+            <!-- android:layout_gravity="center_vertical "    android:layout_centerVertical="true" -->
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

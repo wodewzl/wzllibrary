@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp" >
+
+        <LinearLayout
+            android:id="@+id/title_layout_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_bg_01"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_05"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="全部状态" />
+
+            <TextView
+                android:id="@+id/text_06"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="未审核" />
+
+            <TextView
+                android:id="@+id/text_07"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="审核中" />
+
+            <TextView
+                android:id="@+id/text_08"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="审核通过" />
+
+            <TextView
+                android:id="@+id/text_09"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="被驳回" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_layout_pop_home_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_bg_01"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/pop_home_task_text_01"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="全部状态" />
+
+            <TextView
+                android:id="@+id/pop_home_task_text_02"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="进行中" />
+
+            <TextView
+                android:id="@+id/pop_home_task_text_03"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="待初审" />
+
+            <TextView
+                android:id="@+id/pop_home_task_text_04"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="待定审" />
+
+            <TextView
+                android:id="@+id/pop_home_task_text_05"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="已完成" />
+
+            <TextView
+                android:id="@+id/pop_home_task_text_06"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="已超期" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

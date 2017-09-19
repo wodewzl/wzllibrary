@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <com.wuzhanglong.library.view.ReboundScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/C3"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.rey.material.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/C3"
+            android:orientation="vertical">
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_01"
+                style="@style/item2_custom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_01"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/my_go"
+                    android:gravity="left|center_vertical"
+                    android:text="修改登录密码"
+                    android:textSize="13sp"/>
+            </com.rey.material.widget.LinearLayout>
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_06"
+                style="@style/Material.Drawable.Ripple.Touch.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_06"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/my_go"
+                    android:gravity="left|center_vertical"
+                    android:text="设置支付密码"
+                    android:textSize="13sp"/>
+            </com.rey.material.widget.LinearLayout>
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_02"
+                style="@style/item2_custom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_02"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/my_go"
+                    android:gravity="left|center_vertical"
+                    android:text="发票"
+                    android:textSize="13sp"/>
+            </com.rey.material.widget.LinearLayout>
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_03"
+                style="@style/item2_custom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_03"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/my_go"
+                    android:gravity="left|center_vertical"
+                    android:text="收货地址"
+                    android:textSize="13sp"/>
+            </com.rey.material.widget.LinearLayout>
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_04"
+                style="@style/item2_custom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_04"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/my_go"
+                    android:gravity="left|center_vertical"
+                    android:text="关于我们"
+                    android:textSize="13sp"/>
+            </com.rey.material.widget.LinearLayout>
+
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_07"
+                style="@style/Material.Drawable.Ripple.Touch.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_07"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:text="版本更新"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/verson_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawableRight="@drawable/my_go"
+                    android:drawablePadding="5dp"
+                    android:gravity="left|center_vertical"
+                    android:text="1.0.1"
+                    android:textColor="@color/C5"
+                    android:textSize="12sp"/>
+            </com.rey.material.widget.LinearLayout>
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_05"
+                style="@style/Material.Drawable.Ripple.Touch.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_05"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:text="清除缓存"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/cache_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawableRight="@drawable/my_go"
+                    android:drawablePadding="5dp"
+                    android:gravity="left|center_vertical"
+                    android:text="0KB"
+                    android:textColor="@color/C5"
+                    android:textSize="12sp"/>
+            </com.rey.material.widget.LinearLayout>
+
+            <com.rey.material.widget.LinearLayout
+                android:id="@+id/layout_08"
+                style="@style/Material.Drawable.Ripple.Touch.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_08"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:text="用户指南"
+                    android:textSize="13sp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:drawableRight="@drawable/my_go"
+                    android:drawablePadding="5dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/C5"
+                    android:textSize="12sp"/>
+            </com.rey.material.widget.LinearLayout>
+            <com.rey.material.widget.Button
+                android:id="@+id/bt"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:layout_marginTop="20dp"
+                android:background="@color/C7"
+                android:text="退出账号"
+                android:textColor="@color/C1"
+                android:textSize="14sp"
+                app:rd_enable="true"/>
+        </com.rey.material.widget.LinearLayout>
+    </com.wuzhanglong.library.view.ReboundScrollView>
+</android.support.constraint.ConstraintLayout>

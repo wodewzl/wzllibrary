@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="12:38"
+        android:visibility="visible" />
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/system_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/frame_shixing_tranle"
+        android:gravity="center"
+        android:text="12:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:3812:38"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" >
+
+        <com.bs.bsims.view.BSCircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto "
+            android:id="@+id/head_icon_s"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_launcher"
+            android:transitionName="head_icon"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/mgs_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/head_icon_s" >
+
+            <com.bs.bsims.emoji.EmojiconTextView
+                android:id="@+id/tv_chatcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:autoLink="web"
+                android:background="@drawable/im_yourchatmsg"
+                android:gravity="left|center"
+                android:lineSpacingExtra="2dp"
+                android:maxWidth="225.0dip"
+                android:paddingLeft="8dip"
+                android:text="哦"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/fmvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/iv_voice"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/im_yourchatmsg"
+                        android:clickable="true"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/voice_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@drawable/update_hint"
+                        android:text="11"
+                        android:textColor="@color/C6"
+                        android:textSize="@dimen/F4"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_voice_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="20dp"
+                    android:background="@anim/im_left_voice"
+                    android:clickable="true"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <com.bs.bsims.chatutils.IMChatImageView
+                android:id="@+id/message_list_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:clickable="false"
+                android:visibility="gone"
+                android_custom:arrowHeightOffset="20dp"
+                android_custom:arrowWidthOffset="6dp"
+                android_custom:circleDismen="6dp"
+                android_custom:from="left"
+                android_custom:image="@drawable/default_img"
+                android_custom:imageStyle="normal"
+                android_custom:textAreaBkg="#3A4237"
+                android_custom:textColor="#FBFBFB"
+                android_custom:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_delivered"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mgs_all"
+            android:background="@drawable/im_nosend"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/pb_sending"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mgs_all"
+            android:indeterminate="false"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/item_grida_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/upload_picture" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/delete_icon"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

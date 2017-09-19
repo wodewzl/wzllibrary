@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/onclick_approve"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/five"
+        android:paddingLeft="@dimen/ten"
+        android:paddingRight="@dimen/five"
+        android:paddingTop="@dimen/five" >
+
+        <ImageView
+            android:id="@+id/img_taskList_portrait"
+            android:layout_width="@dimen/fifty"
+            android:layout_height="@dimen/fifty"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/ten"
+            android:src="@drawable/ic_default_portrait_s" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/img_taskevent_list_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_taskevent_underway" />
+
+                <TextView
+                    android:id="@+id/txt_taskevent_list_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/five"
+                    android:layout_toLeftOf="@+id/img_taskevent_list_status"
+                    android:gravity="center_vertical"
+                    android:text="爱神的箭卡桑德拉"
+                    android:textColor="@color/comm_txt_listview_black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight" >
+
+                <TextView
+                    android:id="@+id/txt_taskevent_list_fujian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/ic_taskevent_fujian_small"
+                    android:gravity="center_vertical"
+                    android:text="附件"
+                    android:textColor="@color/comm_txt_name_gray" />
+
+                <TextView
+                    android:id="@+id/txt_taskevent_list_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/txt_taskevent_list_fujian"
+                    android:text="20%"
+                    android:textColor="@color/red"
+                    android:textSize="14sp" />
+                <!-- 没有附件时文字直接在父控件右边 -->
+
+                <TextView
+                    android:id="@+id/txt_taskevent_list_percent_noFujian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="测试"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/ten"
+                    android:layout_toLeftOf="@+id/txt_taskevent_list_percent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txt_taskevent_list_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="07.26-07.29"
+                            android:textColor="@color/comm_txt_listview_gray"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt_taskevent_list_isread"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dip"
+                            android:background="@drawable/txt_workapprove_red_bg"
+                            android:paddingBottom="1dip"
+                            android:paddingLeft="2dip"
+                            android:paddingRight="2dip"
+                            android:paddingTop="1dip"
+                            android:text="未读"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dip"
+        android:background="@color/line" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/C1">
+
+    <include
+        android:id="@+id/three_tv" 
+        layout="@layout/three_titie_one" 
+         android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/total_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/C1"
+        android:orientation="horizontal" 
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/ac_ext_attendance_ss_departmente_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/attendances_ss_departmente_top1" />
+
+        <TextView
+            android:id="@+id/ac_ext_attendance_ss_departmente_allnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ac_ext_attendance_ss_departmente_rank"
+            android:paddingTop="2dp" />
+
+        <TextView
+            android:id="@+id/ac_ext_attendance_ss_departmente_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp" />
+
+        <TextView
+            style="@style/F3C5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70dp"
+            android:layout_toLeftOf="@id/ac_ext_attendance_ss_departmente_minus"
+            android:text="@string/attendances_ss_departmente_top2"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+        <TextView
+        android:id="@+id/list_title_tv"
+        style="@style/F3C6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/C1"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="部门缺日志排行" />
+    <com.bs.bsims.view.BSRefreshListView
+        android:id="@+id/ac_ext_attendance_ss_departmente_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+</LinearLayout>

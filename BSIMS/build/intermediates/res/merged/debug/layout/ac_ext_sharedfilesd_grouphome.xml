@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.bs.bsims.view.BSIndexEditText
+        android:id="@+id/edit_single_search"
+        style="@style/F3C6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/corners_white"
+        android:drawableLeft="@drawable/ic_contacts_search_image"
+        android:drawablePadding="4dp"
+        android:hint="请输入关键字"
+        android:imeOptions="actionSearch"
+        android:padding="5dp"
+        android:singleLine="true" />
+
+    <com.bs.bsims.view.BSIndicator3Sharedfiles
+        android:id="@+id/ac_ext_sharedfilesd_grouphome_top_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.bs.bsims.view.BSIndicator3Sharedfiles>
+
+    <FrameLayout
+        android:id="@+id/id_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/loadingfile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:drawableTop="@drawable/no_content"
+        android:gravity="center"
+        android:text="暂时没有此类型的文档哦~"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/fragment_sharedfilesd_home_all_refreshlistview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:visibility="gone" />
+
+</LinearLayout>

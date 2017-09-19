@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">北企星云办公</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_work">工作</string>
+    <string name="tab_work01">哈哈</string>
+    <string name="tab_phone">通讯录</string>
+    <string name="tab_self">我</string>
+    <string name="sendTwo">抄送人：</string>
+    <string name="work_content">工作内容</string>
+    <string name="write_today_work">"请输入您今日的工作内容"</string>
+    <string name="finish_progress">完成情况</string>
+    <string name="write_today_finish_progres">"请输入您今日的完成情况"</string>
+    <string name="experience_summarize">经验总结</string>
+    <string name="write_today_experience_summarize">"请输入您今日的经验总结"</string>
+    <string name="tomorrow_plan">明日计划</string>
+    <string name="write_tomorrow_plan">"请输入您明日的工作内容"</string>
+    <string name="publish_journal">发布日志</string>
+    <string name="ok">确认</string>
+    <string name="sendTwoPerson">抄送人</string>
+    <string name="ok_sendTwo">确认抄送</string>
+    <string name="boss_send">BOSS抄送</string>
+    <string name="discuss">评论(%1$d)</string>
+    <string name="contacts">联系人</string>
+    <string name="phone">电话</string>
+    <string name="qq">QQ</string>
+    <string name="email">邮箱</string>
+    <string name="search_hint">搜索</string>
+    <string name="read_all">阅读全文</string>
+    <string name="publisher">"发布人："</string>
+    <string name="number">编号：</string>
+    <string name="all_department">各公司部门：</string>
+    <string name="notice_end">特此通告</string>
+    <string name="notice_object">通知对象</string>
+    <string name="daily_affairs">日常事物</string>
+    <string name="journal_manager">日志管理</string>
+    <string name="journal_detail">日志详情</string>
+    <string name="punch">上班打卡</string>
+    <string name="publish_approval">发起审批</string>
+    <string name="publish_task">发布任务</string>
+    <string name="view_approval">查阅审批</string>
+    <string name="creative_idea">意见分享</string>
+    <string name="publish_document">发布公文</string>
+    <string name="corporate_culture">企业风采</string>
+    <string name="administrative_services">行政事物</string>
+    <string name="human_resources">人力资源网</string>
+    <string name="attendance_inquiry">考勤查询</string>
+    <string name="publish_notice">发布通知</string>
+    <string name="employee_records">员工档案</string>
+    <string name="employee_relations">员工关系</string>
+    <string name="training_management">培训管理</string>
+    <string name="notify">动向</string>
+    <string name="notice">通知</string>
+    <string name="publish_notice_title">"标题："</string>
+    <string name="publish_notice_type">"类型："</string>
+    <string name="publish_personrevice">"发送："</string>
+    <string name="receiver">接收者：</string>
+    <string name="by_sector">全部部门</string>
+    <string name="by_post">全部岗位</string>
+    <string name="by_gz">全部职位</string>
+    <string name="by_more">更多</string>
+    <string name="publish_notice_hint">请输入通知内容</string>
+    <string name="insert_description">点击插入图片(最多3张)</string>
+    <string name="notice_number">通知编号：</string>
+    <string name="discuss_able">能否评论</string>
+    <string name="company_culture">企业风采</string>
+    <string name="all">全部</string>
+    <string name="my_create_idea">创意</string>
+    <string name="my_suggest">建议</string>
+    <string name="approver">审批人</string>
+    <string name="approval">"审 批"</string>
+    <string name="unapproval">"驳 回"</string>
+    <string name="adoption">"采 纳"</string>
+    <string name="unadoption">"不采纳"</string>
+    <string name="adoption_suggest">请输入采纳意见</string>
+    <string name="call">呼叫</string>
+    <string name="message">消息</string>
+    <string name="reset">重置</string>
+    <string name="create_content">请输入创意内容</string>
+    <string name="approval_type">审批类型</string>
+    <string name="select_approval">选择一个审批类型</string>
+    <string name="ask_for_leave">请假</string>
+    <string name="overtime">加班</string>
+    <string name="supplies">物资</string>
+    <string name="fees_apply_for">费用申请</string>
+    <string name="caigou">采购(报销)</string>
+    <string name="wipe_out">借支</string>
+    <string name="pr">公关(报销)</string>
+    <string name="travel">差旅(报销)</string>
+    <string name="propaganda">宣传类(报销)</string>
+    <string name="manager">管理类(报销)</string>
+    <string name="attendance_appeals">考勤申诉</string>
+    <string name="lack_cards">缺卡单</string>
+    <string name="lack_journal">缺日志</string>
+    <string name="write_journal">发布</string>
+    <string name="daily_summary">每日一总结</string>
+    <string name="leave">请假申请</string>
+    <string name="leaveas">事假病假 等</string>
+    <string name="journal_view">日志查阅</string>
+    <string name="leave01">事假</string>
+    <string name="leave02">病假</string>
+    <string name="leave03">陪（产假）</string>
+    <string name="leave04">公休假</string>
+    <string name="leave05">调休假</string>
+    <string name="leave06">婚假</string>
+    <string name="leave07">丧假</string>
+    <string name="add">添加</string>
+    <string name="leading_reviews">领导点评(%1$d)</string>
+    <string name="is_publish">是否公开</string>
+    <string name="is_anonymous">是否匿名</string>
+    <string name="new_creative">意见发布</string>
+    <string name="new_idea">意见发布</string>
+    <string name="attendance_summary">考勤查询</string>
+    <string name="new_work_approval">新建工作审批</string>
+    <string name="start_time">开始时间：</string>
+    <string name="end_time">结束时间：</string>
+    <string name="leave_time">请假时间：</string>
+    <string name="approval_small_type">审批类型：</string>
+    <string name="leave_cause">请假原因</string>
+    <string name="leave_content_hint">请输入请假原因及备注说明</string>
+    <string name="transfer_people">交接人</string>
+    <string name="inform_people">知会人</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="leave_alone">请假单</string>
+    <string name="reasons_apply">申请原因：</string>
+    <string name="apply_time">申请时间：</string>
+    <string name="details">明细</string>
+    <string name="item_name">物品名称</string>
+    <string name="money">金额</string>
+    <string name="count">数量</string>
+    <string name="add_item">添加明细项</string>
+    <string name="overtime_reason">加班说明</string>
+    <string name="work_finish">工作完成情况</string>
+    <string name="overtime_detail">加班详情</string>
+    <string name="missing_card_date">缺卡日期：</string>
+    <string name="missing_card_reason">缺卡原因</string>
+    <string name="proof_people">证明人</string>
+    <string name="chucai_fee">出差费用：</string>
+    <string name="write_content">请输入内容</string>
+    <string name="time_long">使用时间：</string>
+    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="release_to_cancel">松开手指，取消发送</string>
+    <string name="shenluehao">···</string>
+
+    <!-- 移动打卡 -->
+    <string name="punch_the_clock_title">移动打卡</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+
+    <!-- TaskHomeActivity -->
+    <string name="ac_label_taskhome">任务管理</string>
+    <string name="ac_label_taskhome_tab1">我发布的</string>
+    <string name="ac_label_taskhome_tab2">我负责的</string>
+    <string name="ac_label_taskhome_tab3">我跟进的</string>
+    <string name="ac_label_taskhome_tab4">知会我的</string>
+
+    <!-- EXTTaskChangeDateActivity -->
+    <string name="new_end_time">新的结束时间：</string>
+
+    <!-- DownloadGroupHomeActivity -->
+    <string name="downloadgrouphomeactivity_title">文件管理</string>
+
+    <!-- fragment_downloadgrouphome_indicator -->
+    <string name="ac_downloadgrouphome_indicator_left">全部文档</string>
+    <string name="ac_downloadgrouphome_indicator_middle">我上传的</string>
+    <string name="ac_downloadgrouphome_indicator_right">我标记的</string>
+    <string name="ac_extteamfilelist_right_update">上传</string>
+
+    <!-- fragment_downloadgrouphome_indicator -->
+    <string name="ac_label_taskstatistics">任务统计</string>
+    <string name="ac_label_attendancesstatistics">考勤统计</string>
+
+    <!-- Taskstatus -->
+    <string name="task_status1">进行中</string>
+    <string name="task_status2">待初审</string>
+    <string name="task_status3">待定审</string>
+    <string name="task_status4">完成</string>
+    <string name="task_status5">超期</string>
+
+    <!-- EXTAttendanceStatisticsLineChartActivity -->
+    <string name="attendances_ss_linechart_top1">合计(%1$s)</string>
+    <string name="attendances_ss_linechart_top2">最高(%1$s)</string>
+    <string name="attendances_ss_linechart_top3">最低(%1$s)</string>
+
+    <!-- EXTAttendanceStatisticsDepartmentEActivity  10.各部门下详细的考勤统计接口 -->
+    <string name="attendances_ss_departmente_top1">合计：</string>
+    <string name="attendances_ss_departmente_top2">环比：</string>
+
+    <!-- EXTAttendanceStatisticsDepartmentDetailActivity 9. 各部门各月考工统计详情接口 头部数据来自于StatisticsArticlesActivity -->
+    <string name="attendances_ss_department_detail_top1">本月考工(元)</string>
+    <string name="attendances_ss_department_detail_top2">累计考工(元)</string>
+    <string name="attendances_ss_department_detail_item1">月累计</string>
+    <string name="attendances_ss_department_detail_item2">环比</string>
+    <string name="attendances_ss_department_detail_item3">年累计</string>
+
+    <!-- EXTAttendanceStatisticsLineChartActivity 基础数据 -->
+    <string name="attendances_ss_linechart_select1">全部类别</string>
+    <string name="department_all">全部部门</string>
+    <string name="every_day">"每天"</string>
+    <string name="never">"一律不"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"日程提醒"</string>
+    <string name="alarm_notify_text">"选择暂停或关闭此提醒。"</string>
+
+    <!-- EXTSharedfilesdGroupHomeActivity 标题 -->
+    <string name="ac_ext_sharedfilesd_grouphome_title">云盘管理</string>
+    <!-- 人力资源 -->
+    <string name="human_resource_report_monthlyoverview">月度人力资源概况</string>
+    <string name="human_resource_report_monthlyrecruitment">月度招聘工作概况</string>
+    <string name="human_resource_report_monthlyleavework">月度员工离职概况</string>
+    <string name="human_resource_report_monthlysalarychange">月度培训工作概况</string>
+    <string name="human_resource_report_monthlymoneychange">月度薪资变动概况</string>
+    <string name="fast_experience">快速体验</string>
+    <string name="nothingforuser">没有相关信息</string>
+    <string name="middle_text">-------月/总(%1$s)-------</string>
+    <string name="error_php_interface">暂无</string>
+
+    <!-- Crm销售目标 -->
+    <string name="sale_pop1">个人目标</string>
+    <string name="sale_pop2">部门目标</string>
+    <string name="sale_pop3">时间筛选</string>
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="action_done">完成</string>
+    <string name="photo_unit">张</string>
+    <string name="tip_take_photo">拍摄照片</string>
+
+    <!-- 既时通讯 -->
+    <string name="button_pushtotalk">按住说话</string>
+    <string name="button_send">发送</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_file">文件</string>
+    <string name="attach_voice_call">语音电话</string>
+    <string name="want_to_cancle">松开手指，取消发送</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+
+</resources>

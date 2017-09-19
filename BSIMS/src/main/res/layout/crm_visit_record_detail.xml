@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_01"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/C1"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/title_layout"
+                layout="@layout/person_title" />
+
+            <TextView
+                android:id="@+id/content_tv"
+                style="@style/F3C5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你" />
+
+            <com.bs.bsims.view.BSGridView
+                android:id="@+id/send_second_person_gv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/C2" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ly_customer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/bussines_customer"
+                        style="@style/text_midlle_eclipse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/crm_client_name"
+                        android:drawablePadding="5dp"
+                        android:paddingLeft="5dp"
+                        android:text="客  户:"
+                        android:textColor="@color/C5" />
+
+                    <TextView
+                        android:id="@+id/cname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:ellipsize="end"
+                        android:gravity="left|center"
+                        android:maxLines="3"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/text_midlle_eclipse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/crm_client_contacts"
+                        android:drawablePadding="5dp"
+                        android:padding="5dp"
+                        android:text="拜访人:"
+                        android:textColor="@color/C5" />
+
+                    <TextView
+                        android:id="@+id/vistor_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:ellipsize="end"
+                        android:gravity="left|center"
+                        android:maxLines="3" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/C2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/mode_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/frame_kongxin_gray"
+                    android:drawableLeft="@drawable/crm_client_phone"
+                    android:drawablePadding="3dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="电话拜访" />
+
+                <TextView
+                    android:id="@+id/objective_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/frame_kongxin_gray"
+                    android:padding="5dp"
+                    android:text="业务洽谈"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/link_bname_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/frame_kongxin_gray"
+                android:drawableLeft="@drawable/crm_client_money"
+                android:drawablePadding="3dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/link_cname_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/frame_kongxin_gray"
+                android:drawableLeft="@drawable/crm_link_client"
+                android:drawablePadding="3dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/link_address_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/crm_client_address"
+                android:drawablePadding="3dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="我我爱你我爱你我爱你我爱你"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/C2" />
+
+            <TextView
+                android:id="@+id/discuss_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_bg_01"
+                android:padding="10dp"
+                android:text="@string/discuss"
+                android:textColor="#96A6A7"
+                android:visibility="gone" />
+
+            <com.bs.bsims.view.BSListView
+                android:id="@+id/list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/hint_bg_color" >
+
+        <FrameLayout
+            android:id="@+id/bottom_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hint_bg_color" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">玛儿特出行</string>
+    <string name="title_activity_logo">LogoActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_my_route">MyRouteActivity</string>
+    <string name="title_activity_nearby_car">NearbyCarActivity</string>
+    <string name="title_activity_pay_deposit">PayDepositActivity</string>
+    <string name="title_activity_report_car">ReportCarActivity</string>
+    <string name="title_activity_use_car">UseCarActivity</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_approve_name">ApproveNameActivity</string>
+    <string name="title_activity_billing_car">BillingCarActivity</string>
+    <string name="title_activity_lock_car">LockCarActivity</string>
+    <string name="title_activity_back">BackActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+
+
+    <string name="pwd">输入密码</string>
+    <string name="forgot_pwd">忘记密码？</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_0">0</string>
+    <string name="title_activity_wxpay">WXPayActivity</string>
+    <string name="title_activity_wxpay_entry">WXPayEntryActivity</string>
+</resources>

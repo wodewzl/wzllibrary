@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\BSIMS\library\bSLibraryPhotoView\src\main\assets"/><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\BSIMS\library\bSLibraryPhotoView\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="G:\wuzhanglong\android_studio\workspace\Wuzhanglong\BSIMS\library\bSLibraryPhotoView\src\release\assets"/></dataSet></merger>

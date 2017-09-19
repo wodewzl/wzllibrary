@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bs.bsims"
+    android:versionCode="1"
+    android:versionName="2.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- sound start -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- sound end -->
+
+
+    <!-- 环信权限 start -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <!-- 环信权限end -->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 极光推送start -->
+    <permission
+        android:name="com.bs.bsims.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="com.bs.bsims.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <!-- 极光推送 end -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <!-- 电话服务添加 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.autofocus" />
+
+    <!-- 开启闪光灯权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- 读取通讯录权限 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- 写入通讯录权限 -->
+
+
+    <!-- 云之迅 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <application
+        android:name="com.bs.bsims.application.BSApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/BaseAppTheme" >
+
+        <!-- f106f6dc20a5ee105eafbc48c5728a96 -->
+        <!-- de335dbea591317f7d51215b1d4014cc (1.2.6)   928d122a2d398df210fe44d819f1cfca (客户定制)  cb4d21eb09120ecbcbe9748375fa9a50 （2.0） -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="cb4d21eb09120ecbcbe9748375fa9a50" />
+
+        <activity
+            android:name="com.bs.bsims.activity.LogoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppStartLoad" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bs.bsims.viewpager.ViewPagerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.bs.bsims.activity.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.bs.bsims.activity.BaseActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.bs.bsims.activity.JournalListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EditSendActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.HeadActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ContactPersonActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.AttendanceSummaryActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.AddByDepartmentActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.NoticeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.NoticeDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.NoticePublishActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.NotifyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.CompanyCultureActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.CompanyCultureDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.CreativeIdeaActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.CreativeIdeaDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.CreativeIdeaAdoptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.NoticeObjectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ObjectActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.DocumentPublishActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.CreativeIdeaNewActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalLeaveActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalLeaveDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalOvertimeActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalOvertimeDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalAttendanceActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalAttendanceDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalFeeApplyActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalFeeApplyDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalSuppliesActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalSuppliesDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTSignInMapActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="移动打卡"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.bs.bsims.activity.SignInActivity"
+            android:label="移动打卡列表"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTWorkAttendanceDetailActivity"
+            android:label="考勤详情"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalSelfActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ImagePreviewActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ReleaseTaskActivity"
+            android:label="发布任务"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.UploadFileListActivity"
+            android:label="展示文件上传列表"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.UploadDetailActivity"
+            android:label="文件上传"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.AboutActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskEventDetailsActivity"
+            android:label="任务详情页面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskHomeActivity"
+            android:label="任务管理"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.UpdatePasswordActivity"
+            android:label="任务管理"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.CreativeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTSelectPercentActivity"
+            android:label="选择进度"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTWorkAttendanceEveryoneDetailActivity"
+            android:label="考勤具体详情"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskHomeHPActivity"
+            android:label="任务管理多分类"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskHomeLAVAActivity"
+            android:label="任务管理多分类刷新"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskChangeDateActivity"
+            android:label="过期任务改时间"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTDownloadGroupHomeActivity"
+            android:label="文件下载列表"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTeamFileListActivity"
+            android:label="部门文件列表"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskStatisticsPieChartActivity"
+            android:label="任务统计"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskStatisticsEveryoneListActivity"
+            android:label="任务统计图表的单项列表"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskStatisticsLineChart4Activity"
+            android:label="任务统计图表线形图 4项点击"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTAttendanceStatisticsLineChartActivity"
+            android:label="考勤统计首页线形图 5项点击"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTAttendanceStatisticsDepartmentDetailActivity"
+            android:label="各部门各月考工统计详情"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTAttendanceStatisticsDepartmentEActivity"
+            android:label="各部门员工详细的考勤统计"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTAttendanceStatisticsPieChart4Activity"
+            android:label="考勤统计饼形图2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTTaskStatisticsPieChart4Activity"
+            android:label=" 任务统计饼形图2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.DanganChuQingInfoLineChartActivity"
+            android:label=" 获取出勤情况各项线形图"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.DanganChuQingInfoLineChart2Activity"
+            android:label=" 获取出勤情况各项线形图2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.EXTSharedfilesdGroupHomeActivity"
+            android:label=" 文档管理首界面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.AddByPersonActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ScheduleActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.ScheduleAddActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.ScheduleDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.StatisticsArticlesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.StatisticsArticlesDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.PieChartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.StatisticsApprovalDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.StatisticsApprovalActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.DanganIndextwoActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.DanganIndexoneActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.HumanResoureActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.DanganAllWorkChilrd"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.alarm.AlarmAlertFullScreen"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" />
+        <activity
+            android:name="com.bs.bsims.activity.WarnActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.activity.StatisticsAttendanceActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.imgselect.TestPicActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name="com.bs.bsims.imgselect.ImageGridActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- 自定义审批发布 -->
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalCustomActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 自定义审批详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalCustomDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- 费用申请关联借支单列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.ApprovalBorrowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- crm消息列表页面 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- crm客户列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- crm客户主页 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientHomeActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- crm客户详情页 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- crm客户添加 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- crm客户添加更多 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientAddMoreActivity"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- crm拜访记录详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmVisitRecordDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- crm产品管理 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmProductManagementListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- crm产品添加 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmProductManagementAddInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- crm公海详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmHighseasClientsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- crm公海主页 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmHighseasClientsHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- crm联系人详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmContactDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- crm添加联系人 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientAddContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- crm联系人列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmContactListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- crm通讯录导入联系人列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmContactsPhoneListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- crm回款审批列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmApprovalPaymentActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- crm回款审批详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmApprovalDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss日志列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.JournalListBossActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 员工轨迹定位首页 -->
+        <activity
+            android:name="com.bs.bsims.activity.GaoDeMapLoactionIndexActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- 员工轨迹详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.GaoDeMapPersonTrajectoryActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- Crm商机详情列表主页 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmBusinessHomeListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm商机主页列表切换 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmBusinessHomeIndexOneInfo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm商机主页跳转到的详情页面 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmBusinessHomeDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm添加拜访记录 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmVisitRecordActivityAddInfo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm商机联系人列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.AddByPersonCRMActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm添加商机的表单 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmBusinessAddInfoMsgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm合同列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeContantHomeListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm合同拜访记录 列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmVisitRecordListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm合同主页 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeContantDeatilsHomeTop3Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm合同最里面的详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeContantDetailsIndexActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm添加回款记录 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeContantAddInfo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm销售目标 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmSalesTargetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm添加回款记录 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmSalesTargetListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm选择指定的CRM的相关人 -->
+        <activity
+            android:name="com.bs.bsims.activity.AddByDepartmentCRMActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <!-- Crm扫描名片Actitity -->
+        <!--
+              <activity
+            android:name="com.bs.bsims.cardscanning.CardScanningActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        -->
+
+        <activity
+            android:name="com.bs.bsims.cardscanning.CardScanningActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/CameraPreview" />
+        <!-- Crm选择地址 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmVisitorFromGaodeMap"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <!-- Crm选择地址 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeContantAddPaymentPlanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Crm合同添加回款记录 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeContantAddPaymentRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Crm合同审批列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmApprovalTradeContantActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Crm商机选择相关人责任人跟进人 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmJiontFollowupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Crm客户动态动态 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientTrendActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm客户联合跟进人和负责人 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmClientDifferentHeadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm拜访签到 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmVisitorSignActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm拜访签到 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmVisitorSignAddInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Boss个人中心 -->
+        <activity
+            android:name="com.bs.bsims.activity.SettingActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 日程动向 -->
+        <activity
+            android:name="com.bs.bsims.activity.ScheduleTrendActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm拜访记录点击跳转的地图 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmGaoDeMapWithShowActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm商机详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmBussinesDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 部分选择条件界面 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmOptionsListActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 销售业绩 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStatisticsSaleValueActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 仪表盘 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStatisticsIndexActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 跟单统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStatisticsVisitorActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 新增合同统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsNewAddTradeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 新增客户统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsNewAddClientActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 新增商机统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsNewAddBussinessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 新动向改版 仿腾讯新闻 -->
+        <activity
+            android:name="com.bs.bsims.appzone.BeiShengALLZoneAcitvity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 通知对象 -->
+        <activity
+            android:name="com.bs.bsims.activity.NoticePersonActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 发红包 -->
+        <activity
+            android:name="com.bs.bsims.activity.RedMoneyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss考勤统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsAttendanceActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss跟单统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatiscsDocumentaryStatisticsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss菜单配置 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsLogoUtilsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 客户分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsClientActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 公海客户分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsHighSeasClientActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 新增客户分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsNewAddClientActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 合同分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsTradeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 合同签单排名分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsTradeSignRankActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 商机分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsBussinessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 销售业绩 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsSaleValueActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 任务统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsTaskStatisticsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss考勤排行 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsAttendanceRankActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss考勤分布 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsAttendanceDistributedActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss请假统计 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsLeaveActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss请假分布 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsleaveDistributedActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- boo销售漏斗 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsSalesFunnelActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- boss统计费用折线图 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsExpensesLineChartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- boss统计费用饼子图 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsExpensesPieChartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss统计跟单分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatiscsDocumentaryAnalysisActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- boss请假排行 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossStatisticsLeaveRankActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 最新日志即日报、周报、月报 -->
+        <activity
+            android:name="com.bs.bsims.activity.JournalPublishActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 最新日志详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.JournalPublishDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 所有未读界面 -->
+        <activity
+            android:name="com.bs.bsims.activity.AllNoReadActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 日志列表搜索 -->
+        <activity
+            android:name="com.bs.bsims.activity.JournalSerachActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 关注人员 -->
+        <activity
+            android:name="com.bs.bsims.activity.HeadAttentionActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 足迹界面 -->
+        <activity
+            android:name="com.bs.bsims.activity.JournalFootPrintActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 某个人的日志详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.JournalPersonalDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 员工轨迹列表界面 -->
+        <activity
+            android:name="com.bs.bsims.activity.LocusLineAcitvity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <!-- 快速登录 -->
+        <activity
+            android:name="com.bs.bsims.activity.NewFastLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 某个人的足迹 -->
+        <activity
+            android:name="com.bs.bsims.activity.LocusPersonActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Crm选择地址 -->
+        <activity
+            android:name="com.bs.bsims.activity.GaoDeMapSearchActity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 图片浏览 -->
+        <activity
+            android:name="com.bs.bsims.photoview.ViewPagerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- boss的个人信息嵌套fragemnt才创建的这个页面 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossSelfActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 吴张龙要求更换图片选择类需要选择9张的 -->
+        <activity
+            android:name="com.bs.bsims.image.selector.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 代办事项 -->
+        <activity
+            android:name="com.bs.bsims.activity.BossNeedDoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 系统提醒 -->
+
+        <activity
+            android:name="com.bs.bsims.activity.BossNotifyActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeContantRemindActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 首页消息列表点进去的列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.MessageListActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- Crm业务员主页 -->
+        <activity
+            android:name="com.bs.bsims.activity.SalesmanHomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 业务员销售 业绩列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsSaleActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 业务员客户列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsClientActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 业务员跟单分析 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsVisitorActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 业务员商机列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsBussnessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 业务员合同列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsTradeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 选择人员与部门 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmPeopleAddDepartSelectActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 业务员跳转新增跟单记录 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmStaticsNewAddVistorActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 通讯录收藏页面 -->
+        <activity
+            android:name="com.bs.bsims.activity.CollectionContactsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 即时通讯 -->
+        <activity
+            android:name="com.bs.bsims.chat.ChatMessageHomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bs.bsims.chat.ChatMessageWithPerson"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.bs.bsims.chat.ChatGroupDetail"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 126新版我的考勤 -->
+        <activity
+            android:name="com.bs.bsims.activity.AttendanceActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 2.0注册用户 -->
+        <activity
+            android:name="com.bs.bsims.activity.APPRegisterEndActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 2.0注册用户2 -->
+        <activity
+            android:name="com.bs.bsims.activity.APPRegisterFirstActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 2.0 在线演示 -->
+        <activity
+            android:name="com.bs.bsims.activity.AppOnlineActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 2.0 在线演示 -->
+        <activity
+            android:name="com.bs.bsims.activity.AppOnlineTrackActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 2.0 应用商店列表 -->
+        <activity
+            android:name="com.bs.bsims.activity.ApplicationMarketActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 2.0 回款详情 -->
+        <activity
+            android:name="com.bs.bsims.activity.CrmTradeHuiKuanDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- 设置环信应用的appkey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="baiteng-office#baitengoa" />
+        <!-- 声明sdk所需的service SDK核心功能 -->
+
+        <service android:name="com.easemob.chat.EMChatService" />
+
+        <receiver android:name="com.bs.bsims.cs.R.R.Receiver.ScheduleReceiver" />
+        <receiver android:name="com.bs.bsims.cs.R.R.Receiver.CommonReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 极光推送start -->
+        <!-- Required SDK核心功能 -->
+
+
+        <!-- e9319f0866849acdaa104748 (1.2.6)   43afbfb8b8344e1c6c10ae54 (客户定制)  3cf534d8d4a433e7f4fd920c （2.0） -->
+        <!-- <meta-data -->
+        <!-- android:name="JPUSH_CHANNEL" -->
+        <!-- android:value="developer-default" /> -->
+
+
+        <!-- <meta-data -->
+        <!-- android:name="JPUSH_APPKEY" -->
+        <!-- android:value="3cf534d8d4a433e7f4fd920c" /> -->
+
+
+        <!-- 使用studio 集成 -->
+        <!-- <activity -->
+        <!-- android:name="cn.jpush.android.ui.PushActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden" -->
+        <!-- android:launchMode="singleTask" -->
+        <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="cn.jpush.android.ui.PushActivity" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="com.bs.bsims." /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- &lt;!&ndash; Required  SDK核心功能 &ndash;&gt; -->
+        <!-- <service -->
+        <!-- android:name="cn.jpush.android.service.DownloadService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" > -->
+        <!-- </service> -->
+
+
+        <!-- &lt;!&ndash; Required SDK 核心功能 &ndash;&gt; -->
+        <!-- <service -->
+        <!-- android:name="cn.jpush.android.service.PushService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="cn.jpush.android.intent.REGISTER" /> -->
+        <!-- <action android:name="cn.jpush.android.intent.REPORT" /> -->
+        <!-- <action android:name="cn.jpush.android.intent.PushService" /> -->
+        <!-- <action android:name="cn.jpush.android.intent.PUSH_TIME" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <!-- <service android:name="com.amap.api.location.APSService" > -->
+        <!-- </service> -->
+
+
+        <!-- &lt;!&ndash; Required SDK核心功能 &ndash;&gt; -->
+        <!-- <receiver -->
+        <!-- android:name="cn.jpush.android.service.PushReceiver" -->
+        <!-- android:enabled="true" > -->
+        <!-- <intent-filter android:priority="1000" > -->
+        <!-- <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> &lt;!&ndash; Required  显示通知栏 &ndash;&gt; -->
+        <!-- <category android:name="com.bs.bsims." /> -->
+        <!-- </intent-filter> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.USER_PRESENT" /> -->
+        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> -->
+        <!-- </intent-filter> -->
+        <!-- &lt;!&ndash; Optional &ndash;&gt; -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.PACKAGE_ADDED" /> -->
+        <!-- <action android:name="android.intent.action.PACKAGE_REMOVED" /> -->
+
+
+        <!-- <data android:scheme="package" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+
+        <!-- &lt;!&ndash; Required SDK核心功能 &ndash;&gt; -->
+        <!-- <receiver android:name="cn.jpush.android.service.AlarmReceiver" /> -->
+
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.bs.bsims.jpush.MyReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.bs.bsims." />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.bs.bsims.cs.R.R.Receiver.LogintsReceiver" >
+            <intent-filter>
+                <action android:name="com.bs.bsims.cs.R.R.Receiver.LogintsReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.bs.bsims.cs.R.R.Receiver.LogistiRecevierOfGaode" >
+            <intent-filter>
+                <action android:name="com.bs.bsims.cs.R.R.Receiver.LogistiRecevierOfGaode" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.bs.bsims.cs.R.R.Receiver.LoginOtherPlaceReceiver" >
+            <intent-filter>
+                <action android:name="com.bs.bsims.cs.R.R.Receiver.LoginOtherPlaceReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 极光推送 end  43afbfbb8344e1c6c10ae54 -->
+
+
+        <!-- YzxIMCoreService是云之讯IM的核心服务 -->
+        <service android:name="com.yzxtcp.service.YzxIMCoreService" />
+        <!-- AlarmReceiver和MsgBackReceiver是维持TCP长连接心跳的广播 -->
+        <receiver android:name="com.yzxtcp.tools.tcp.receiver.AlarmReceiver" />
+        <receiver android:name="com.yzxtcp.tools.tcp.receiver.MsgBackReceiver" />
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" /> <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.bs.bsims" />
+            </intent-filter>
+        </activity> <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" /> <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.bs.bsims" />
+            </intent-filter>
+        </service> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.bs.bsims" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" /> <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="3cf534d8d4a433e7f4fd920c" />
+
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+    </application>
+
+</manifest>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.wuzhanglong.library.view.ReboundScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/C3"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/my_bg">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/head_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/user_icon_def"
+                app:civ_border_color="#fff"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/head_img"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/head_img"
+                android:text="点击登录"
+                android:textColor="@color/C1"
+                android:textSize="@dimen/sp_14"/>
+
+            <TextView
+                android:id="@+id/desc_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_17"
+                android:textColor="@color/C1"
+                android:textSize="@dimen/sp_12"
+                android:visibility="invisible"
+                android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+          />
+
+            <TextView
+                android:id="@+id/privilege_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会员特权"
+                android:layout_toRightOf="@id/desc_tv"
+                android:layout_alignTop="@id/desc_tv"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="6dp"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/C1"
+                android:background="@color/XJColor4"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/name_sure_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:drawableRight="@drawable/write_go"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:text="去认证"
+                android:textColor="@color/C1"
+                android:textSize="13sp"
+                android:visibility="gone"/>
+
+            <com.rey.material.widget.ImageView
+                android:id="@+id/setting_mig"
+                style="@style/item1_custom"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignTop="@id/name_tv"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:padding="5dp"
+                android:src="@drawable/my_setting"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:background="#40000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/collect_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="商品收藏"
+                    android:textColor="@color/C1"
+                    android:textSize="13sp"/>
+
+                <View
+                    android:layout_width="0.8dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#50ffffff"/>
+
+                <TextView
+                    android:id="@+id/foot_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="我的足迹"
+                    android:textColor="@color/C1"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.rey.material.widget.LinearLayout
+            android:id="@+id/order_layout"
+            style="@style/Material.Drawable.Ripple.Touch.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/C1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:drawableLeft="@drawable/my_01"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="我的订单"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/my_go"
+                android:gravity="right"
+                android:padding="15dp"
+                android:text="查看全部订单"
+                android:textColor="@color/C5"/>
+        </com.rey.material.widget.LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/C1"
+            android:gravity="center_vertical"
+
+            android:orientation="horizontal">
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/order_tv_01"
+                style="@style/Material.Drawable.Ripple.Touch.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/my_02"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="待付款"
+                android:textColor="@color/C5"
+                />
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/C3"/>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/order_tv_02"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/my_15"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="待发货"
+                android:textColor="@color/C5"/>
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/C3"/>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/order_tv_05"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/my_03"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="待收货"
+                android:textColor="@color/C5"/>
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/C3"/>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/order_tv_03"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/my_04"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="待评价"
+                android:textColor="@color/C5"/>
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/C3"/>
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/order_tv_04"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/my_05"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="退货/款"
+                android:textColor="@color/C5"/>
+        </LinearLayout>
+
+        <com.rey.material.widget.LinearLayout
+            android:id="@+id/one_shop_layout"
+            style="@style/Material.Drawable.Ripple.Touch.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/C1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:drawableLeft="@drawable/my_06"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="我的鲸喜购"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/my_go"
+                android:gravity="right"
+                android:padding="15dp"
+                android:textColor="@color/C5"
+                />
+        </com.rey.material.widget.LinearLayout>
+
+        <com.rey.material.widget.LinearLayout
+            android:id="@+id/game_layout"
+            style="@style/Material.Drawable.Ripple.Touch.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_1"
+            android:background="@color/C1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:drawableLeft="@drawable/my_16"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="虚拟订单"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/my_go"
+                android:gravity="right"
+                android:padding="15dp"
+                android:textColor="@color/C5"
+                />
+        </com.rey.material.widget.LinearLayout>
+
+        <com.rey.material.widget.LinearLayout
+            android:id="@+id/over_layout"
+            style="@style/item2_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/C1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:drawableLeft="@drawable/my_07"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="账户余额"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/money_tv_01"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/my_go"
+                android:gravity="right"
+                android:padding="15dp"
+                android:textColor="@color/C5"/>
+
+        </com.rey.material.widget.LinearLayout>
+
+        <com.rey.material.widget.LinearLayout
+            android:id="@+id/jinbi_layout"
+            style="@style/Material.Drawable.Ripple.Touch.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/C1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:drawableLeft="@drawable/my_08"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="鲸币"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/money_tv_02"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/my_go"
+                android:gravity="right"
+                android:padding="15dp"
+                android:textColor="@color/C5"/>
+        </com.rey.material.widget.LinearLayout>
+
+        <com.rey.material.widget.LinearLayout
+            android:id="@+id/jindou_layout"
+            style="@style/Material.Drawable.Ripple.Touch.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.8dp"
+            android:background="@color/C1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:drawableLeft="@drawable/my_09"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="小鲸豆"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/money_tv_03"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/my_go"
+                android:gravity="right"
+                android:padding="15dp"
+                android:textColor="@color/C5"/>
+        </com.rey.material.widget.LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/C1"
+                android:drawableLeft="@drawable/my_10"
+                android:drawablePadding="5dp"
+                android:padding="15dp"
+                android:text="我的工具"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.8dp"
+                android:background="@color/C1"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tools_tv01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/my_11"
+                    android:gravity="center"
+                    android:text="扫码支付"
+                    android:textColor="@color/C5"/>
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tools_tv03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/my_14"
+                    android:gravity="center"
+                    android:text="邀请好友"
+                    android:textColor="@color/C5"
+                    />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tools_tv04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/my_13"
+                    android:gravity="center"
+                    android:text="申请加盟"
+                    android:textColor="@color/C5"
+                    android:visibility="gone"/>
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tools_tv02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/my_13"
+                    android:gravity="center"
+                    android:text="商户中心"
+                    android:textColor="@color/C5"
+                    android:visibility="gone"/>
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tools_tv05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/my_19"
+                    android:gravity="center"
+                    android:text="在线客服"
+                    android:textColor="@color/C5"
+                   />
+            </LinearLayout>
+        </LinearLayout>
+        <!--</com.vclubs.ui.component.pulltozoomview.PullToZoomScrollViewEx>-->
+    </LinearLayout>
+</com.wuzhanglong.library.view.ReboundScrollView>

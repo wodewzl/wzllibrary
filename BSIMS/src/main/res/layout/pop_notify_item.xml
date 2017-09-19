@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+   android:background="@color/C1">
+    
+    <LinearLayout 
+       android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/corners_white"
+    android:orientation="vertical"
+        >
+       <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/C3" />     
+           <TextView
+        android:id="@+id/item_01"
+        style="@style/F3C4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="不提醒" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/C3" />
+
+    <TextView
+         android:id="@+id/item_02"
+        style="@style/F3C4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center" 
+        android:text="提前15分钟" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/C3" />
+    <TextView
+         android:id="@+id/item_03"
+        style="@style/F3C4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center" 
+        android:text="提前30分钟" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/C3" />
+    <TextView
+         android:id="@+id/item_04"
+        style="@style/F3C4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="提前1小时"  />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/C3" />
+    <TextView
+         android:id="@+id/item_05"
+        style="@style/F3C4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center" 
+        android:text="提前1天" />
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/C3" />
+    <TextView
+         android:id="@+id/item_06"
+        style="@style/F3C4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center" 
+        android:text="指定时间" />
+        
+    </LinearLayout>
+
+ 
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/work_attendance_detail_top_4hit"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.bs.bsims.view.BSCircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto "
+        android:id="@+id/work_attendance_detail_top_head_icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+         android:background="@drawable/ic_default_portrait_s"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/work_attendance_detail_top_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/sex_woman"
+                android:layout_weight="1"
+                android:text="瞄小姐"
+                android:textColor="#333333"
+                android:textSize="18dp" />
+
+            <com.bs.bsims.view.BSCircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto "
+                android:id="@+id/work_attendance_detail_top_sex_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sex_woman"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/work_attendance_detail_top_department_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="OA项目组/UI设计师"
+            android:textColor="#A5A5A5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/work_attendance_detail_top_time_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/work_attendance_detail_top_calendar_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:visibility="invisible" 
+            android:src="@drawable/calender_icon" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"
+            android:layout_marginBottom="55dip" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#D000"
+                android:orientation="vertical"
+                android:paddingRight="5dp" >
+
+                <Button
+                    android:id="@+id/buttonScale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="buttonScale" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/scale_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:text="scale" />
+
+                    <CheckBox
+                        android:id="@+id/zoom_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="zoom_buttons" />
+
+                    <CheckBox
+                        android:id="@+id/compass_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:text="compass" />
+
+                    <CheckBox
+                        android:id="@+id/mylocation_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:text="mylocation_layer" />
+
+                    <CheckBox
+                        android:id="@+id/scroll_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="scroll" />
+
+                    <CheckBox
+                        android:id="@+id/zoom_gestures_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="zoom_gestures" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="logo_position" />
+
+                    <RadioGroup
+                        android:id="@+id/logo_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checkedButton="@+id/bottom_left"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/bottom_left"
+                            android:text="bottom_left" />
+
+                        <RadioButton
+                            android:id="@+id/bottom_center"
+                            android:text="bottom_center" />
+
+                        <RadioButton
+                            android:id="@+id/bottom_right"
+                            android:text="bottom_right" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    <Button
+        android:id="@+id/regeoButton11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="ResGeoCoding(39.9824,116.3053)" >
+    </Button>
+
+</LinearLayout>

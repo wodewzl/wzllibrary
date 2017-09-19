@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/work_experience_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="今日工作总结"
+            android:textColor="@color/C6" />
+
+        <TextView
+            android:id="@+id/work_experience_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="phone|web"
+            android:lineSpacingExtra="9dp"
+            android:text="内容1"
+            android:textColor="@color/C5" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/C3" />
+
+        <LinearLayout
+            android:id="@+id/complete_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/complete_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="完成情况"
+                android:textColor="@color/C6" />
+
+            <TextView
+                android:id="@+id/complete_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone|web"
+                android:lineSpacingExtra="9dp"
+                android:text="内容2"
+                android:textColor="@color/C5" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/C3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/experience_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/experience_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="经验总结"
+                android:textColor="@color/C6" />
+
+            <TextView
+                android:id="@+id/experience_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone|web"
+                android:lineSpacingExtra="9dp"
+                android:text="内容3"
+                android:textColor="@color/C5" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/C3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tomorrow_plan_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="明日计划"
+            android:textColor="@color/C6" />
+
+        <TextView
+            android:id="@+id/tomorrow_plan_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="phone|web"
+            android:lineSpacingExtra="9dp"
+            android:text="内容4"
+            android:textColor="@color/C5" />
+
+        <TextView
+            android:id="@+id/show_line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/C3" />
+
+        <com.bs.bsims.view.BSGridView
+            android:id="@+id/image_gride"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dangan_chuqing_info2_ss_linechart__4ly1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ac_ext_dangan_chuqing_info2_linechart_top_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/ac_label_attendancesstatistics"
+            android:textSize="@dimen/F3" />
+
+        <com.bs.bsims.view.chart.LineChartView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@color/C1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+        </com.bs.bsims.view.chart.LineChartView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:id="@+id/dangan_chuqing_info2_ss_linechart_4_all_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- android:background="@color/white" -->
+
+        <LinearLayout
+            android:id="@+id/dangan_chuqing_info2_ss_linechart_4ly1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/dangan_chuqing_info2_ss_linechart_4cv1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_circle_04"
+                android:src="@drawable/gou"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/mview1"
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:background="@color/yellow" />
+
+            <TextView
+                android:id="@+id/dangan_chuqing_info2_ss_linechart_4c1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/leave01" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dangan_chuqing_info2_ss_linechart_4ly2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/dangan_chuqing_info2_ss_linechart_4cv2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_circle_01"
+                android:src="@drawable/gou"
+                android:visibility="gone" />
+
+            <View
+                   android:id="@+id/mview2"
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:background="@color/bule_go" />
+
+            <TextView
+                android:id="@+id/dangan_chuqing_info2_ss_linechart_4c2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/task_status2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/attendance_type1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/statictis_thingsleave"
+                android:drawablePadding="5dp"
+                android:gravity="center|left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="事假" />
+
+            <TextView
+                android:id="@+id/attendance_type1_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="12小时53分10秒"
+                android:textColor="#55c7fa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/attendance_type1_count"
+                style="@style/F4C6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="本月事假次数：5次" />
+
+            <TextView
+                android:id="@+id/attendance_type1_chinses"
+                style="@style/F4C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="事假天数" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/type2_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/attendance_type2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/statistics_sickleave"
+                android:drawablePadding="5dp"
+                android:gravity="center|left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="病假" />
+
+            <TextView
+                android:id="@+id/attendance_type2_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="12小时53分10秒"
+                android:textColor="#55c7fa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/attendance_type2_count"
+                style="@style/F4C6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:text="本月病假次数：5次" />
+
+            <TextView
+                android:id="@+id/attendance_type2_chinses"
+                style="@style/F4C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="病假天数" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

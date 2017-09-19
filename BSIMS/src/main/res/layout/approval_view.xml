@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/three_title_layout"
+        layout="@layout/three_title"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/serach_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_deep_layout" 
+        android:orientation="horizontal">
+
+        <com.bs.bsims.view.BSIndexEditText
+            android:id="@+id/edit_single_search"
+            style="@style/style02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_white"
+            android:drawableLeft="@drawable/ic_contacts_search_image"
+            android:drawablePadding="4dp"
+            android:hint="请输入关键字"
+            android:imeOptions="actionSearch"
+            android:padding="5dp"
+            android:singleLine="true" />
+        
+       <TextView
+            android:id="@+id/no_read_tv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="未读"
+            android:background="@drawable/frame_shixing_write"
+            android:textColor="@color/C7" 
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <include 
+        android:id="@+id/three_titie_one"
+        layout="@layout/three_titie_one" />
+
+     <com.bs.bsims.view.BSRefreshListView
+        android:id="@+id/lv_approval"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:scrollbars="none" /> 
+
+    <LinearLayout
+        android:id="@+id/no_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" 
+        android:layout_marginTop="50dp"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/F4C6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/no_content"
+            android:gravity="center"
+            android:text="没有相关信息" 
+            />
+    </LinearLayout>
+
+</LinearLayout>

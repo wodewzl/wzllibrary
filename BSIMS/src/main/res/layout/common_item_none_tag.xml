@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/common_item_protrait_none_tag" -->
+    <!-- android:layout_width="50dp" -->
+    <!-- android:layout_height="50dp" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:scaleType="fitXY" -->
+    <!-- android:src="@drawable/ic_default_portrait_s" /> -->
+
+            <com.bs.bsims.view.BSCircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto "
+                android:id="@+id/common_item_protrait_none_tag"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_default_portrait_s" />
+
+    <TextView
+        android:id="@+id/common_item_name_none_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_item_protrait_none_tag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/five"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="甲乙丙丁"
+        android:textColor="@color/comm_txt_name_gray"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#ff646464</color>
+    <color name="app_bg">#eeeeee</color>
+    <color name="white">#ffffffff</color>
+    <color name="line">#dbdbdb</color>
+    <color name="black_01">#000000</color>
+    <color name="tab_item_default">#fafafa</color>
+    <color name="tab_item_selected">#f0f1f2</color>
+    <color name="tab_text_selected">#f8597c</color>
+    <color name="tab_text_default">#bbbbbb</color>
+    <color name="background_color">#fbfbfb</color>
+    <color name="title_text_color">#ffffff</color>
+    <color name="main_menu_tit">#88C8D5</color>
+    
+    <color name="my_attence_top">#00A5FE</color>
+    <color name="main_menu_title">#2A2B3A</color>
+
+    <color name="fuxk_settle_black_mark">#1A000000</color>
+    <color name="triangle">#aa72d572</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+    <color name="shadow">#25808080</color>
+    <color name="dialog_bg">#f5f5f5</color>
+    <color name="translucent">#00000000</color>
+    <color name="fuxk_base_divide_line_color">#dcdcdc</color>
+    <color name="gray_bg">#A3A3A3</color>
+    <color name="layout_bg">#F3F3F3</color>
+    <color name="activity_back">#F3F3F3</color>
+    <color name="comm_txt_listview_black">#333333</color>
+    <color name="comm_txt_item_title_black">#768C9A</color>
+    <color name="dimgray">#696969</color>
+    <color name="comm_txt_listview_gray">#8D8D8D</color>
+    <color name="small_title_black">#515151</color>
+    <color name="blug_bg">#00A9FE</color>
+    <color name="blue_bttom">#3B4FCA</color>
+    <color name="blug_bg_tranpsit">#80065e8d</color>
+    <color name="blue_deep">#005e91</color>
+    <color name="gray_bg_01">#EEEEEE</color>
+    <!-- <color name="blug_bg">#6d7c97</color> -->
+    <color name="title_text">#333333</color>
+    <color name="gray_text">#666666</color>
+    <!-- <color name="gray_light_text">#888888</color> -->
+    <color name="gray_light_text">#A5A5A5</color>
+    <color name="gray_deep_layout">#D5D5D5</color>
+    <color name="yellow">#FFB001</color>
+    <color name="yellow1">#FFEA01</color>
+    <color name="bule_go">#00a9fe</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="none_color">#00000000</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <color name="comm_txt_green">#7AC254</color>
+    <color name="hint_bg_color">#f3f3f3</color>
+    <color name="comm_bg_green">#77c148</color>
+    <color name="comm_txt_green_press">#6ebb4d</color>
+
+    <color name="comm_txt_content_gray">#959595</color>
+    <color name="color_01">#aaaaaa</color>
+    <!-- <color name="color_02">#666666</color> -->
+    <color name="color_02">#aaaaaa</color>
+    <color name="C1">#ffffff</color>
+    <color name="C2">#efefef</color>
+    <color name="C3_1">#cfcfcf</color>
+    <color name="C3_2">#dcdcdc</color>
+    <color name="C3">#eeeeee</color>
+    <color name="C4">#000000</color>
+    <color name="C5">#666666</color>
+    <color name="C6">#aaaaaa</color>
+    <color name="C7">#00a9fe</color>
+    <color name="H2">#22A4FB</color>
+    <color name="C7_h">#4492C2</color>
+    <color name="C8">#f8f8f8f8</color>
+    <color name="C9">#ff0000</color>
+    <color name="C16">#81bbe0</color>
+    <color name="C17">#d1d1d1</color>
+
+    <color name="C10">#FFBA00</color>
+    <color name="C11">#8fd8f2</color>
+    <color name="C12">#019A3F</color>
+
+    <color name="C13">#F66E58</color>
+    <color name="C14">#999999</color>
+    <color name="C15">#00000000</color>
+    <color name="H1">#FFA200</color>
+    <color name="pink">#E770A1</color>
+    
+
+    <color name="comm_txt_name_gray">#757575</color>
+    <color name="red">#ff0000</color>
+    <color name="bg_activity_color">#f3f3f3</color>
+    <color name="blue_pressed">#3094cf</color>
+    <color name="grey">#CFCFCF</color>
+    <color name="grey_dark">#B5B5B5</color>
+    <color name="title">#81bbe0</color>
+    <color name="skybule">#00A8FF</color>
+    <color name="quanqing">#14980f</color>
+    <color name="bsprogress">#1DAEFB</color>
+    <color name="transparent">#00000000</color>
+    <color name="darkgray">#f4f4f4</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="dimgrey">#E22F2F</color>
+    <color name="gray">#E84A40</color>
+    <color name="datepicker_wheelview_paint_setColor">#D0D0D0</color>
+    <!-- Crm></!> -->
+    <color name="crm_yellow">#FFC100</color>
+    <color name="crm_green">#067E00</color>
+
+    <color name="C18">#F1F1F1</color>
+
+    <color name="C19">#FE786D</color>
+    <color name="C20">#294354</color>
+    <color name="C21">#609cdf</color>
+    <color name="C_F9F9F7">#F9F9F7</color>
+
+    <color name="title_father">#336A91</color>
+    <color name="lelelA">#FFB30F</color>
+    <color name="lelelB">#82DB9B</color>
+    <color name="lelelC">#D1CA33</color>
+    <color name="lelelD">#00A8FF</color>
+    <color name="approval_remark">#323232</color>
+    <color name="bule_star">#0896E0</color>
+    <color name="miui_inco">#7FB446</color>
+    <color name="sale_green">#0AC8BC</color>
+    <color name="liacl">#884898</color>
+
+</resources>

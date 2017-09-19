@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_weight="1"
+        android:background="#CCEBFD"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/aldd_visitor_layout"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/home_crm_visitor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="添加拜访记录"
+                android:textColor="@color/C5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aldd__contacts_layout"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/aldd_visitor_layout"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/home_crm_contacts" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="添加联系人"
+                android:textColor="@color/C5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/add_bussness_layout"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aldd_visitor_layout"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/marketing005" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="添加商机"
+                android:textColor="@color/C5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/add_contrade_layout"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aldd__contacts_layout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/add_bussness_layout"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textColor="@color/C5" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/home_crm_traded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="添加合同"
+                android:textColor="@color/C5" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/center_music_window_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCEBFD"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/more_window_auto"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/more_window_collect"
+            android:src="@drawable/ic_download_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

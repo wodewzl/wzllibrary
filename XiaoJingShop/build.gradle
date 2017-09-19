@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'android-apt'
+
+
+android {
+    signingConfigs {
+        bs_keystore {
+            keyAlias 'beisheng'
+            keyPassword 'beisheng188'
+            storeFile file('G:/wuzhanglong/keystore/beisheng.keystore')
+            storePassword 'beisheng188'
+        }
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.xiaojing.shop"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 9 
+        versionName "1.0.1"
+        multiDexEnabled true
+
+//        ndk {
+//            //选择要添加的对应cpu类型的.so库。
+//            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a', 'x86', 'x86_64'
+//            // 还可以添加 ,'mips', 'mips64'
+//        }
+
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a', 'x86'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "2ff3f559899409b7f4b38910", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.bs_keystore
+        }
+        debug {
+            signingConfig signingConfigs.bs_keystore
+        }
+    }
+
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':wzllibrary')
+    //倒计时组件
+    //分包
+    //    二维码
+//    compile('com.github.XuDaojie:QRCode-Android:v0.4.2') {//提示
+//        exclude group: 'io.github.xudaojie.qrcodelib.zxing'
+//    }
+
+//    exclude group: 'zxing'
+//    compile 'com.github.vondear:RxTools:v1.6.5'
+//    compile'com.github.XuDaojie:QRCode-Android:v0.4.2'
+    //    compile 'cn.yipianfengye.android:zxing-library:2.1'
+
+    //倒计时
+    //时间轴
+    //密码对话框
+//    compile 'com.github.lgw666:SimpleCountDownTimer:1.1'//毫秒倒计时
+
+    //    compile 'com.github.EthanCo:PasswordInput:1.5.0'
+    compile 'com.daidingkang:snapupcountdowntimerview:1.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.xyz.step:step:1.0.4'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //激光推送
+    compile 'cn.jiguang.sdk:jpush:3.0.5'
+    //激光推送
+    compile 'cn.jiguang.sdk:jcore:1.1.2'
+}

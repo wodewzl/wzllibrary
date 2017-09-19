@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="@color/gray_bg_01"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="关于新人的几点制度意见"
+                    android:textColor="@color/title_text"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="时间哦点击佛的记得的记得记得记得点击时间哦点击佛的记得的记得记得记得点击时间哦点击佛的记得的记得记得记得点击时间哦点击佛的记得的记得记得记得点击时间哦点击佛的记得的记得记得记得点击"
+                    android:textColor="@color/gray_light_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 android:layout_marginTop="1dp"
+                 android:background="@color/white"
+                 android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/head_icon" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/head_icon" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/head_icon" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/approver"
+                style="@style/smallTitle"
+                android:text="@string/approver" />
+
+            <LinearLayout
+                android:id="@+id/boss_cc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:background="@color/white">
+
+                <GridView
+                    android:id="@+id/boss_send_gv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:listSelector="@android:color/transparent"
+                   android:numColumns="5" 
+            android:verticalSpacing="10dp"/>
+
+                <TextView
+                    android:id="@+id/boss_cc_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="center_vertical"
+                    android:text="··· "
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/discuss"
+                style="@style/smallTitle"
+                android:text="@string/discuss" />
+
+            <com.bs.bsims.view.BSListView
+                android:id="@+id/list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@null" 
+                android:background="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

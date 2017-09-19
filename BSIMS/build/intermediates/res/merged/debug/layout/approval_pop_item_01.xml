@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#40000000" >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             >
+
+        <LinearLayout
+            android:id="@+id/title_layout_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="@color/C2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_01"
+                style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="全部审批" />
+
+            <TextView
+                android:id="@+id/text_02"
+               style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="我发布的" />
+
+            <TextView
+                android:id="@+id/text_03"
+                 style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="我审批的" />
+
+            <TextView
+                android:id="@+id/text_04"
+               style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="知会我的" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_layout_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="@color/C2"
+            android:orientation="vertical" 
+            >
+
+            <ExpandableListView
+                android:id="@+id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:scrollbars="none" 
+               android:layout_marginTop="0.5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_layout_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/C2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_05"
+                 style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="全部状态" />
+
+            <TextView
+                android:id="@+id/text_06"
+                 style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="未审核" />
+
+            <TextView
+                android:id="@+id/text_07"
+                 style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="审核中" />
+
+            <TextView
+                android:id="@+id/text_08"
+                 style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="审核通过" />
+
+            <TextView
+                android:id="@+id/text_09"
+               style="@style/F3C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="0.5dp"
+                android:background="@drawable/item_selecttor"
+                android:padding="15dp"
+                android:text="被驳回" />
+        </LinearLayout>
+    </FrameLayout>
+                
+        </LinearLayout>
+    
+    
+</LinearLayout>

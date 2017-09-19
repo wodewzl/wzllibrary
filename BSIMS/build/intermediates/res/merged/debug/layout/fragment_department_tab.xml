@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_deep_layout"
+    android:orientation="vertical" >
+<!--         <BSIndexEditText
+        android:id="@+id/edit_single_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/corners_white"
+        android:drawableLeft="@drawable/ic_contacts_search_image"
+        android:hint="请输入关键字"
+        android:singleLine="true"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="15.0dip" /> -->
+        
+        
+            <com.bs.bsims.view.BSIndexEditText
+        android:id="@+id/edit_single_search"
+        android:layout_width="fill_parent"
+        android:layout_height="29dp"
+        android:background="@drawable/corners_white"
+        android:drawableLeft="@drawable/ic_contacts_search_image"
+        android:drawablePadding="4dp"
+        android:hint="请输入关键字"
+        android:singleLine="true"
+        android:padding="5dp"
+         android:layout_margin="15dp"
+        android:textSize="15.0dip" 
+        style="@style/F3C6"/>
+            
+            
+    <ListView
+        android:id="@+id/listView_departmentList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+</LinearLayout>

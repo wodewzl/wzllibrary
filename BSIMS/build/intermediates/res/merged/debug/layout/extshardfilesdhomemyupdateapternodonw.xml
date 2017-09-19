@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="您的所有文件正在玩命下载中，如果您选择退出，您下载的所有文件都会暂停，下次下载会从您下载记录中继续下载哦~"
+        android:textColor="@color/blue_pressed"
+        android:textSize="11sp" />
+</LinearLayout>

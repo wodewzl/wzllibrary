@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sign_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/crm_bussines_time"
+        android:drawablePadding="15dp"
+        android:gravity="left|center_horizontal"
+        android:padding="15dp" />
+
+    <LinearLayout
+        android:id="@+id/r3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            style="@style/text_midlle_eclipse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:drawableLeft="@drawable/crm_client_address_black"
+            android:drawablePadding="10dp"
+            android:textColor="@color/C14" />
+
+  
+
+        <TextView
+            android:id="@+id/visitor_address_change"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableRight="@drawable/common_ic_arrow_right"
+            android:gravity="center_vertical"
+            android:text="正在获取最新位置..." />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grideview_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:horizontalSpacing="3dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:padding="15dp"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp"
+        android:visibility="visible" />
+
+</LinearLayout>

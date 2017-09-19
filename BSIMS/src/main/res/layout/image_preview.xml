@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black_01" >
+
+    <com.bs.bsims.viewpager.HackyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/black_01"
+        android:persistentDrawingCache="animation" />
+
+    <com.bs.bsims.view.FlowIndicator
+        android:id="@+id/galleryIndicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        app:count="3"
+        app:point_normal_color="@color/C5"
+        app:point_radius="3dip"
+        app:point_seleted_color="@color/white"
+        app:point_size="5dip"
+        app:space="10dip" />
+
+    <RelativeLayout
+        android:id="@+id/comm_head_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:clipToPadding="true"
+        android:orientation="vertical" >
+
+        <!-- android:background="@drawable/bg_main_message_03" -->
+
+        <TextView
+            android:id="@+id/img_head_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_head_back"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="返回"
+            android:textColor="@color/C1" />
+
+        <LinearLayout
+            android:id="@+id/txt_comm_head_activityNamefather"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/txt_comm_head_activityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="图片预览"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/txt_comm_head_activityName_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:visibility="gone" />
+            
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txt_comm_head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:drawableRight="@drawable/del_icon_normal"
+            android:gravity="center"
+            android:padding="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/start_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/item_selecttor"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+      android:paddingLeft="10dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/type_title"
+            style="@style/parent_tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start_time" />
+
+        <TextView
+            android:id="@+id/type_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:hint="请选择类型"
+            android:textColor="@color/gray_light_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/common_ic_arrow_right" />
+    </LinearLayout>
+
+</LinearLayout>

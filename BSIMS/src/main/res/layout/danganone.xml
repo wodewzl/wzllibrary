@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/part_comm_head" />
+
+    <LinearLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="正在加载···"
+            android:textColor="@color/blug_bg"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <com.bs.bsims.view.BSIndexEditText
+        android:id="@+id/edit_single_search"
+        style="@style/F3C6"
+        android:layout_width="fill_parent"
+        android:layout_height="29dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/corners_white"
+        android:drawableLeft="@drawable/ic_contacts_search_image"
+        android:drawablePadding="4dp"
+        android:hint="请输入关键字"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textSize="15.0dip"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listView_departmentList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+</LinearLayout>

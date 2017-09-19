@@ -1,0 +1,6 @@
+<resources>
+    R.drawable.home_tb01, R.drawable.home_tb02, R.drawable.home_tb03, R.drawable.home_tb04
+    <string name="app_name">WZLLibrary</string>
+    <integer name="config_slideAnimTime">300</integer>
+    <string name="title_activity_scaner_code">ScanerCodeActivity</string>
+</resources>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+        android:background="@color/title_father"
+    android:orientation="vertical" >
+
+    <include layout="@layout/part_comm_head" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none" 
+        android:background="@color/C1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:background="@color/C3">
+
+            <EditText
+                android:id="@+id/schedule_title"
+                style="@style/F3C6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/C1"
+                android:gravity="top"
+                android:hint="我的事项"
+                android:padding="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:orientation="vertical"
+                android:paddingLeft="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/all_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="全天" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        style="@style/F3C5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableRight="@drawable/common_ic_arrow_right"
+                        android:gravity="right|center_vertical"
+                        android:text="星期一顶顶顶顶顶" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/C3" />
+
+                <LinearLayout
+                    android:id="@+id/start_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="开始时间" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        style="@style/F3C5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableRight="@drawable/common_ic_arrow_right"
+                        android:gravity="right|center_vertical"
+                        android:text="00:00" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/C3" />
+
+                <LinearLayout
+                    android:id="@+id/end_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="结束时间" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        style="@style/F3C5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableRight="@drawable/common_ic_arrow_right"
+                        android:gravity="right|center_vertical"
+                        android:text="00:00" />
+                </LinearLayout>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/notify_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="提醒" />
+
+                <TextView
+                    android:id="@+id/notify_tv"
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center_vertical"
+                    android:text="不提醒" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/notify_time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:paddingLeft="10dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="提醒时间" />
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/F3C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/common_ic_arrow_right"
+                    android:gravity="right|center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:text="是否公开" />
+
+                <com.bs.bsims.view.BSSwitchView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/inform_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/inform_people_tv"
+                    style="@style/parent_tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/inform_people" />
+
+                <com.bs.bsims.view.BSGridView
+                    android:id="@+id/inform_gv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/C1"
+                    android:gravity="center"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="5"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+                <Button
+        android:id="@+id/ok_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/corners_blue"
+        android:padding="10dp"
+        android:text="添  加"
+        android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

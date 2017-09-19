@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/C2"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/C1"
+        android:paddingBottom="15dip"
+        android:paddingLeft="20dip"
+        android:paddingTop="15dip"
+        android:singleLine="true"
+        android:text="06月"
+        android:textColor="@color/comm_txt_listview_black"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

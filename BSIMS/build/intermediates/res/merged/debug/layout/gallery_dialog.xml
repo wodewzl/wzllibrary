@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+   
+
+    
+    
+    <android.support.v4.view.ViewPager  
+       android:id="@+id/vPager"  
+       android:layout_width="fill_parent"  
+       android:layout_height="fill_parent"  
+       android:layout_gravity="center"  
+       android:background="#000000"  
+       android:flipInterval="30"  
+       android:persistentDrawingCache="animation" />  
+    
+     <com.bs.bsims.view.FlowIndicator
+            android:id="@+id/galleryIndicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center"
+            app:count="3"
+            app:point_normal_color="#fff"
+            app:point_radius="3dip"
+            app:point_seleted_color="#ff00"
+            app:point_size="5dip"
+            app:space="10dip" /> 
+    
+   
+    
+   
+
+</FrameLayout>

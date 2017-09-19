@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_changedate" />
+    <!-- android:layout_margin="20dip" -->
+
+    <com.bs.bsims.pc.chart.piechart.PieChart
+        android:layout_width="fill_parent"
+        android:layout_height="410dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip" >
+
+        <com.bs.bsims.pc.chart.piechart.PieView
+            android:id="@+id/piechart_lotteryview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:tag="pieView" />
+
+        <com.bs.bsims.pc.chart.piechart.MyPieChartButton
+            android:id="@+id/mypiechartbutton"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_gravity="top|right"
+            android:tag="pieButton"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginBottom="16dip"
+            android:gravity="center"
+            android:tag="pieText"
+            android:text="对账单"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/piechart_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginBottom="16dip"
+            android:layout_marginRight="20dip"
+            android:drawableRight="@drawable/common_ic_arrow_right"
+            android:gravity="center"
+            android:tag="pieText"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+    </com.bs.bsims.pc.chart.piechart.PieChart>
+    <!-- android:visibility="gone" />android:drawableRight="@drawable/common_ic_arrow_right"   android:layout_gravity="center_horizontal|top"  android:layout_width="wrap_content" -->
+
+    <TextView
+        android:id="@+id/bottom_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="对账单"
+        android:textColor="@color/blug_bg"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>

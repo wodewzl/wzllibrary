@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/content_bg"
+              android:orientation="vertical"
+              android:paddingTop="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        android:background="@color/content_bg"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/type5_layout01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/C1">
+
+            <ImageView
+                android:id="@+id/type5_img1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/C1"/>
+
+            <TextView
+                android:id="@+id/type5_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingLeft="10dp"
+                android:text="多人团"
+                android:textColor="@color/C4"
+                android:textSize="13sp"
+                android:layout_below="@+id/type5_img1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:id="@+id/type5_same1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/type5_title1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="2dp"
+                android:text="看相似"
+                android:textColor="@color/C5"
+                android:textSize="@dimen/sp_12"/>
+
+            <TextView
+                android:id="@+id/type5_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/type5_same1"
+                android:paddingLeft="10dp"
+                android:text="￥46.0"
+                android:textColor="@color/XJColor1"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/type5_layout02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@color/C1"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/type5_img2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/C9"/>
+
+            <TextView
+                android:id="@+id/type5_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/type5_img2"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:text="多人团"
+                android:textColor="@color/C4"
+                android:textSize="@dimen/sp_14"/>
+
+            <TextView
+                android:id="@+id/type5_same2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/type5_title2"
+                android:padding="10dp"
+                android:text="看相似"
+                android:textColor="@color/XJColor1"
+                android:textSize="@dimen/sp_12"/>
+
+            <TextView
+                android:id="@+id/type5_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/type5_title2"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="￥46.0"
+                android:textColor="@color/XJColor1"
+                android:textSize="@dimen/sp_12"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

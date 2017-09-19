@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/center_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="43dp"
+            android:background="@color/content_bg"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="42dp"
+            android:background="@color/devider_bg" />
+
+        <com.beisheng.synews.view.BSTabWidget
+            android:id="@+id/tab_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/home_tab_bg"
+            android:gravity="bottom"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</RelativeLayout>

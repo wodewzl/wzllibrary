@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C3"
+    tools:context="com.beisheng.easycar.activity.ApproveNameActivity">
+
+    <com.wuzhanglong.library.view.ReboundScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            style="@style/margin_15_10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="身份证"
+                    android:textColor="@color/C5"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/tv_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C1"
+                    android:drawableTop="@drawable/approve_name_03"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:text="扫描身份证正面"
+                    android:textColor="@color/C5"
+                    />
+                <ImageView
+                    android:id="@+id/img_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C9"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C1"
+                    android:drawableTop="@drawable/approve_name_04"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:text="扫描身份证正面"
+                    android:textColor="@color/C5"/>
+                <ImageView
+                    android:id="@+id/img_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C9"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="驾驶证"
+                    android:textColor="@color/C5"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C1"
+                    android:drawableTop="@drawable/approve_name_03"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:text="扫描身份证正面"
+                    android:textColor="@color/C5"/>
+
+                <ImageView
+                    android:id="@+id/img_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C9"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C1"
+                    android:drawableTop="@drawable/approve_name_04"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:text="扫描身份证正面"
+                    android:textColor="@color/C5"/>
+
+                <ImageView
+                    android:id="@+id/img_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/C9"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/padding_15_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="手持身份证件照"
+                    android:textColor="@color/C5"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/C3_1"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/tv_05"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@color/C1"
+                android:drawableTop="@drawable/approve_name_05"
+                android:gravity="center"
+                android:paddingBottom="60dp"
+                android:paddingTop="60dp"
+                android:text="扫描身份证正面"
+                android:textColor="@color/C5"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:id="@+id/img_05"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@color/C1"
+                android:src="@drawable/approve_name_05"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/ok_bt"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/Car2"
+                android:text="提交信息"
+                android:textColor="@color/C1"
+                android:textSize="15sp"
+                app:rd_enable="true"/>
+        </LinearLayout>
+    </com.wuzhanglong.library.view.ReboundScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/corporate_title_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="@color/gray_bg"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/corporate_title_time"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/frame_black_style"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/corporate_title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text=" "
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+<!--         <ImageView
+            android:id="@+id/corporate_content_imgtost"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY" /> -->
+            
+                 <ImageView
+            android:id="@+id/corporate_content_imgtost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/corporate_content_readinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text=" "
+            android:textColor="@color/gray_bg"
+            android:textSize="12dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/C3" >
+        </View>
+
+        <TextView
+            android:id="@+id/isread_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:drawableRight="@drawable/common_ic_arrow_right"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="阅读全文"
+            android:textColor="#000000"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+</RelativeLayout>

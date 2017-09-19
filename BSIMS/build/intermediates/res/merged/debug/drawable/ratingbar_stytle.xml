@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+android:id/background"
+        android:drawable="@drawable/nomal_star">
+    </item>
+<!--     <item
+        android:id="@+android:id/secondaryProgress"
+        android:drawable="@drawable/da_chenfa">
+    </item> -->
+    
+    <item 
+    android:id="@+android:id/progress" 
+    android:drawable="@drawable/selected_star">
+</item> 
+
+</layer-list>
