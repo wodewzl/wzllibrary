@@ -99,7 +99,7 @@ public class HttpGetDataUtil {
                 .build().rxPost(url, params, new RxStringCallback() {
 
 
-             @Override
+            @Override
             public void onError(Object o, Throwable throwable) {
 
             }
